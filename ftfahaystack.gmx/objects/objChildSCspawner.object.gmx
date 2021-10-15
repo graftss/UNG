@@ -76,7 +76,7 @@ if type=3{
     aa.direction=0
  
 }
-alarm[0]=28
+alarm[0]=26
 type++
 if type=4{type=1}
 //show_debug_message(type)

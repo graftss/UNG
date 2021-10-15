@@ -3,7 +3,7 @@
   <caption></caption>
   <width>3200</width>
   <height>608</height>
-  <vsnap>4</vsnap>
+  <vsnap>16</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
@@ -19,7 +19,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>627</h>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -29,8 +29,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>457</xoffset>
-    <yoffset>57</yoffset>
+    <xoffset>2916</xoffset>
+    <yoffset>208</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bChildSoldier" x="200" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -123,16 +123,10 @@
     <instance objName="objToggleBlockFull" x="2080" y="192" name="inst_95D0EBE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objToggleBlockEmpty" x="2080" y="224" name="inst_34D2C064" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objShootRefresher" x="2256" y="256" name="inst_D7CA1CB8" locked="0" code="sprite_index=sprSwapRefresher&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="objShootRefresher" x="1968" y="256" name="inst_C8FCADF0" locked="0" code="sprite_index=sprSwapRefresher&#xA;image_index=1&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objShootRefresher" x="1968" y="256" name="inst_C8FCADF0" locked="0" code="sprite_index=sprSwapRefresher&#xA;image_index=1&#xA;depth=35&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1920" y="256" name="inst_11713ADC" locked="0" code="" scaleX="2" scaleY="11" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1952" y="224" name="inst_DB6FB5DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1920" y="224" name="inst_D3EF87B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objToggleBlockEmpty" x="2080" y="160" name="inst_58219F27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objToggleBlockEmpty" x="2080" y="128" name="inst_69AA1796" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objToggleBlockEmpty" x="2080" y="64" name="inst_8D8689F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objToggleBlockEmpty" x="2080" y="96" name="inst_12FDC154" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objToggleBlockEmpty" x="2080" y="32" name="inst_EEAFC503" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objToggleBlockEmpty" x="2080" y="0" name="inst_7E68B812" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objToggleBlockEmpty" x="2112" y="0" name="inst_26803FE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objToggleBlockEmpty" x="2112" y="32" name="inst_F39BCA55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objToggleBlockEmpty" x="2112" y="64" name="inst_1552EBBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -374,7 +368,13 @@
     <instance objName="objSpikeUp" x="832" y="96" name="inst_B7CD0ACF" locked="0" code="path_start(path17,5,path_action_continue,false);&#xA;depth = 1500000;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="608" y="224" name="inst_44011437" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="640" y="224" name="inst_9290A73A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCherry_ChildFace" x="416" y="204" name="inst_6B2F35C1" locked="0" code="//set these in creation code&#xA;trg = 5;&#xA;&#xA;v = 0;      //vspeed&#xA;h = 0;      //hspeed&#xA;&#xA;dir = 0;    //direction&#xA;spd = .25;    //speed&#xA;tick = -1;   //trigger time&#xA;&#xA;grvdir = 270; //gravity direction&#xA;grv = 0;    //gravity&#xA;&#xA;pth = noone;    //path&#xA;endct = 0;  //path end-action&#xA;pos = 0;    //path position&#xA;            &#xA;flux = false;   //stretch&#xA;imgXi = 0;      //image_xscale increase&#xA;imgXd = 0;      //image_xscale decrease&#xA;imgXf = 1;      //image_xscale maximum&#xA;imgXe = 1;      //image_xscale minimum&#xA;imgYi = 0;      //image_yscale increase&#xA;imgYd = 0;      //image_yscale decrease&#xA;imgYf = 1;      //image_yscale maximum&#xA;imgYe = 1;      //image_yscale minimum&#xA;&#xA;fade = false;   //fade&#xA;fadeType = 0;   //(0 = fade-out, 1 = fade-in)&#xA;alpha = 0.025;   //fade alpha&#xA;&#xA;snd = noone;&#xA;bounce = false;&#xA;&#xA;cycle = 0;&#xA;trg2 = false;&#xA;triggered = false;&#xA;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherryTrigger" x="416" y="204" name="inst_B74BA493" locked="0" code="//set these in creation code&#xA;trg = 5;&#xA;&#xA;v = 0;      //vspeed&#xA;h = 0;      //hspeed&#xA;&#xA;dir = 0;    //direction&#xA;spd = .25;    //speed&#xA;tick = -1;   //trigger time&#xA;&#xA;grvdir = 270; //gravity direction&#xA;grv = 0;    //gravity&#xA;&#xA;pth = noone;    //path&#xA;endct = 0;  //path end-action&#xA;pos = 0;    //path position&#xA;            &#xA;flux = false;   //stretch&#xA;imgXi = 0;      //image_xscale increase&#xA;imgXd = 0;      //image_xscale decrease&#xA;imgXf = 1;      //image_xscale maximum&#xA;imgXe = 1;      //image_xscale minimum&#xA;imgYi = 0;      //image_yscale increase&#xA;imgYd = 0;      //image_yscale decrease&#xA;imgYf = 1;      //image_yscale maximum&#xA;imgYe = 1;      //image_yscale minimum&#xA;&#xA;fade = false;   //fade&#xA;fadeType = 0;   //(0 = fade-out, 1 = fade-in)&#xA;alpha = 0.025;   //fade alpha&#xA;&#xA;snd = noone;&#xA;bounce = false;&#xA;&#xA;cycle = 0;&#xA;trg2 = false;&#xA;triggered = false;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objToggleBlockFull" x="2080" y="160" name="inst_6BDF6962" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objToggleBlockFull" x="2080" y="128" name="inst_095F0E56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objToggleBlockFull" x="2080" y="96" name="inst_6FE18B38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objToggleBlockFull" x="2080" y="64" name="inst_E9153B91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objToggleBlockFull" x="2080" y="32" name="inst_0B4A04E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objToggleBlockFull" x="2080" y="0" name="inst_3F037C7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bChildSoliderT" x="2944" y="0" w="32" h="32" xo="64" yo="32" id="10023599" name="inst_C85F1092" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
