@@ -61,7 +61,7 @@ if (!global.Xgrav)
         image_speed = 1/2;
         
         //pressed away from the vine
-        if (onVineL && scrButtonCheckPressed(global.rightButton)) || (onVineR && scrButtonCheckPressed(global.leftButton))
+        if (onVineL && scrButtonCheck(global.rightButton)) || (onVineR && scrButtonCheck(global.leftButton))
         {
             if (scrButtonCheck(global.jumpButton))  //jumping off vine
             {
@@ -171,7 +171,7 @@ if (onVineL2 || onVineR2)
         xScale = 1;
     
         
-    vspeed = -2 * global.grav
+    vspeed = 2 * global.grav //changed because reg vines are gm8 vines
     sprite_index = pSliding;
     image_speed = 1/2;
     

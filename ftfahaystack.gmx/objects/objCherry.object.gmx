@@ -50,7 +50,7 @@ OR = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (OR) { instance_destroy(); }
+            <string>//if (OR) { instance_destroy(); }
 </string>
           </argument>
         </arguments>

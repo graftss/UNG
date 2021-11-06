@@ -67,6 +67,30 @@ if (global.autosave) //save the game if currently set to autosave
     scrSaveGame(true);
     global.autosave = false;
 }
+
+    //objPlayer
+    //CREATE
+array_size = 10000;//the amount of positions to record
+    for(var i = array_size-1; i &gt;= 0; i--)
+    {
+        pos_x[i] = x;
+        pos_y[i] = y;
+    }
+
+    
+    
+//someday ill grow to be as tall as a giant
+ts=0;
+if room=rSomeday{
+    //mask_index=sprSomeDayMask;
+  
+}
+else{
+    mask_index=sprPlayerMask;
+}
+
+
+
 </string>
           </argument>
         </arguments>
@@ -139,7 +163,7 @@ hit = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ((x &lt; 0 || x &gt; room_width || y &lt; 0 || y &gt; room_height) &amp;&amp; global.edgeDeath)  //check if player has left the room
+            <string>if ((x &lt; 0 || x &gt; room_width || y &lt; 0 || y &gt; room_height) &amp;&amp; global.edgeDeath &amp;&amp; room!=rSomeday)  //check if player has left the room
 {
     if (!global.debugNoDeath) { scrKillPlayer(); }
     else { scrGodPlayer(); }
@@ -723,6 +747,25 @@ if (frozen)
     }
 }
 //show_debug_message(maxVspeed)
+
+//update record of positions
+//shift records down by one position
+for(var i = array_size-1; i &gt; 0; i--){
+    pos_x[i] = pos_x[i-1];
+    pos_y[i] = pos_y[i-1];
+}
+//record new position
+pos_x[0] = x;
+pos_y[0] = y;
+
+//someday
+if room=rSomeday{
+    mask_index=sprSomeDayMask;
+    image_xscale=-sin(ts)+1.5;
+    image_yscale=image_xscale;
+    ts+=.02;
+}
+
 </string>
           </argument>
         </arguments>
@@ -1024,6 +1067,31 @@ if (global.lunarKid)
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="objMovingPlatformNoBounce">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if scrButtonCheckPressed(global.jumpButton){
+    scrPlayerJump()
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="objPlatform">
       <action>
         <libid>1</libid>
@@ -1300,7 +1368,62 @@ if (global.lunarKid)
           <argument>
             <kind>1</kind>
             <string>var xTest, yTest, yTemp, xTemp;
-
+if room=rSomeday{
+    if(other.solid){
+        if true{
+            collisionList = scrInstancePlaceList(x, y, objBlock)
+            if(collisionList != noone){
+                num = ds_list_size(collisionList)
+                for(i = 0; i &lt; num; i++){
+                    if(ds_list_find_value(collisionList, i).solid){
+                        testDistXpos = 0
+                        testDistYpos = 0
+                        testDistXneg = 0
+                        testDistYneg = 0
+                        
+                        while(place_meeting(x+testDistXpos, y, ds_list_find_value(collisionList, i)) &amp;&amp; testDistXpos &lt; 2){
+                            testDistXpos += .01  
+                        }
+                        while(place_meeting(x-testDistXneg, y, ds_list_find_value(collisionList, i)) &amp;&amp; testDistXneg &lt; 2){
+                            testDistXneg += .01  
+                        }
+                        while(place_meeting(x, y+testDistYpos, ds_list_find_value(collisionList, i)) &amp;&amp; testDistYpos &lt; 2){
+                            testDistYpos += .01  
+                        }
+                        while(place_meeting(x, y-testDistYneg, ds_list_find_value(collisionList, i)) &amp;&amp; testDistYneg &lt; 2){
+                            testDistYneg += .01  
+                        }
+                    
+                        move = min(testDistXpos, testDistXneg, testDistYpos, testDistYneg)
+                        
+                        if(move == testDistXpos){
+                            x += testDistXpos    
+                        }
+                        else if(move == testDistXneg){
+                            x -= testDistXneg
+                        }
+                        else if(move == testDistYpos){
+                            y += testDistYpos
+                        }
+                        else if(move == testDistYneg){
+                            y -= testDistYneg
+                        }
+                    }
+                }
+            }
+            
+            if(!notOnBlock){
+                testDist = 0
+                while(!place_meeting(x,y+testDist+.01, objBlock) &amp;&amp; testDist &lt; 2){
+                    testDist += .01
+                }
+                if(testDist &lt; 2){
+                    y += testDist
+                }
+            }
+        }
+    }
+}
 if (!global.lunarKid)
 {    
     if (other.solid)
@@ -1507,6 +1630,9 @@ var drawX, drawY;
 
 drawX = x;
 drawY = y;
+if room=rSomeday{
+    drawY=y-(9*image_yscale)
+}
 
 if (sign(global.grav) == -1)
 {

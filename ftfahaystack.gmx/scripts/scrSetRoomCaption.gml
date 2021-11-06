@@ -4,9 +4,9 @@ var roomCaption = global.roomCaptionDef;
 
 if (global.gameStarted)
 {
-    roomCaption += " -"
-    roomCaption += " Deaths: " + string(global.death);
-    roomCaption += " Time: ";
+    roomCaption += " : "
+    roomCaption += "" + string(global.death);
+    roomCaption += " : ";
     
     var t = floor(global.time);
     

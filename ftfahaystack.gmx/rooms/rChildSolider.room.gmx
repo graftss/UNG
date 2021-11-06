@@ -19,7 +19,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>609</h>
+    <h>636</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -29,8 +29,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>2916</xoffset>
-    <yoffset>208</yoffset>
+    <xoffset>5379</xoffset>
+    <yoffset>1036</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bChildSoldier" x="200" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -163,7 +163,7 @@
     <instance objName="objSpikeUp" x="1184" y="64" name="inst_F4A30653" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1120" y="64" name="inst_E7FE1E86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1184" y="96" name="inst_A24E96E1" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="objCherryTrigger" x="1200" y="240" name="inst_3F58A76D" locked="0" code="//set these in creation code&#xA;trg = 4;&#xA;&#xA;v = 0;      //vspeed&#xA;h = 0;      //hspeed&#xA;&#xA;dir = 180;    //direction&#xA;spd = 3;    //speed&#xA;tick = 90;   //trigger time&#xA;&#xA;grvdir = 270; //gravity direction&#xA;grv = 0;    //gravity&#xA;&#xA;pth = noone;    //path&#xA;endct = 0;  //path end-action&#xA;pos = 0;    //path position&#xA;            &#xA;flux = false;   //stretch&#xA;imgXi = 0;      //image_xscale increase&#xA;imgXd = 0;      //image_xscale decrease&#xA;imgXf = 1;      //image_xscale maximum&#xA;imgXe = 1;      //image_xscale minimum&#xA;imgYi = 0;      //image_yscale increase&#xA;imgYd = 0;      //image_yscale decrease&#xA;imgYf = 1;      //image_yscale maximum&#xA;imgYe = 1;      //image_yscale minimum&#xA;&#xA;fade = false;   //fade&#xA;fadeType = 0;   //(0 = fade-out, 1 = fade-in)&#xA;alpha = 0.025;   //fade alpha&#xA;&#xA;snd = noone;&#xA;bounce = false;&#xA;&#xA;cycle = 0;&#xA;trg2 = false;&#xA;triggered = false;&#xA;&#xA;depth=1000&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherryTrigger" x="1200" y="240" name="inst_3F58A76D" locked="0" code="//set these in creation code&#xA;trg = 4;&#xA;&#xA;v = 0;      //vspeed&#xA;h = 0;      //hspeed&#xA;&#xA;dir = 180;    //direction&#xA;spd = 3;    //speed&#xA;tick = 90;   //trigger time&#xA;&#xA;grvdir = 270; //gravity direction&#xA;grv = 0;    //gravity&#xA;&#xA;pth = noone;    //path&#xA;endct = 0;  //path end-action&#xA;pos = 0;    //path position&#xA;            &#xA;flux = false;   //stretch&#xA;imgXi = 0;      //image_xscale increase&#xA;imgXd = 0;      //image_xscale decrease&#xA;imgXf = 1;      //image_xscale maximum&#xA;imgXe = 1;      //image_xscale minimum&#xA;imgYi = 0;      //image_yscale increase&#xA;imgYd = 0;      //image_yscale decrease&#xA;imgYf = 1;      //image_yscale maximum&#xA;imgYe = 1;      //image_yscale minimum&#xA;&#xA;fade = false;   //fade&#xA;fadeType = 0;   //(0 = fade-out, 1 = fade-in)&#xA;alpha = 0.025;   //fade alpha&#xA;&#xA;snd = noone;&#xA;bounce = false;&#xA;&#xA;cycle = 0;&#xA;trg2 = false;&#xA;triggered = false;&#xA;&#xA;depth=1000" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1120" y="96" name="inst_36D4CF51" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="1216" y="192" name="inst_D6B97E1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="1216" y="256" name="inst_8E67F096" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -339,7 +339,7 @@
     <instance objName="objSpikeRight" x="2368" y="400" name="inst_AC6E0F6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="2336" y="400" name="inst_8A464BE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objTriggerButton" x="2528" y="256" name="inst_28227708" locked="0" code="trg=9&#xA;" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeTriggerDown" x="2400" y="544" name="inst_DEDBAE0E" locked="0" code="//set these in creation code&#xA;trg = 9;&#xA;&#xA;v = 0;      //vspeed&#xA;h = 0;      //hspeed&#xA;&#xA;dir = 90;    //direction&#xA;spd = 4;    //speed&#xA;tick = 8;   //trigger time&#xA;&#xA;grvdir = 270; //gravity direction&#xA;grv = 0;    //gravity&#xA;&#xA;pth = noone;    //path&#xA;endct = 0;  //path end-action&#xA;pos = 0;    //path position&#xA;            &#xA;flux = false;   //stretch&#xA;imgXi = 0;      //image_xscale increase&#xA;imgXd = 0;      //image_xscale decrease&#xA;imgXf = 1;      //image_xscale maximum&#xA;imgXe = 1;      //image_xscale minimum&#xA;imgYi = 0;      //image_yscale increase&#xA;imgYd = 0;      //image_yscale decrease&#xA;imgYf = 1;      //image_yscale maximum&#xA;imgYe = 1;      //image_yscale minimum&#xA;&#xA;fade = false;   //fade&#xA;fadeType = 0;   //(0 = fade-out, 1 = fade-in)&#xA;alpha = 0.025;   //fade alpha&#xA;&#xA;snd = noone;&#xA;bounce = false;&#xA;&#xA;cycle = 0;&#xA;trg2 = false;&#xA;triggered = false;&#xA;&#xA;depth=1000&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeTriggerDown" x="2400" y="544" name="inst_DEDBAE0E" locked="0" code="//set these in creation code&#xA;trg = 9;&#xA;&#xA;v = 0;      //vspeed&#xA;h = 0;      //hspeed&#xA;&#xA;dir = 90;    //direction&#xA;spd = 4;    //speed&#xA;tick = 8;   //trigger time&#xA;&#xA;grvdir = 270; //gravity direction&#xA;grv = 0;    //gravity&#xA;&#xA;pth = noone;    //path&#xA;endct = 0;  //path end-action&#xA;pos = 0;    //path position&#xA;            &#xA;flux = false;   //stretch&#xA;imgXi = 0;      //image_xscale increase&#xA;imgXd = 0;      //image_xscale decrease&#xA;imgXf = 1;      //image_xscale maximum&#xA;imgXe = 1;      //image_xscale minimum&#xA;imgYi = 0;      //image_yscale increase&#xA;imgYd = 0;      //image_yscale decrease&#xA;imgYf = 1;      //image_yscale maximum&#xA;imgYe = 1;      //image_yscale minimum&#xA;&#xA;fade = false;   //fade&#xA;fadeType = 0;   //(0 = fade-out, 1 = fade-in)&#xA;alpha = 0.025;   //fade alpha&#xA;&#xA;snd = noone;&#xA;bounce = false;&#xA;&#xA;cycle = 0;&#xA;trg2 = false;&#xA;triggered = false;&#xA;&#xA;depth=1000" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="2880" y="0" name="inst_F2F0F060" locked="0" code="BGM=musChildSoldier&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objTriggerButton" x="2912" y="128" name="inst_768D9B3F" locked="0" code="trg=1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="672" y="64" name="inst_414976E5" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>

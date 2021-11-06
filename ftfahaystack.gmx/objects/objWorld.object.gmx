@@ -55,10 +55,43 @@ part_type_orientation(global.returnPart,0.0000,360.0000,3.1549,1.8741,0);
 part_type_gravity(global.returnPart,0.0000,270.0000);
 part_type_blend(global.returnPart,false);
 
+//------Particle Type------
+//run this code at the beginning of your game
+//for example, in the world object's create event
+global.explosionpart = part_type_create();
+part_type_shape(global.explosionpart,pt_shape_square);
+part_type_color_rgb(global.explosionpart,255,255,83,255,165,0);
+part_type_alpha3(global.explosionpart,0.3189,0.8847,0.0000);
+part_type_life(global.explosionpart,15.0000,25.0000);
+part_type_size(global.explosionpart,0.0750,0.1500,0.0100,0.0230);
+part_type_speed(global.explosionpart,1.500,3.75,0.01,0.0777);
+part_type_direction(global.explosionpart,0.0000,360.0000,0.0000,0.8181);
+part_type_orientation(global.explosionpart,0.0000,360.0000,-0.8774,-2.6925,0);
+part_type_gravity(global.explosionpart,0.0000,270.0000);
+part_type_blend(global.explosionpart,false);
+    
+    
+//------Particle System------
+//run this code at the beginning of your game
+//for example, in the world object's create event
+global.psys = part_system_create();
+part_system_depth(global.psys,2000); //Change the 100 to the depth that you want for your particles
 
-    
-    
-    
+
+//------Particle Type------
+//run this code at the beginning of your game
+//for example, in the world object's create event
+global.pixelSnow = part_type_create();
+part_type_shape(global.pixelSnow,pt_shape_square);
+part_type_color1(global.pixelSnow,16777215);
+part_type_alpha1(global.pixelSnow,1.0000);
+part_type_life(global.pixelSnow,200.0000,260.0000);
+part_type_size(global.pixelSnow,0.0750,0.1500,0.0000,-0.0106);
+part_type_speed(global.pixelSnow,2.0000,3.0000,-0.0236,0.0635);
+part_type_direction(global.pixelSnow,120.0000,240.0000,0.0000,0.0000);
+part_type_orientation(global.pixelSnow,0.0000,360.0000,-0.5704,0.6889,0);
+part_type_gravity(global.pixelSnow,0.1000,250.0000);
+part_type_blend(global.pixelSnow,false);    
     
 
 

@@ -31,6 +31,11 @@ motion = 1 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = com
 radius = 80 //Maximum distance of the cherries from the center
 
 t = 0
+
+for (var i=0; i&lt;80; i++){
+    ignore[i]=false
+
+}
 </string>
           </argument>
         </arguments>
@@ -83,8 +88,10 @@ for (var i=0; i&lt;numCherries; i++) {
     }
     
     // Move cherries
-    cherries[i].x = x+lengthdir_x(r, a)
-    cherries[i].y = y+lengthdir_y(r, a)
+    if cherries[i]!=noone{
+        cherries[i].x = x+lengthdir_x(r, a)
+        cherries[i].y = y+lengthdir_y(r, a)
+        }
 }
 t += dt
 </string>
@@ -110,9 +117,14 @@ t += dt
           <argument>
             <kind>1</kind>
             <string>for (var i=0; i&lt;numCherries; i++) {
-    cherries[i] = instance_create(x, y, objCherry)
-    cherries[i].sprite_index = sprite_index
-    cherries[i].depth = -26
+    if ignore[i]=false{
+        cherries[i] = instance_create(x, y, objCherry)
+        cherries[i].sprite_index = sprite_index
+        cherries[i].depth = -26
+        }
+    else{
+        cherries[i]=noone
+    }
 }
 event_perform(ev_step, ev_step_normal)
 </string>

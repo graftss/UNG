@@ -29,6 +29,9 @@
 image_index = 2;
 
 die = false;
+
+
+image_alpha=.75
 </string>
           </argument>
         </arguments>

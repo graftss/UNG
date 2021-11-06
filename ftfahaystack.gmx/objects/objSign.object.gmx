@@ -30,6 +30,7 @@
 showText = false;
 color = 0;
 outline = true;
+yOffset=0
 </string>
           </argument>
         </arguments>

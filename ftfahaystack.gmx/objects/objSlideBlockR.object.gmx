@@ -3,7 +3,7 @@
   <spriteName>sprSlideBlockR</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>100</depth>
+  <depth>50</depth>
   <persistent>0</persistent>
   <parentName>objSlideBlock</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>//can be changed in creation code
 
-h = 2;
+h = 3;
 </string>
           </argument>
         </arguments>

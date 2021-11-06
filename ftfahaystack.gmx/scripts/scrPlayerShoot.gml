@@ -22,6 +22,9 @@ if (!global.noShoot)
             {
                 instance_create((x - lengthdir_x(16, (image_angle + 90))), (y - lengthdir_y(16, (image_angle + 90))), objSpaceBullet);
             }
+            else if room=rSomeday{
+                instance_create(x, (y - (11*objPlayer.image_yscale)), objBullet);
+            }
             else { instance_create(x, (y - 2), objBullet); }
             audio_play_sound(sndShoot, 0, false);
         } break;
