@@ -28,6 +28,9 @@
             <string>///initialize the primary player variables
 frozen = false; //sets if the player can move or not
 
+constJump = (8.5 * sign(global.grav)); //set how fast the player jumps
+constJump2 = (7 * sign(global.grav)); //sets how fast the player double jumps
+
 jump = (8.5 * sign(global.grav)); //set how fast the player jumps
 jump2 = (7 * sign(global.grav)); //sets how fast the player double jumps
 gravity = (0.4 * global.grav); //player gravity
@@ -90,7 +93,10 @@ else{
 }
 
 
-
+//sleep dealer springs
+spring=0
+xlast=0
+ylast=0
 </string>
           </argument>
         </arguments>
@@ -201,6 +207,10 @@ if (global.playerAnimationFix)
                     sprite_index = pRunning;
                     image_speed = 1/2;
                 }
+                else if spring!=0{ // doesnt work :(
+                    sprite_index = pRunning;
+                    image_speed = 1/2;
+                }
                 else
                 {
                     sprite_index = pIdle;
@@ -254,7 +264,15 @@ if (global.playerAnimationFix)
             <string>//check left/right button presses
 var L, R, U, D, h, slipBlockTouching, slideBlockTouching, chairTouching, onVineL, onVineR, onVineU, onVineD;
 
+xlast=x
+ylast=y
+
 scrGetPlayerSprite();
+
+if room=rSomeday{
+    maxSpeed=3*image_xscale; //player speed scales with sprite for someday room
+}
+
 
 if (!global.lunarKid)
 {
@@ -339,11 +357,7 @@ if (!global.lunarKid)
                     if (abs(vspeed) &gt;= maxSpeed) { vspeed = ((maxSpeed * sign(vspeed)) * (-sign(global.grav))); }
                 }
             }
-            else if room=rSleepDealer{
-                //show_debug_message("hi")       //sleep dealer ice WORKs :)  
-                if (!global.Xgrav) { hspeed = (maxSpeed * h) }
-                else { vspeed = ((maxSpeed * h) * (-sign(global.grav))); }
-            }
+
             else if (slipBlockTouching != noone) //not touching a slip block, move immediately at full speed
             {
                 if (!global.Xgrav)
@@ -398,7 +412,7 @@ if (!global.lunarKid)
                     if (vspeed &gt;= 0) { vspeed = 0; }
                 }
             }
-            else if room=rSleepDealer //not touching a slip block, stop immediately //whoever fucked up the comments here is a dipshit
+            else if room=rSleepDealer &amp;&amp; true=false //not touching a slip block, stop immediately //whoever fucked up the comments here is a dipshit
             {
             slip = 0.2
                 if (!global.Xgrav)
@@ -764,8 +778,41 @@ if room=rSomeday{
     image_xscale=-sin(ts)+1.5;
     image_yscale=image_xscale;
     ts+=.02;
+    jump=constJump*image_xscale;
+    jump2=constJump2*image_xscale;
+   
+    gravity=(.4*global.grav)*image_xscale;
 }
 
+//sleep dealer springs
+if L or R{
+    spring=0
+}
+if place_meeting (x+1,y,objBlock) &amp;&amp; spring&gt;0{
+    spring=0
+}
+if place_meeting (x-1,y,objBlock) &amp;&amp; spring&lt;0{
+    spring=0
+}
+
+if place_meeting(x,y,objSpringR){spring=9}
+if place_meeting(x,y,objSpringL){spring=-9}
+if !L &amp;&amp; !R &amp;&amp; room=rSleepDealer{
+    hspeed=spring
+}
+
+//fun water :)
+if place_meeting(x,y,objFunWater){
+    maxSpeed = -3;
+    if L {xScale=1}
+    if R {xScale=-1}
+}
+else{
+    maxSpeed = 3;
+    if L {xScale=-1}
+    if R {xScale=1}
+
+}
 </string>
           </argument>
         </arguments>

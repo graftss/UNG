@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1209</w>
-    <h>798</h>
+    <w>1024</w>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-306</xoffset>
-    <yoffset>-158</yoffset>
+    <xoffset>719</xoffset>
+    <yoffset>-14</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bGuyTut" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -112,7 +112,7 @@
     <instance objName="objSaveVHard" x="1088" y="224" name="inst_3B0A7216" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1152" y="224" name="inst_C2A6AE74" locked="0" code="" scaleX="2" scaleY="12" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="928" y="0" name="inst_47F0AE2F" locked="0" code="" scaleX="11" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="objSign" x="1152" y="192" name="inst_7115EEA5" locked="0" code="signText[0]=&quot;Water 1 lets you&quot;&#xA;signText[1]=&quot;Single jump inside of it,&quot;&#xA;signText[2]=&quot;and restores your double&quot;&#xA;signText[3]=&quot;jump when touching it!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSign" x="1152" y="192" name="inst_7115EEA5" locked="0" code="signText[0]=&quot;Water 1 lets you&quot;&#xA;signText[1]=&quot;Single jump inside of it,&quot;&#xA;signText[2]=&quot;and restores your double&quot;&#xA;signText[3]=&quot;jump when touching it!&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWater" x="1216" y="288" name="inst_8AB4D2BF" locked="0" code="" scaleX="5" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="1280" y="288" name="inst_6F3D5B55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1216" y="384" name="inst_677F2FAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

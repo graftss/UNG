@@ -75,7 +75,7 @@ part_type_blend(global.explosionpart,false);
 //run this code at the beginning of your game
 //for example, in the world object's create event
 global.psys = part_system_create();
-part_system_depth(global.psys,2000); //Change the 100 to the depth that you want for your particles
+part_system_depth(global.psys,200000); //Change the 100 to the depth that you want for your particles
 
 
 //------Particle Type------
@@ -95,6 +95,45 @@ part_type_blend(global.pixelSnow,false);
     
 
 
+// -------- Particle System --------
+// Run this code at the beginning of your game
+global.psys2 = part_system_create();
+part_system_depth(global.psys2, -100);
+
+
+// -------- Particle Type --------
+// Run this code at the beginning of your game
+global.saveeffect = part_type_create();
+part_type_shape(global.saveeffect, pt_shape_square);
+part_type_color3(global.saveeffect, 9963164, 8359478, 14489460);
+part_type_alpha3(global.saveeffect, 0.48, 0.55, 0);
+part_type_life(global.saveeffect, 25, 39);
+part_type_size(global.saveeffect, 0.25, 0.5, 0.002, 0);
+part_type_speed(global.saveeffect, 0.08, 0.14, -0.004, 0);
+part_type_direction(global.saveeffect, 290.98, 551.49, -0.12, 0);
+part_type_orientation(global.saveeffect, 195.6, 258.01, 1.61, 0, false);
+part_type_gravity(global.saveeffect, 0, 270);
+part_type_blend(global.saveeffect, true);
+
+// -------- Particle System --------
+// Run this code at the beginning of your game
+global.psys = part_system_create();
+part_system_depth(global.psys, 5000);
+
+
+// -------- Particle Type --------
+// Run this code at the beginning of your game
+global.pleasePart = part_type_create();
+part_type_shape(global.pleasePart, pt_shape_cloud);
+part_type_color3(global.pleasePart, 31924, 7916002, 2773504);
+part_type_alpha3(global.pleasePart, 0.05, 1, 0);
+part_type_life(global.pleasePart, 300, 500);
+part_type_size(global.pleasePart, 1.5, 3.5, -0.001, 0.01);
+part_type_speed(global.pleasePart, 0.1, 0.3, 0.0005, 0);
+part_type_direction(global.pleasePart, 40, 140, 0, 0);
+part_type_orientation(global.pleasePart, 28.12, 222.27, 0.1, 0, false);
+part_type_gravity(global.pleasePart, 0, 270);
+part_type_blend(global.pleasePart, false);
 </string>
           </argument>
         </arguments>
@@ -552,6 +591,9 @@ if (!instance_exists(objPlayMusic))  //make sure the play music object isn't in 
 
 room_speed = 50;    //make sure game is running at the correct frame rate
 scrSetRoomCaption();    //make sure window caption stays updated
+
+
+part_system_clear(global.psys2)
 </string>
           </argument>
         </arguments>

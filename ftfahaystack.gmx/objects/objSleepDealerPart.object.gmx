@@ -26,13 +26,13 @@
           <argument>
             <kind>1</kind>
             <string>r=room
-
+part_system_depth(global.psys,200000);
 //------Particle Emitter------
 //(Optional - this is how you would stream the particles in the same way that Crystalline was)
 //run this code when you create an object that will emit particles
 pemi = part_emitter_create(global.psys);
-part_emitter_region(global.psys,pemi,0.0000,3500.0000,view_yview-10,view_yview-5,ps_shape_rectangle,ps_distr_linear)
-part_emitter_stream(global.psys,pemi,global.pixelSnow,4.0000);
+part_emitter_region(global.psys,pemi,0.0000,6000.0000,view_yview-10,view_yview-5,ps_shape_rectangle,ps_distr_linear)
+part_emitter_stream(global.psys,pemi,global.pixelSnow,8.0000);
 </string>
           </argument>
         </arguments>
@@ -80,7 +80,7 @@ part_system_clear(global.psys)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_emitter_region(global.psys,pemi,0.0000,3500.0000,view_yview-10,view_yview-5,ps_shape_rectangle,ps_distr_linear)
+            <string>part_emitter_region(global.psys,pemi,0.0000,room_width+200,view_yview-10,view_yview-5,ps_shape_rectangle,ps_distr_linear)
 </string>
           </argument>
         </arguments>

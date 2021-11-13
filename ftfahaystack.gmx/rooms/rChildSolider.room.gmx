@@ -19,7 +19,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>636</h>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -29,8 +29,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>5379</xoffset>
-    <yoffset>1036</yoffset>
+    <xoffset>-80</xoffset>
+    <yoffset>63</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bChildSoldier" x="200" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -304,7 +304,6 @@
     <instance objName="objSpikeDown" x="0" y="256" name="inst_D0E6F178" locked="0" code="depth=400&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="64" y="256" name="inst_AF0FFE73" locked="0" code="depth=400&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="32" y="256" name="inst_F9011A62" locked="0" code="depth=400" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarpAutosaveNext" x="160" y="288" name="inst_ED887A76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="128" y="160" name="inst_E8D3EAB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="128" y="-64" name="inst_C2BEFE36" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="objToggleBlockFull" x="0" y="192" name="inst_85304775" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -375,6 +374,7 @@
     <instance objName="objToggleBlockFull" x="2080" y="64" name="inst_E9153B91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objToggleBlockFull" x="2080" y="32" name="inst_0B4A04E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objToggleBlockFull" x="2080" y="0" name="inst_3F037C7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCasioWarp" x="160" y="288" name="inst_990663BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bChildSoliderT" x="2944" y="0" w="32" h="32" xo="64" yo="32" id="10023599" name="inst_C85F1092" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

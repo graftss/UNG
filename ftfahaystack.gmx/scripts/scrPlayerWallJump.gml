@@ -61,7 +61,7 @@ if (!global.Xgrav)
         image_speed = 1/2;
         
         //pressed away from the vine
-        if (onVineL && scrButtonCheck(global.rightButton)) || (onVineR && scrButtonCheck(global.leftButton))
+        if (onVineL && scrButtonCheckPressed(global.rightButton)) || (onVineR && scrButtonCheckPressed(global.leftButton))
         {
             if (scrButtonCheck(global.jumpButton))  //jumping off vine
             {

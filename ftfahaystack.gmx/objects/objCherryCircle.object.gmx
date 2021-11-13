@@ -91,6 +91,7 @@ for (var i=0; i&lt;numCherries; i++) {
     if cherries[i]!=noone{
         cherries[i].x = x+lengthdir_x(r, a)
         cherries[i].y = y+lengthdir_y(r, a)
+        cherries[i].depth=-26
         }
 }
 t += dt

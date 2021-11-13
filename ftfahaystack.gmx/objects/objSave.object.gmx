@@ -182,6 +182,10 @@ if (canSave &amp;&amp; instance_exists(objPlayer) &amp;&amp; global.grav == grav
         alarm[0] = 30;  //set alarm so the player can save again
         image_index = 1;
         image_speed = 0.017;
+        // -------- Particle Burst --------
+        // Creates particles once at a specific position, instead of constantly emitting them
+        // Run this whenever you want to burst the particles
+        part_particles_create(global.psys2, x+16, y+16, global.saveeffect, 10);
         scrSaveGame(true);
     }
 }

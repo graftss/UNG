@@ -20,8 +20,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1177</w>
-    <h>798</h>
+    <w>1024</w>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -31,8 +31,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-131</xoffset>
-    <yoffset>-73</yoffset>
+    <xoffset>-220</xoffset>
+    <yoffset>171</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -91,7 +91,7 @@
     <instance objName="objSpikeTriggerDown" x="256" y="256" name="inst_8FC24B9E" locked="0" code="//set these in creation code&#xA;trg = 1;&#xA;&#xA;v = 0;      //vspeed&#xA;h = 0;      //hspeed&#xA;&#xA;dir = 90;    //direction&#xA;spd = 4;    //speed&#xA;tick = 8;   //trigger time&#xA;&#xA;grvdir = 270; //gravity direction&#xA;grv = 0;    //gravity&#xA;&#xA;pth = noone;    //path&#xA;endct = 0;  //path end-action&#xA;pos = 0;    //path position&#xA;            &#xA;flux = false;   //stretch&#xA;imgXi = 0;      //image_xscale increase&#xA;imgXd = 0;      //image_xscale decrease&#xA;imgXf = 1;      //image_xscale maximum&#xA;imgXe = 1;      //image_xscale minimum&#xA;imgYi = 0;      //image_yscale increase&#xA;imgYd = 0;      //image_yscale decrease&#xA;imgYf = 1;      //image_yscale maximum&#xA;imgYe = 1;      //image_yscale minimum&#xA;&#xA;fade = false;   //fade&#xA;fadeType = 0;   //(0 = fade-out, 1 = fade-in)&#xA;alpha = 0.025;   //fade alpha&#xA;&#xA;snd = noone;&#xA;bounce = false;&#xA;&#xA;cycle = 0;&#xA;trg2 = false;&#xA;triggered = false;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="160" y="224" name="inst_67019DAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="160" y="192" name="inst_711C76D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFreeTrigger" x="64" y="160" name="inst_9DA0843E" locked="0" code="visible=true&#xA;sprite_index=sprBlockMask&#xA;&#xA;trg=1" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objFreeTrigger" x="48" y="144" name="inst_9DA0843E" locked="0" code="visible=true&#xA;sprite_index=sprBlockMask&#xA;&#xA;trg=1" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="128" y="320" name="inst_65E5E7A3" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="32" y="320" name="inst_6803506A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="96" y="416" name="inst_BBFB770C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

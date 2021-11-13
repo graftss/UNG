@@ -32,7 +32,18 @@ size_max = 48
 dir = 1
 
 rToStart = room
-rmToEnd = room+1
+
+
+//evil code from your nightmares
+//literally yandere dev tier
+//but i dont care its easier than having to think
+if room=rCC or room=rSleepDealer or room=rCrazyForYou or room=rPowerPersuasion or room=rBeReal or room=rLittle_Heart or room=rSomeday or room=rUP or room=rChildSolider or room=rPlease{
+    rmToEnd= rStageSelect
+}
+else{
+    rmToEnd = room+1
+}
+
 
 application_surface_draw_enable(false);
 </string>

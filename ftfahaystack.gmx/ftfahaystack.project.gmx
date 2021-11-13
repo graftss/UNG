@@ -73,12 +73,14 @@
       <sound>sound\musMannequin</sound>
       <sound>sound\musCrazyForYou</sound>
       <sound>sound\musSomeday</sound>
+      <sound>sound\musPleaseThisShitHasGotToStop</sound>
       <sound>sound\musFreakyEyes</sound>
       <sound>sound\musCryo</sound>
     </sounds>
     <sound>sound\sndRocketFire</sound>
     <sound>sound\sndRocketThrust</sound>
     <sound>sound\sndExplosion</sound>
+    <sound>sound\sndSpring</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -374,6 +376,26 @@
       <sprite>sprites\sprSpikeUp_FE3</sprite>
       <sprite>sprites\sprSpikeUp_FE4</sprite>
     </sprites>
+    <sprite>sprites\sprShitWater</sprite>
+    <sprite>sprites\sprSpikeUp_BeReal</sprite>
+    <sprite>sprites\sprSpikeRight_BeReal</sprite>
+    <sprite>sprites\sprSpikeLeft_BeReal</sprite>
+    <sprite>sprites\sprSpikeDown_BeReal</sprite>
+    <sprite>sprites\sprKillerBlock_BeReal</sprite>
+    <sprite>sprites\sprSpringL</sprite>
+    <sprite>sprites\sprSpringLref</sprite>
+    <sprite>sprites\sprSpringR</sprite>
+    <sprite>sprites\sprSpringRref</sprite>
+    <sprite>sprites\sprSpringBlock</sprite>
+    <sprite>sprites\sprSpikeUp_Sleep</sprite>
+    <sprite>sprites\sprSpikeRight_Sleep</sprite>
+    <sprite>sprites\sprSpikeLeft_Sleep</sprite>
+    <sprite>sprites\sprSpikeDown_Sleep</sprite>
+    <sprite>sprites\sprCherry_Please</sprite>
+    <sprite>sprites\sprSpikeUp_Please</sprite>
+    <sprite>sprites\sprSpikeRight_Please</sprite>
+    <sprite>sprites\sprSpikeLeft_Please</sprite>
+    <sprite>sprites\sprSpikeDown_Please</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bCloud</background>
@@ -389,6 +411,7 @@
     <background>background\bMegatiles</background>
     <background>background\bMoreTiles</background>
     <background>background\bSnowTree</background>
+    <background>background\bSnowTree2</background>
     <background>background\bStars</background>
     <background>background\bstars2</background>
     <background>background\bTree</background>
@@ -419,6 +442,8 @@
     <background>background\bFreakyFinalbg</background>
     <background>background\bFreakyFirst</background>
     <background>background\bGuyCastle</background>
+    <background>background\bBeRealT</background>
+    <background>background\bRopes</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -456,6 +481,8 @@
     <path>paths\p256Down</path>
     <path>paths\p96Down</path>
     <path>paths\p96Up</path>
+    <path>paths\pSleepDealer</path>
+    <path>paths\pPlease1</path>
   </paths>
   <scripts name="scripts">
     <scripts name="player">
@@ -795,13 +822,16 @@
     <objects name="Particles">
       <object>objects\objReturnPart</object>
       <object>objects\objSleepDealerPart</object>
+      <object>objects\objPleasePart</object>
     </objects>
     <object>objects\objSetSpikes</object>
     <object>objects\objDropShadow</object>
     <object>objects\objBGpersistent</object>
     <object>objects\objCasioWarp</object>
-    <object>objects\objLevelTransition</object>
     <object>objects\objDummyPlayer</object>
+    <object>objects\objLevelTransition</object>
+    <object>objects\objStageSelected</object>
+    <object>objects\objTempBossItemCheck</object>
     <objects name="custom">
       <objects name="CC">
         <object>objects\objCCblock</object>
@@ -817,6 +847,13 @@
       </objects>
       <objects name="Sleep_Dealer">
         <object>objects\objSleepDealerVspeed</object>
+        <object>objects\objSpringR</object>
+        <object>objects\objSpringL</object>
+        <object>objects\objSpringRfloat</object>
+        <object>objects\objFloatBlock</object>
+        <object>objects\objSpringLfloat</object>
+        <object>objects\objSpringRref</object>
+        <object>objects\objSpringLref</object>
       </objects>
       <objects name="Someday">
         <object>objects\objDKC</object>
@@ -835,8 +872,18 @@
         <object>objects\objCFYsquares</object>
         <object>objects\objCFYrings</object>
       </objects>
+      <objects name="Be_Real">
+        <object>objects\objFunWater</object>
+      </objects>
+      <objects name="Please">
+        <object>objects\objCherryCosH</object>
+        <object>objects\objCherryCosV</object>
+        <object>objects\objCherrySinV</object>
+      </objects>
       <objects name="Freaky_Eyes">
         <object>objects\objCherryVortex</object>
+        <object>objects\objPlasma_updraft</object>
+        <object>objects\objPlasma_updraftManager</object>
       </objects>
     </objects>
   </objects>
@@ -854,14 +901,18 @@
     <rooms name="Game">
       <room>rooms\rTutorial</room>
       <room>rooms\rStage1</room>
+      <room>rooms\rStageSelect</room>
       <room>rooms\rCC</room>
       <room>rooms\rSleepDealer</room>
-      <room>rooms\rChildSolider</room>
-      <room>rooms\rPowerPersuasion</room>
-      <room>rooms\rSomeday</room>
-      <room>rooms\rLittle_Heart</room>
-      <room>rooms\rUP</room>
       <room>rooms\rCrazyForYou</room>
+      <room>rooms\rBeReal</room>
+      <room>rooms\rPowerPersuasion</room>
+      <room>rooms\rLittle_Heart</room>
+      <room>rooms\rSomeday</room>
+      <room>rooms\rUP</room>
+      <room>rooms\rRopes</room>
+      <room>rooms\rChildSolider</room>
+      <room>rooms\rPlease</room>
       <rooms name="Freaky Eyes">
         <room>rooms\rFreakyEyes</room>
         <room>rooms\rFE2</room>

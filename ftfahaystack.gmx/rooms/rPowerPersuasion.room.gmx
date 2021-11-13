@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>618</h>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>365</xoffset>
-    <yoffset>145</yoffset>
+    <xoffset>3830</xoffset>
+    <yoffset>13</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bFlyingSpike" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -111,8 +111,8 @@
     <instance objName="objBlock" x="896" y="1568" name="inst_8258CCF5" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="800" y="1472" name="inst_70D02431" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="896" y="1504" name="inst_FD18B10F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCherryCircle" x="832" y="1536" name="inst_84622A41" locked="0" code="numCherries = 24 //Number of cherries in the circle&#xA;dt = 1/256 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 1 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 72 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;ignore[10]=true&#xA;ignore[11]=true&#xA;ignore[12]=true&#xA;&#xA;path_start(p256Down,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCherryCircle" x="832" y="1536" name="inst_233E0DF5" locked="0" code="numCherries = 2 //Number of cherries in the circle&#xA;dt = 1/300 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 2 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 72 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;&#xA;&#xA;&#xA;path_start(p256Down,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherryCircle" x="832" y="1536" name="inst_84622A41" locked="0" code="numCherries = 24 //Number of cherries in the circle&#xA;dt = 1/512 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 1 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 72 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;ignore[10]=true&#xA;ignore[11]=true&#xA;ignore[12]=true&#xA;&#xA;path_start(p256Down,1,path_action_continue,false);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherryCircle" x="832" y="1536" name="inst_233E0DF5" locked="0" code="numCherries = 2 //Number of cherries in the circle&#xA;dt = 1/300 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 2 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 72 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;&#xA;&#xA;&#xA;path_start(p256Down,1,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="672" y="1728" name="inst_8981BCF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="704" y="1728" name="inst_875D28F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="736" y="1728" name="inst_6207BB3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -347,7 +347,6 @@
     <instance objName="objCherryCircle" x="1792" y="176" name="inst_9883C506" locked="0" code="numCherries = 8 //Number of cherries in the circle&#xA;dt = 1/800 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 4 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 96 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="1920" y="96" name="inst_9D610B69" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="objBlock" x="1696" y="160" name="inst_7139459A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarpAutosaveNext" x="1696" y="128" name="inst_5C129FCF" locked="0" code="depth=200&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="2016" y="32" name="inst_2811F150" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="2048" y="32" name="inst_7F6568B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="2080" y="32" name="inst_E7FABD32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -373,6 +372,7 @@
     <instance objName="objSpikeRight" x="1824" y="1248" name="inst_1BA7CCDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="1824" y="1280" name="inst_1599DC54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="1824" y="1312" name="inst_D87A9672" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCasioWarp" x="1696" y="128" name="inst_96CBF6BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bPowerTback" x="512" y="1536" w="32" h="32" xo="0" yo="32" id="10026010" name="inst_185744E6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

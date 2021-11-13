@@ -37,9 +37,9 @@ with objSpikeTriggerUp{
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>1</page>
-    <xoffset>735</xoffset>
-    <yoffset>18</yoffset>
+    <page>0</page>
+    <xoffset>4370</xoffset>
+    <yoffset>791</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bLittleHeart" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -229,7 +229,6 @@ with objSpikeTriggerUp{
     <instance objName="objSpikeTriggerUp" x="2208" y="480" name="inst_4E9E36BC" locked="0" code="//set these in creation code&#xA;trg = 13;&#xA;&#xA;v = 0;      //vspeed&#xA;h = 0;      //hspeed&#xA;&#xA;dir = -90;    //direction&#xA;spd = 4;    //speed&#xA;tick = 8;   //trigger time&#xA;&#xA;grvdir = 270; //gravity direction&#xA;grv = 0;    //gravity&#xA;&#xA;pth = noone;    //path&#xA;endct = 0;  //path end-action&#xA;pos = 0;    //path position&#xA;            &#xA;flux = false;   //stretch&#xA;imgXi = 0;      //image_xscale increase&#xA;imgXd = 0;      //image_xscale decrease&#xA;imgXf = 1;      //image_xscale maximum&#xA;imgXe = 1;      //image_xscale minimum&#xA;imgYi = 0;      //image_yscale increase&#xA;imgYd = 0;      //image_yscale decrease&#xA;imgYf = 1;      //image_yscale maximum&#xA;imgYe = 1;      //image_yscale minimum&#xA;&#xA;fade = false;   //fade&#xA;fadeType = 0;   //(0 = fade-out, 1 = fade-in)&#xA;alpha = 0.025;   //fade alpha&#xA;&#xA;snd = noone;&#xA;bounce = false;&#xA;&#xA;cycle = 0;&#xA;trg2 = false;&#xA;triggered = false;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeTriggerUp" x="2240" y="480" name="inst_66E28991" locked="0" code="//set these in creation code&#xA;trg = 14;&#xA;&#xA;v = 0;      //vspeed&#xA;h = 0;      //hspeed&#xA;&#xA;dir = -90;    //direction&#xA;spd = 4;    //speed&#xA;tick = 8;   //trigger time&#xA;&#xA;grvdir = 270; //gravity direction&#xA;grv = 0;    //gravity&#xA;&#xA;pth = noone;    //path&#xA;endct = 0;  //path end-action&#xA;pos = 0;    //path position&#xA;            &#xA;flux = false;   //stretch&#xA;imgXi = 0;      //image_xscale increase&#xA;imgXd = 0;      //image_xscale decrease&#xA;imgXf = 1;      //image_xscale maximum&#xA;imgXe = 1;      //image_xscale minimum&#xA;imgYi = 0;      //image_yscale increase&#xA;imgYd = 0;      //image_yscale decrease&#xA;imgYf = 1;      //image_yscale maximum&#xA;imgYe = 1;      //image_yscale minimum&#xA;&#xA;fade = false;   //fade&#xA;fadeType = 0;   //(0 = fade-out, 1 = fade-in)&#xA;alpha = 0.025;   //fade alpha&#xA;&#xA;snd = noone;&#xA;bounce = false;&#xA;&#xA;cycle = 0;&#xA;trg2 = false;&#xA;triggered = false;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeTriggerUp" x="2272" y="480" name="inst_2A931D1C" locked="0" code="//set these in creation code&#xA;trg = 15;&#xA;&#xA;v = 0;      //vspeed&#xA;h = 0;      //hspeed&#xA;&#xA;dir = -90;    //direction&#xA;spd = 4;    //speed&#xA;tick = 8;   //trigger time&#xA;&#xA;grvdir = 270; //gravity direction&#xA;grv = 0;    //gravity&#xA;&#xA;pth = noone;    //path&#xA;endct = 0;  //path end-action&#xA;pos = 0;    //path position&#xA;            &#xA;flux = false;   //stretch&#xA;imgXi = 0;      //image_xscale increase&#xA;imgXd = 0;      //image_xscale decrease&#xA;imgXf = 1;      //image_xscale maximum&#xA;imgXe = 1;      //image_xscale minimum&#xA;imgYi = 0;      //image_yscale increase&#xA;imgYd = 0;      //image_yscale decrease&#xA;imgYf = 1;      //image_yscale maximum&#xA;imgYe = 1;      //image_yscale minimum&#xA;&#xA;fade = false;   //fade&#xA;fadeType = 0;   //(0 = fade-out, 1 = fade-in)&#xA;alpha = 0.025;   //fade alpha&#xA;&#xA;snd = noone;&#xA;bounce = false;&#xA;&#xA;cycle = 0;&#xA;trg2 = false;&#xA;triggered = false;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarpAutosaveNext" x="2400" y="480" name="inst_034FFA86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objFreeTrigger" x="2272" y="416" name="inst_1EB63816" locked="0" code="trg=11&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objFreeTrigger" x="1856" y="320" name="inst_12A02EE2" locked="0" code="trg=12&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objFreeTrigger" x="2272" y="96" name="inst_CDE4F074" locked="0" code="trg=15&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -259,6 +258,7 @@ with objSpikeTriggerUp{
     <instance objName="objBlock" x="1088" y="304" name="inst_A72AEBDA" locked="0" code="" scaleX="0.899999976158142" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1088" y="309" name="inst_4B7F1F39" locked="0" code="" scaleX="1" scaleY="0.850000023841858" colour="4294967295" rotation="0"/>
     <instance objName="objFreeTrigger" x="1117" y="304" name="inst_B4484772" locked="0" code="" scaleX="0.100000001490116" scaleY="0.156000003218651" colour="4294967295" rotation="0"/>
+    <instance objName="objCasioWarp" x="2400" y="480" name="inst_A7C87CD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bMegatiles" x="288" y="128" w="32" h="32" xo="32" yo="224" id="10028347" name="inst_C0E9DFF6" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
