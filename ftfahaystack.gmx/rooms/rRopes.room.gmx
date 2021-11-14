@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1024</w>
-    <h>618</h>
+    <w>1109</w>
+    <h>764</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-200</xoffset>
-    <yoffset>-131</yoffset>
+    <xoffset>-76</xoffset>
+    <yoffset>-24</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,8 +52,38 @@
   </views>
   <instances>
     <instance objName="objCasioWarp" x="416" y="320" name="inst_51FDD5F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="96" y="448" name="inst_DA6474A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="64" y="480" name="inst_69828537" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="192" y="416" name="inst_33B4D48F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="448" y="416" name="inst_ACBBD6A3" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="704" y="0" name="inst_51432721" locked="0" code="" scaleX="1" scaleY="19" colour="4294967295" rotation="0"/>
+    <instance objName="objDropShadow" x="-64" y="416" name="inst_99BAE92E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="-64" y="352" name="inst_E8015A33" locked="0" code="BGM=musRopes&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles/>
+  <tiles>
+    <tile bgName="bRopes" x="64" y="480" w="96" h="96" xo="0" yo="0" id="10043753" name="inst_12CF3BD6" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="192" y="416" w="32" h="32" xo="0" yo="96" id="10043754" name="inst_FEE56F0D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="448" y="416" w="96" h="32" xo="0" yo="128" id="10043755" name="inst_E702EABA" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="0" w="32" h="32" xo="32" yo="160" id="10043756" name="inst_233FD0DD" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="32" w="32" h="32" xo="32" yo="160" id="10043757" name="inst_4884B335" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="64" w="32" h="32" xo="32" yo="160" id="10043758" name="inst_8AF6FCA5" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="96" w="32" h="32" xo="32" yo="160" id="10043759" name="inst_C6DD9A51" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="128" w="32" h="32" xo="32" yo="160" id="10043760" name="inst_76C8B921" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="160" w="32" h="32" xo="32" yo="160" id="10043761" name="inst_9983D5F9" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="192" w="32" h="32" xo="32" yo="160" id="10043762" name="inst_3EACD3D8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="224" w="32" h="32" xo="32" yo="160" id="10043763" name="inst_CBCCB372" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="256" w="32" h="32" xo="32" yo="160" id="10043764" name="inst_0902A659" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="288" w="32" h="32" xo="32" yo="160" id="10043765" name="inst_C3C0C11C" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="320" w="32" h="32" xo="32" yo="160" id="10043766" name="inst_019EDA75" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="352" w="32" h="32" xo="32" yo="160" id="10043767" name="inst_3CEC48DC" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="384" w="32" h="32" xo="32" yo="160" id="10043768" name="inst_76447E4C" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="416" w="32" h="32" xo="32" yo="160" id="10043769" name="inst_DFE01BCC" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="448" w="32" h="32" xo="32" yo="160" id="10043770" name="inst_7DB54C80" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="480" w="32" h="32" xo="32" yo="160" id="10043771" name="inst_198C536B" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="512" w="32" h="32" xo="32" yo="160" id="10043772" name="inst_B55DB02D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="544" w="32" h="32" xo="32" yo="160" id="10043773" name="inst_1D7B8820" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bRopes" x="704" y="576" w="32" h="32" xo="32" yo="160" id="10043774" name="inst_08C1EFDA" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>

@@ -17,8 +17,8 @@ with objPlayer{instance_destroy()};</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1295</w>
-    <h>808</h>
+    <w>1024</w>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -28,8 +28,8 @@ with objPlayer{instance_destroy()};</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>10312</xoffset>
-    <yoffset>13371</yoffset>
+    <xoffset>-84</xoffset>
+    <yoffset>-135</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -80,23 +80,15 @@ with objPlayer{instance_destroy()};</code>
     <instance objName="objBlock" x="704" y="448" name="inst_64E58C7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="640" y="448" name="inst_445D1FB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objTempBossItemCheck" x="448" y="288" name="inst_E831EDDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTempBossItemCheck" x="576" y="288" name="inst_73FB6AD9" locked="0" code="check = 5;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="440" y="264" name="inst_03E74AE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="456" y="264" name="inst_52C5DD25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="440" y="248" name="inst_0D281890" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="456" y="200" name="inst_AB9EC4CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="440" y="200" name="inst_5E524FB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="456" y="216" name="inst_C55FE437" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objJumpRefresher" x="584" y="200" name="inst_BCEC0439" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objJumpRefresher" x="568" y="200" name="inst_482E8F8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objJumpRefresher" x="568" y="216" name="inst_DD09D334" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objJumpRefresher" x="568" y="232" name="inst_79D84E87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objJumpRefresher" x="584" y="248" name="inst_54C77C5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objJumpRefresher" x="584" y="264" name="inst_D6855961" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objJumpRefresher" x="568" y="264" name="inst_80E184B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="440" y="232" name="inst_C8BC1992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="456" y="232" name="inst_D3EBD6A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objJumpRefresher" x="584" y="232" name="inst_045F3359" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="-32" y="152" name="inst_7FEB17D1" locked="0" code="BGM=musManifold&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="192" y="256" w="32" h="32" xo="32" yo="0" id="10043724" name="inst_3958016A" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

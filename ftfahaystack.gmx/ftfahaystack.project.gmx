@@ -62,20 +62,24 @@
       <sound>sound\sndGravUp</sound>
     </sounds>
     <sounds name="music">
-      <sound>sound\musChildSoldier</sound>
-      <sound>sound\musSleepDealer</sound>
-      <sound>sound\musReturnOfDreams</sound>
-      <sound>sound\musCC</sound>
-      <sound>sound\musPower</sound>
-      <sound>sound\musDarklooming</sound>
-      <sound>sound\musHeart</sound>
-      <sound>sound\musUp</sound>
       <sound>sound\musMannequin</sound>
+      <sound>sound\musReturnOfDreams</sound>
+      <sound>sound\musManifold</sound>
+      <sound>sound\musCC</sound>
+      <sound>sound\musSleepDealer</sound>
       <sound>sound\musCrazyForYou</sound>
+      <sound>sound\musBeReal</sound>
+      <sound>sound\musPower</sound>
+      <sound>sound\musHeart</sound>
       <sound>sound\musSomeday</sound>
+      <sound>sound\musUp</sound>
+      <sound>sound\musChildSoldier</sound>
+      <sound>sound\musRopes</sound>
       <sound>sound\musPleaseThisShitHasGotToStop</sound>
       <sound>sound\musFreakyEyes</sound>
       <sound>sound\musCryo</sound>
+      <sound>sound\mus365UNITEDSTARS</sound>
+      <sound>sound\musDarklooming</sound>
     </sounds>
     <sound>sound\sndRocketFire</sound>
     <sound>sound\sndRocketThrust</sound>

@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1282</w>
-    <h>811</h>
+    <w>1191</w>
+    <h>765</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-275</xoffset>
-    <yoffset>18</yoffset>
+    <xoffset>-226</xoffset>
+    <yoffset>-153</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -86,12 +86,7 @@
     <instance objName="objSaveBlocker" x="224" y="288" name="inst_9E741290" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="224" y="512" name="inst_F3D88FF7" locked="0" code="" scaleX="5" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="192" y="256" name="inst_7BA3661B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCherryBounce" x="176" y="240" name="inst_9EBC0F5B" locked="0" code="direction=0&#xA;speed=10&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="96" y="192" name="inst_304BD8CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="96" y="256" name="inst_067941B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="96" y="224" name="inst_F93193B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWalljumpL" x="96" y="224" name="inst_B294E06D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMovingPlatform" x="112" y="160" name="inst_F819ACAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="objBlock" x="64" y="128" name="inst_5C4228A6" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="96" y="128" name="inst_04862ED1" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="160" y="160" name="inst_95F30D55" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
@@ -111,7 +106,6 @@
     <instance objName="objCherry" x="192" y="64" name="inst_2F248AA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherryCircle" x="352" y="64" name="inst_29F226FD" locked="0" code="numCherries = 6 //Number of cherries in the circle&#xA;dt = -1/120 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 1 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 96 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherryCircle" x="352" y="64" name="inst_FA08E205" locked="0" code="numCherries = 4 //Number of cherries in the circle&#xA;dt = 1/120 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 1 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 64 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCherry" x="352" y="64" name="inst_BE473FBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="352" y="160" name="inst_17D9A9C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="384" y="160" name="inst_91AF895A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="496" y="80" name="inst_E0342F7F" locked="0" code="path_start(pPlease1,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -182,6 +176,11 @@
     <instance objName="objSpikeUp" x="544" y="544" name="inst_CDF061EA" locked="0" code="path_start(p32Down,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="672" y="480" name="inst_B3B439F8" locked="0" code="path_start(p32Up,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="672" y="416" name="inst_7069EA72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherrySinV" x="144" y="224" name="inst_F27B882D" locked="0" code="//set in create code&#xA;offset=0 &#xA;time=40&#xA;dist=96" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherrySinV" x="176" y="224" name="inst_85A29695" locked="0" code="//set in create code&#xA;offset=0 &#xA;time=20&#xA;dist=32" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherrySinV" x="208" y="224" name="inst_E13BDB50" locked="0" code="//set in create code&#xA;offset=20 &#xA;time=20&#xA;dist=32&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="96" y="160" name="inst_67FD9C1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherrySinV" x="144" y="288" name="inst_B51BDBCF" locked="0" code="//set in create code&#xA;offset=0 &#xA;time=40&#xA;dist=96" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bTitleT" x="64" y="544" w="32" h="32" xo="64" yo="0" id="10043298" name="inst_34FEAF09" depth="9" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -426,6 +425,7 @@
     <tile bgName="bTitleT" x="640" y="416" w="32" h="32" xo="96" yo="0" id="10043661" name="inst_8A38F266" depth="9" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTitleT" x="704" y="448" w="32" h="32" xo="64" yo="0" id="10043667" name="inst_B3967486" depth="9" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTitleT" x="672" y="448" w="32" h="32" xo="64" yo="0" id="10043668" name="inst_D0459E1F" depth="9" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bTitleT" x="96" y="160" w="32" h="32" xo="96" yo="32" id="10043752" name="inst_969DA301" depth="9" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

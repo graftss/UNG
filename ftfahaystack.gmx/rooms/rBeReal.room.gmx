@@ -23,8 +23,8 @@ with objPlayerKiller{
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1296</w>
-    <h>846</h>
+    <w>1024</w>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -34,8 +34,8 @@ with objPlayerKiller{
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-113</xoffset>
-    <yoffset>259</yoffset>
+    <xoffset>-100</xoffset>
+    <yoffset>-7</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -131,6 +131,7 @@ with objPlayerKiller{
     <instance objName="objKillerBlock" x="512" y="160" name="inst_171265A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSave" x="672" y="96" name="inst_688B31E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="64" y="1152" name="inst_114E5D13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="576" y="-32" name="inst_0E53579E" locked="0" code="BGM=musBeReal&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bBeRealT" x="608" y="128" w="32" h="32" xo="0" yo="32" id="10039565" name="inst_AD746081" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
