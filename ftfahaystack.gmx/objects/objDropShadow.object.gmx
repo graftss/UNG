@@ -31,7 +31,7 @@
   }else{//platforms and any fully visible block types
     draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
   }
-}
+} // holy jesus fuck nightmare code im sorry
 with objPlayer{
   draw_sprite_ext(sprite_index,image_index,x+3,y+3,objPlayer.xScale,image_yscale,image_angle,c_black,image_alpha*.35);
 }
@@ -88,6 +88,18 @@ with objSpringR{
   draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
 }
 with objSpringL{
+  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+}
+with objGravityDown{
+  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+}
+with objGravityUp{
+  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+}
+with objGravityRight{
+  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+}
+with objGravityLeft{
   draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
 }
 </string>

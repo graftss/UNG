@@ -34,17 +34,17 @@ ySeperation = 40;
 settingKey = false;     //sets whether or not a key is getting set
 resetPrompt = false;    //shows the message that controls were reset
 
-strSelect[0] = "Left Button";
-strSelect[1] = "Right Button";
-strSelect[2] = "Up Button";
-strSelect[3] = "Down Button";
-strSelect[4] = "Jump Button";
-strSelect[5] = "Shoot Button";
-strSelect[6] = "Restart Button";
-strSelect[7] = "Skip Button";
-strSelect[8] = "Suicide Button";
-strSelect[9] = "Pause Button";
-strSelect[10] = "Reset Controls";
+strSelect[0] = "left";
+strSelect[1] = "right";
+strSelect[2] = "up";
+strSelect[3] = "down";
+strSelect[4] = "jump";
+strSelect[5] = "shoot";
+strSelect[6] = "restart";
+strSelect[7] = "skip";
+strSelect[8] = "return to hub";
+strSelect[9] = "pause";
+strSelect[10] = "reset controls";
 
 //get current controls
 strKey[0] = scrGetKeybind(global.leftButton[0]);
@@ -106,7 +106,7 @@ playerIndex = 0;
           <argument>
             <kind>1</kind>
             <string>//animate player sprite
-playerIndex = (playerIndex + 1/5) mod 4;
+playerIndex = (playerIndex + 1/15) mod 4;
 
 if (!settingKey)
 {
@@ -231,11 +231,11 @@ for(var i = 0; i &lt; 11; i += 1)
     
     if(i == select)
     {
-        draw_sprite(sprPlayerIdle,playerIndex,xSelector-12,ySelector+i*ySeperation+46);
+        draw_sprite(sprCherry,playerIndex,xSelector-12,ySelector+i*ySeperation+38);
         
         if (settingKey) //key prompt
         {
-            scrDrawTextOutline(xSelector+xSeperation,ySelector+i*ySeperation+32,"Press the key to set",c_white,c_black);
+            scrDrawTextOutline(xSelector+xSeperation,ySelector+i*ySeperation+32,"awaiting input...",c_white,c_black);
         }
     }
     
@@ -246,7 +246,7 @@ for(var i = 0; i &lt; 11; i += 1)
     
     if (resetPrompt &amp;&amp; i == 10) //reset controls prompt
     {
-        scrDrawTextOutline(xSelector+xSeperation,ySelector+i*ySeperation+32,"Controls reset!",c_white,c_black);
+        scrDrawTextOutline(xSelector+xSeperation,ySelector+i*ySeperation+32,"controls reset.",c_white,c_black);
     }
 }
 

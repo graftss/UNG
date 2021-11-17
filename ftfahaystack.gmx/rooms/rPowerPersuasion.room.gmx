@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>3830</xoffset>
-    <yoffset>13</yoffset>
+    <xoffset>117</xoffset>
+    <yoffset>1314</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bFlyingSpike" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objPlayerStart" x="320" y="1632" name="inst_19F835A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="320" y="1632" name="inst_19F835A2" locked="0" code="if global.secretItem[1] = true{&#xA;    x=1696&#xA;    y=1760&#xA;}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDropShadow" x="320" y="1824" name="inst_5B845938" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objChildParallax" x="336" y="1824" name="inst_2C535168" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlockRise" x="256" y="1792" name="inst_BF5A6FF3" locked="0" code="sprite_index=sprBlockInvert&#xA;depth=200&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -373,6 +373,8 @@
     <instance objName="objSpikeRight" x="1824" y="1280" name="inst_1599DC54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="1824" y="1312" name="inst_D87A9672" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="1696" y="128" name="inst_96CBF6BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro" x="-64" y="1536" name="inst_58921D4F" locked="0" code="stage=&quot;power of persuasion&quot;&#xA;subtext=&quot;you are not immune&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSecretItem" x="1696" y="1728" name="inst_253B73E6" locked="0" code="itemNum=1&#xA;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bPowerTback" x="512" y="1536" w="32" h="32" xo="0" yo="32" id="10026010" name="inst_185744E6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

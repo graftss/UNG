@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1109</w>
-    <h>764</h>
+    <w>1195</w>
+    <h>769</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-76</xoffset>
-    <yoffset>-24</yoffset>
+    <xoffset>-177</xoffset>
+    <yoffset>-27</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objCasioWarp" x="416" y="320" name="inst_51FDD5F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCasioWarp" x="544" y="288" name="inst_51FDD5F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="96" y="448" name="inst_DA6474A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="64" y="480" name="inst_69828537" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="192" y="416" name="inst_33B4D48F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -59,6 +59,12 @@
     <instance objName="objBlock" x="704" y="0" name="inst_51432721" locked="0" code="" scaleX="1" scaleY="19" colour="4294967295" rotation="0"/>
     <instance objName="objDropShadow" x="-64" y="416" name="inst_99BAE92E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="-64" y="352" name="inst_E8015A33" locked="0" code="BGM=musRopes&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro" x="-64" y="480" name="inst_2D9652CE" locked="0" code="stage=&quot;as long as ropes unravel#fake rolex will travel&quot;&#xA;subtext=&quot;the narcissist&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSign" x="192" y="384" name="inst_EBE1E2B5" locked="0" code="signText[0]=&quot;ill make this stage later lmao&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGravityRight" x="96" y="160" name="inst_DEDA5E13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGravityDown" x="128" y="160" name="inst_05750BFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGravityLeft" x="128" y="192" name="inst_E908B68E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGravityUp" x="96" y="192" name="inst_E2DFDE65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bRopes" x="64" y="480" w="96" h="96" xo="0" yo="0" id="10043753" name="inst_12CF3BD6" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

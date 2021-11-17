@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>1978</xoffset>
-    <yoffset>1750</yoffset>
+    <xoffset>827</xoffset>
+    <yoffset>4</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bstars2" x="3" y="0" htiled="-1" vtiled="-1" hspeed="3" vspeed="0" stretch="0"/>
@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="objCamera" x="1056" y="0" name="inst_147FFE4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlayerStart" x="1152" y="0" name="inst_6EBD1852" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="1120" y="96" name="inst_6EBD1852" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCCblock" x="1248" y="160" name="inst_5AC193A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCCblock" x="1376" y="64" name="inst_952DEEFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCCblock" x="1408" y="64" name="inst_24431E69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -832,6 +832,7 @@
     <instance objName="objCCblock" x="192" y="896" name="inst_FD5553CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCCblock" x="192" y="928" name="inst_867E9703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="1536" y="1216" name="inst_5A052FD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro" x="1056" y="128" name="inst_1864A41B" locked="0" code="stage=&quot;through the hosiery&quot;&#xA;subtext=&quot;how does it feel#when you can't feel nothing?&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bBlack" x="1184" y="0" w="32" h="32" xo="0" yo="0" id="10022537" name="inst_389F7E00" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

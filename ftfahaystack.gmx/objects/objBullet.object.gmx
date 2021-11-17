@@ -38,8 +38,9 @@ if (global.slowShot) { hspeed = bulletDir; }
 else if (!global.Xgrav) { hspeed = (16 * bulletDir); }
 else { vspeed = (16 * (-bulletDir)); }
 
-if (!global.slowShot) { alarm[0] = 40; }
-else { alarm[0] = 800; }
+if room=rBoss or room=rFE_final { alarm[0] = 10; }
+else { alarm[0] = 40; }
+
 </string>
           </argument>
         </arguments>

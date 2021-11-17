@@ -29,8 +29,8 @@
 check = 2;
 
 
-var n = 0;
-var i;
+n = 0;
+i = 0;
 for (i = 0; i &lt; global.bossItemTotal; i++){
     if global.bossItem[i]=true{
         //show_debug_message(string(i)+'room')
@@ -39,7 +39,7 @@ for (i = 0; i &lt; global.bossItemTotal; i++){
 
 }
 //show_debug_message(string(n)+"total")
-show_debug_message(string(check)+"check")
+//show_debug_message(string(check)+"check")
 if n &lt; check {
     instance_destroy();
 }

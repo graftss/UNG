@@ -37,9 +37,9 @@ with objSpikeTriggerUp{
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>4370</xoffset>
-    <yoffset>791</yoffset>
+    <page>1</page>
+    <xoffset>-216</xoffset>
+    <yoffset>88</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bLittleHeart" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -259,6 +259,7 @@ with objSpikeTriggerUp{
     <instance objName="objBlock" x="1088" y="309" name="inst_4B7F1F39" locked="0" code="" scaleX="1" scaleY="0.850000023841858" colour="4294967295" rotation="0"/>
     <instance objName="objFreeTrigger" x="1117" y="304" name="inst_B4484772" locked="0" code="" scaleX="0.100000001490116" scaleY="0.156000003218651" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="2400" y="480" name="inst_A7C87CD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro" x="-64" y="376" name="inst_460A5AF9" locked="0" code="stage=&quot;the little heart beats so fast&quot;&#xA;subtext=&quot;from here we go sublime&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bMegatiles" x="288" y="128" w="32" h="32" xo="32" yo="224" id="10028347" name="inst_C0E9DFF6" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

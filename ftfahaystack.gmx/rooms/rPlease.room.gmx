@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1191</w>
-    <h>765</h>
+    <w>1131</w>
+    <h>752</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-226</xoffset>
-    <yoffset>-153</yoffset>
+    <xoffset>-42</xoffset>
+    <yoffset>22</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objPlayerStart" x="96" y="512" name="inst_058DC115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="96" y="512" name="inst_058DC115" locked="0" code="if global.secretItem[5] = true{&#xA;    x=480&#xA;    y=288&#xA;}&#xA;else if global.secretItem[4] = true{&#xA;    x=576&#xA;    y=64&#xA;}&#xA;else if global.secretItem[3] = true{&#xA;    x=96&#xA;    y=96&#xA;}&#xA;else if global.secretItem[2] = true{&#xA;    x=224&#xA;    y=288&#xA;}" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="128" y="448" name="inst_6EC1B7BE" locked="0" code="path_start(p32Down,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="192" y="448" name="inst_9DDC2FA9" locked="0" code="path_start(p32Up,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="160" y="416" name="inst_40B88693" locked="0" code="path_start(p32Left,3,path_action_continue,false);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -181,6 +181,11 @@
     <instance objName="objCherrySinV" x="208" y="224" name="inst_E13BDB50" locked="0" code="//set in create code&#xA;offset=20 &#xA;time=20&#xA;dist=32&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="96" y="160" name="inst_67FD9C1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherrySinV" x="144" y="288" name="inst_B51BDBCF" locked="0" code="//set in create code&#xA;offset=0 &#xA;time=40&#xA;dist=96" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro" x="-64" y="560" name="inst_697288AC" locked="0" code="stage=&quot;please, this shit#has got to stop&quot;&#xA;subtext=&quot;...and it repeated once more&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSecretItem" x="224" y="288" name="inst_59F295A1" locked="0" code="itemNum=2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSecretItem" x="96" y="96" name="inst_7DF1EEE6" locked="0" code="itemNum=3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSecretItem" x="576" y="64" name="inst_E4EFDC35" locked="0" code="itemNum=4&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSecretItem" x="480" y="256" name="inst_335E9FE4" locked="0" code="itemNum=5&#xA;" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bTitleT" x="64" y="544" w="32" h="32" xo="64" yo="0" id="10043298" name="inst_34FEAF09" depth="9" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

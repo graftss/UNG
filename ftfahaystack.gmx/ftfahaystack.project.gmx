@@ -3,44 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="22" name="datafiles">
-    <datafiles number="22" name="Music">
-      <datafile>
-        <name>musOnDeath.ogg</name>
-        <exists>-1</exists>
-        <size>171918</size>
-        <exportAction>2</exportAction>
-        <exportDir></exportDir>
-        <overwrite>0</overwrite>
-        <freeData>-1</freeData>
-        <removeEnd>0</removeEnd>
-        <store>0</store>
-        <ConfigOptions>
-          <Config name="Default">
-            <CopyToMask>9223372036854775807</CopyToMask>
-          </Config>
-        </ConfigOptions>
-        <filename>musOnDeath.ogg</filename>
-      </datafile>
-      <datafile>
-        <name>musGuyRock.ogg</name>
-        <exists>-1</exists>
-        <size>3681713</size>
-        <exportAction>2</exportAction>
-        <exportDir></exportDir>
-        <overwrite>0</overwrite>
-        <freeData>-1</freeData>
-        <removeEnd>0</removeEnd>
-        <store>0</store>
-        <ConfigOptions>
-          <Config name="Default">
-            <CopyToMask>9223372036854775807</CopyToMask>
-          </Config>
-        </ConfigOptions>
-        <filename>musGuyRock.ogg</filename>
-      </datafile>
-    </datafiles>
-  </datafiles>
+  <datafiles number="23" name="datafiles"/>
   <NewExtensions>
     <extension index="0">extensions\GMSched</extension>
   </NewExtensions>
@@ -85,6 +48,7 @@
     <sound>sound\sndRocketThrust</sound>
     <sound>sound\sndExplosion</sound>
     <sound>sound\sndSpring</sound>
+    <sound>sound\sndSave</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -278,6 +242,7 @@
       </sprites>
       <sprites name="sign">
         <sprite>sprites\sprSign</sprite>
+        <sprite>sprites\sprSignSide</sprite>
       </sprites>
       <sprites name="bench">
         <sprite>sprites\sprBench</sprite>
@@ -327,6 +292,23 @@
       <sprite>sprites\sprSecretItem</sprite>
       <sprite>sprites\sprBossItem</sprite>
     </sprites>
+    <sprites name="colonel">
+      <sprite>sprites\sprCidle</sprite>
+      <sprite>sprites\sprCreflect</sprite>
+      <sprite>sprites\sprCjump</sprite>
+      <sprite>sprites\sprCdownslash</sprite>
+      <sprite>sprites\sprCupslash</sprite>
+      <sprite>sprites\sprCenergyStart</sprite>
+      <sprite>sprites\sprCdefeat</sprite>
+      <sprite>sprites\sprCenergyThrust</sprite>
+    </sprites>
+    <sprites name="credits">
+      <sprite>sprites\sprCreds4</sprite>
+      <sprite>sprites\sprCreds3</sprite>
+      <sprite>sprites\sprCreds2</sprite>
+      <sprite>sprites\sprCreds1</sprite>
+      <sprite>sprites\sprTheEnd</sprite>
+    </sprites>
     <sprite>sprites\sprite131</sprite>
     <sprite>sprites\sprite132</sprite>
     <sprite>sprites\sprTitleText</sprite>
@@ -336,6 +318,7 @@
     <sprite>sprites\sprSpikeDown_Return</sprite>
     <sprite>sprites\sprCherry_Return</sprite>
     <sprite>sprites\sprWater2Return</sprite>
+    <sprite>sprites\sprCherry_ChildShoot</sprite>
     <sprite>sprites\sprCCKill</sprite>
     <sprite>sprites\sprCCblock</sprite>
     <sprite>sprites\sprBigCloud</sprite>
@@ -345,7 +328,6 @@
     <sprite>sprites\sprSpikeDown_Child</sprite>
     <sprite>sprites\sprCherry_Child</sprite>
     <sprite>sprites\sprCherry_ChildFace</sprite>
-    <sprite>sprites\sprCherry_ChildShoot</sprite>
     <sprite>sprites\sprDeathCherryShoot</sprite>
     <sprite>sprites\sprToggleBlockEmpty</sprite>
     <sprite>sprites\sprToggleBlockFull</sprite>
@@ -448,6 +430,8 @@
     <background>background\bGuyCastle</background>
     <background>background\bBeRealT</background>
     <background>background\bRopes</background>
+    <background>background\bFinalBossT</background>
+    <background>background\bFinalBoss</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -586,6 +570,7 @@
         <object>objects\objOptionsMenu</object>
         <object>objects\objKeyboardControlsMenu</object>
         <object>objects\objControllerMenu</object>
+        <object>objects\objTitleFadeIn</object>
       </objects>
     </objects>
     <objects name="player">
@@ -827,10 +812,12 @@
       <object>objects\objReturnPart</object>
       <object>objects\objSleepDealerPart</object>
       <object>objects\objPleasePart</object>
+      <object>objects\objFreakyWarpPart</object>
     </objects>
     <object>objects\objSetSpikes</object>
     <object>objects\objDropShadow</object>
     <object>objects\objBGpersistent</object>
+    <object>objects\objHubBG</object>
     <object>objects\objCasioWarp</object>
     <object>objects\objDummyPlayer</object>
     <object>objects\objLevelTransition</object>
@@ -878,6 +865,7 @@
       </objects>
       <objects name="Be_Real">
         <object>objects\objFunWater</object>
+        <object>objects\objKillBlockSpawner</object>
       </objects>
       <objects name="Please">
         <object>objects\objCherryCosH</object>
@@ -890,6 +878,24 @@
         <object>objects\objPlasma_updraftManager</object>
       </objects>
     </objects>
+    <object>objects\objNewFile</object>
+    <object>objects\objStageIntro</object>
+    <object>objects\objStageIntro_Freaky</object>
+    <object>objects\objHubMusic</object>
+    <object>objects\objHubBlocker</object>
+    <object>objects\objWarpFader</object>
+    <object>objects\objFader_smiler</object>
+    <objects name="finalboss">
+      <object>objects\objBoss</object>
+    </objects>
+    <object>objects\objCreditsMusic</object>
+    <object>objects\objCredits</object>
+    <object>objects\object212</object>
+    <object>objects\object213</object>
+    <object>objects\object214</object>
+    <object>objects\objTheEnd</object>
+    <object>objects\object215</object>
+    <object>objects\objSkinArea</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -926,8 +932,10 @@
         <room>rooms\rFE6</room>
         <room>rooms\rFE_final</room>
       </rooms>
+      <room>rooms\rBoss</room>
     </rooms>
     <room>rooms\rCredits</room>
+    <room>rooms\rNewFile</room>
     <room>rooms\rFTFAlol</room>
   </rooms>
   <help>

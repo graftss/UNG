@@ -13,7 +13,7 @@ window_set_caption(global.roomCaptionDef);
 
 global.md5StrAdd = "no cheating dickhead";  //sets what to add to the end of md5 input string to make the save harder to mess with, can be changed to anything, should be set to something unique and hard to predict (like setting a password)
 
-global.startRoom = rStage1;    //sets which room to begin with
+global.startRoom = rNewFile;    //sets which room to begin with
 
 global.menuMode = 1;            //sets whether to use a warp room or a menu for selecting the game's difficulty (0 = warp room, 1 = menu)
 global.menuSound = sndJump;     //sets what sound to use for navigating the main menu
@@ -28,7 +28,7 @@ global.playerAnimationFix = false;  //sets whether to fix the weird player anima
 
 global.secretItemTotal = 8;     //sets how many secret items for the game to save/load
 global.bossItemTotal = 11;       //sets how many boss items for the game to save/load
-global.autosaveSecretItems = false; //sets whether to save secret items immediately when you grab them or if you have to hit a save
+global.autosaveSecretItems = true; //sets whether to save secret items immediately when you grab them or if you have to hit a save
 
 global.controllerEnabled = true;    //sets whether controllers are supported
 global.controllerDelayLength = 5;   //sets the delay in frames in which the player can switch between keyboard/controller (can be set to 0 to disable delay)

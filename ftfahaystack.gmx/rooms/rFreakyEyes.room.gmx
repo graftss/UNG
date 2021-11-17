@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>618</h>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-87</xoffset>
-    <yoffset>334</yoffset>
+    <xoffset>-214</xoffset>
+    <yoffset>189</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -59,7 +59,7 @@
     <instance objName="objBlock" x="736" y="320" name="inst_687AB175" locked="0" code="" scaleX="2" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="704" y="448" name="inst_81CA3BB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objChildParallax" x="64" y="320" name="inst_48AB0ADA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlayerStart" x="0" y="448" name="inst_710A4AD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="0" y="448" name="inst_710A4AD8" locked="0" code="if global.secretItem[6] = true{&#xA;    room_goto(rFE_final)&#xA;}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDropShadow" x="64" y="352" name="inst_707DAB8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeShuriken" x="624" y="416" name="inst_0F2A948F" locked="0" code="sprite_index=sprShurikenFreaky&#xA;spd=-4&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeShuriken" x="528" y="416" name="inst_FA8017F4" locked="0" code="sprite_index=sprShurikenFreaky&#xA;spd=-4&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -68,6 +68,7 @@
     <instance objName="objSpikeShuriken" x="208" y="448" name="inst_CAFE7BF7" locked="0" code="sprite_index=sprShurikenFreaky&#xA;spd=-6&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeShuriken" x="208" y="352" name="inst_E2654D35" locked="0" code="sprite_index=sprShurikenFreaky&#xA;spd=6&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeShuriken" x="576" y="304" name="inst_99266E28" locked="0" code="sprite_index=sprShurikenFreaky&#xA;spd=4" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro_Freaky" x="-64" y="384" name="inst_F754065E" locked="0" code="stage=&quot;freaky eyes&quot;&#xA;subtext=&quot;no turning back&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bFreakyFirst" x="608" y="320" w="96" h="32" xo="96" yo="32" id="10037667" name="inst_1B0CC17A" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -100,6 +100,11 @@ part_type_blend(global.pixelSnow,false);
 global.psys2 = part_system_create();
 part_system_depth(global.psys2, -100);
 
+// -------- Particle System --------
+// Run this code at the beginning of your game
+global.psys3 = part_system_create();
+part_system_depth(global.psys3, -100);
+
 
 // -------- Particle Type --------
 // Run this code at the beginning of your game
@@ -134,6 +139,21 @@ part_type_direction(global.pleasePart, 40, 140, 0, 0);
 part_type_orientation(global.pleasePart, 28.12, 222.27, 0.1, 0, false);
 part_type_gravity(global.pleasePart, 0, 270);
 part_type_blend(global.pleasePart, false);
+
+// -------- Particle Type --------
+// Run this code at the beginning of your game
+global.FreakyWarp = part_type_create();
+part_type_shape(global.FreakyWarp, pt_shape_square);
+part_type_color1(global.FreakyWarp, 0);
+part_type_alpha3(global.FreakyWarp, 1, 0.5, 0);
+part_type_life(global.FreakyWarp, 50, 100);
+part_type_size(global.FreakyWarp, 0.1, 0.2, 0, 0);
+part_type_speed(global.FreakyWarp, 1, 3, -0.001, 0);
+part_type_direction(global.FreakyWarp, 109.9, 454.81, 0, 0);
+part_type_orientation(global.FreakyWarp, 0, 360, -1.25, 0, false);
+part_type_gravity(global.FreakyWarp, 0, 270);
+part_type_blend(global.FreakyWarp, false);
+
 </string>
           </argument>
         </arguments>
@@ -487,7 +507,7 @@ if (global.gameStarted)
     {
         if (scrButtonCheckPressed(global.restartButton))
         {
-            if (!global.noRestart)
+            if (!global.noRestart) &amp;&amp; !instance_exists(objDummyPlayer) &amp;&amp; room!=rTitle &amp;&amp; room!=rCredits
             {
                 //stop death sound/music
                 audio_stop_sound(global.deathSound);

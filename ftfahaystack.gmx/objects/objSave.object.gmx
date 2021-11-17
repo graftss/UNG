@@ -186,6 +186,7 @@ if (canSave &amp;&amp; instance_exists(objPlayer) &amp;&amp; global.grav == grav
         // Creates particles once at a specific position, instead of constantly emitting them
         // Run this whenever you want to burst the particles
         part_particles_create(global.psys2, x+16, y+16, global.saveeffect, 10);
+        audio_play_sound(sndSave,0,0)
         scrSaveGame(true);
     }
 }

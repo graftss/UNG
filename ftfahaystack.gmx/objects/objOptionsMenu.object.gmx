@@ -40,13 +40,13 @@ if (!global.controllerEnabled)  //remove controller settings menu if controllers
     ySelector += 32;
 }
 
-strSelect[0] = "Music";
-strSelect[1] = "Volume Level";
-strSelect[2] = "Screen Mode";
-strSelect[3] = "Smoothing Mode";
-strSelect[4] = "Vsync";
-strSelect[5] = "Set Keyboard Controls";
-strSelect[6] = "Controller Options";
+strSelect[0] = "music";
+strSelect[1] = "volume";
+strSelect[2] = "screen mode";
+strSelect[3] = "smoothing mode";
+strSelect[4] = "vsync";
+strSelect[5] = "keyboard controls";
+strSelect[6] = "controller options";
 
 playerIndex = 0;
 </string>
@@ -72,7 +72,7 @@ playerIndex = 0;
           <argument>
             <kind>1</kind>
             <string>//animate player sprite
-playerIndex = (playerIndex + 1/5) mod 4;
+playerIndex = (playerIndex + 1/15) mod 4;
 
 if (scrButtonCheckPressed(global.menuUpButton))
 {
@@ -93,7 +93,9 @@ else if (scrButtonCheckPressed(global.menuBackButton))
     //save changes and go back
     scrSaveConfig();
     global.menuSelectPrev[1] = 0;
-    room_goto(rMenu);
+    //room_goto(rMenu);
+    instance_create(96,160,objDifficultyMenu)
+    instance_destroy()
     exit;
 }
 else if (scrButtonCheckPressed(global.menuAcceptButton))
@@ -186,28 +188,28 @@ for(var i = 0; i &lt; optionsNum; i++)
 draw_set_halign(fa_right);
 
 if (global.muteMusic)
-    scrDrawTextOutline(xSelector+xSeperation,ySelector,"Off",c_white,c_black);
+    scrDrawTextOutline(xSelector+xSeperation,ySelector,"off",c_white,c_black);
 else
-    scrDrawTextOutline(xSelector+xSeperation,ySelector,"On",c_white,c_black);
+    scrDrawTextOutline(xSelector+xSeperation,ySelector,"on",c_white,c_black);
 
 scrDrawTextOutline(xSelector+xSeperation,ySelector+ySeperation,string(global.volumeLevel) + "%",c_white,c_black);
     
 if (global.fullscreenMode)
-    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*2),"Fullscreen",c_white,c_black);
+    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*2),"fullscreen",c_white,c_black);
 else
-    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*2),"Windowed",c_white,c_black);
+    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*2),"windowed",c_white,c_black);
 
 if (global.smoothingMode)
-    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*3),"On",c_white,c_black);
+    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*3),"on",c_white,c_black);
 else
-    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*3),"Off",c_white,c_black);
+    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*3),"off",c_white,c_black);
 
 if (global.vsyncMode)
-    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*4),"On",c_white,c_black);
+    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*4),"on",c_white,c_black);
 else
-    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*4),"Off",c_white,c_black);
+    scrDrawTextOutline(xSelector+xSeperation,ySelector+(ySeperation*4),"off",c_white,c_black);
 
-draw_sprite(sprPlayerIdle,playerIndex,xSelector-16,ySelector+(ySeperation*select)+26);
+draw_sprite(sprCherry,playerIndex,xSelector-16,ySelector+(ySeperation*select)+18);
 
 scrDrawButtonInfo(false);
 </string>

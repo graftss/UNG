@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-5</xoffset>
-    <yoffset>-152</yoffset>
+    <xoffset>-196</xoffset>
+    <yoffset>694</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="bROOMDEBUG" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -519,6 +519,7 @@
     <instance objName="objSpikeDown" x="2528" y="864" name="inst_9B8D8126" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="2528" y="896" name="inst_C1274A14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="2560" y="864" name="inst_7A13AF4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro" x="-96" y="736" name="inst_59EC24AF" locked="0" code="stage=&quot;sleep dealer&quot;&#xA;subtext=&quot;the coldest morning of the year&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bSleepDealer" x="0" y="992" w="32" h="64" xo="0" yo="0" id="10023554" name="inst_01FA96C8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

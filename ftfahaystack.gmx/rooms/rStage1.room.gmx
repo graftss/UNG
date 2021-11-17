@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>609</h>
+    <h>645</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-178</xoffset>
-    <yoffset>654</yoffset>
+    <xoffset>-257</xoffset>
+    <yoffset>-136</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -129,7 +129,7 @@
     <instance objName="objSpikeUp" x="592" y="256" name="inst_8CE5DB70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="608" y="320" name="inst_D702ACD6" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="272" y="272" name="inst_D5EDB887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCherry" x="272" y="240" name="inst_888DFAED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherry" x="272" y="208" name="inst_888DFAED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="400" y="400" name="inst_517FA923" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="384" y="352" name="inst_717A47AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="96" name="inst_8BDE3FFD" locked="0" code="" scaleX="2" scaleY="16" colour="4294967295" rotation="0"/>
@@ -161,7 +161,6 @@
     <instance objName="objMovingPlatform" x="672" y="240" name="inst_C7EC336C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="672" y="416" name="inst_FB35BF50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objReturnPart" x="-16" y="400" name="inst_D50A5233" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarpAutosaveNext" x="448" y="-32" name="inst_473138E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSetSpikes" x="-16" y="384" name="inst_D1427BFB" locked="0" code="skin=&quot;Return&quot;&#xA;blend=-1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="464" y="480" name="inst_ECF782A1" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="736" y="272" name="inst_53B29F7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -176,6 +175,8 @@
     <instance objName="objBGpersistent" x="-48" y="416" name="inst_06FDE9D2" locked="0" code="bspeedx=-3 &#xA;bspeedy=0&#xA;bposx=0&#xA;bposy=176&#xA;&#xA;b=6&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBGpersistent" x="-48" y="432" name="inst_8172050F" locked="0" code="bspeedx=-4 &#xA;bspeedy=0&#xA;bposx=80&#xA;bposy=300&#xA;&#xA;b=7&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="-32" y="352" name="inst_7B359513" locked="0" code="BGM=musReturnOfDreams&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro" x="-64" y="560" name="inst_44A2AFE8" locked="0" code="stage=&quot;return of dreams&quot;&#xA;subtext=&quot;lets warm up&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCasioWarp" x="448" y="-32" name="inst_8E1AE139" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bReturn" x="64" y="288" w="32" h="32" xo="96" yo="0" id="10022088" name="inst_2D7886FD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

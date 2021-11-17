@@ -34,18 +34,18 @@ ySeperation = 40;
 settingButton = false;     //sets whether or not a button is getting set
 resetPrompt = false;    //shows the message that controls were reset
 
-strSelect[0] = "Controller Index";
-strSelect[1] = "Left Button";
-strSelect[2] = "Right Button";
-strSelect[3] = "Up Button";
-strSelect[4] = "Down Button";
-strSelect[5] = "Jump Button";
-strSelect[6] = "Shoot Button";
-strSelect[7] = "Restart Button";
-strSelect[8] = "Skip Button";
-strSelect[9] = "Suicide Button";
-strSelect[10] = "Pause Button";
-strSelect[11] = "Reset Controls";
+strSelect[0] = "controller index";
+strSelect[1] = "left";
+strSelect[2] = "right";
+strSelect[3] = "up";
+strSelect[4] = "down";
+strSelect[5] = "jump";
+strSelect[6] = "shoot";
+strSelect[7] = "restart";
+strSelect[8] = "skip";
+strSelect[9] = "return to hub";
+strSelect[10] = "pause";
+strSelect[11] = "reset controls";
 
 //get current controls
 strButton[0] = string(global.controllerIndex);
@@ -61,7 +61,7 @@ strButton[9] = scrGetControllerBind(global.suicideButton[1]);
 strButton[10] = scrGetControllerBind(global.pauseButton[1]);
 strButton[11] = "";
 
-if (strButton[0] == "-1") strButton[0] = "Disabled";
+if (strButton[0] == "-1") strButton[0] = "disabled";
 
 playerIndex = 0;
 </string>
@@ -110,7 +110,7 @@ playerIndex = 0;
           <argument>
             <kind>1</kind>
             <string>//animate player sprite
-playerIndex = (playerIndex + 1/5) mod 4;
+playerIndex = (playerIndex + 1/15) mod 4;
 
 if (!settingButton)
 {
@@ -217,7 +217,7 @@ strButton[9] = scrGetControllerBind(global.suicideButton[1]);
 strButton[10] = scrGetControllerBind(global.pauseButton[1]);
 strButton[11] = "";
 
-if (strButton[0] == "-1") strButton[0] = "Disabled";
+if (strButton[0] == "-1") strButton[0] = "disabled";
 </string>
           </argument>
         </arguments>
@@ -252,11 +252,11 @@ for(var i = 0; i &lt; 12; i += 1)
     
     if(i == select)
     {
-        draw_sprite(sprPlayerIdle,playerIndex,xSelector-12,ySelector+i*ySeperation+46);
+        draw_sprite(sprCherry,playerIndex,xSelector-12,ySelector+i*ySeperation+38);
         
         if (settingButton) //button prompt
         {
-            scrDrawTextOutline(xSelector+xSeperation,ySelector+i*ySeperation+32,"Press button to set",c_white,c_black);
+            scrDrawTextOutline(xSelector+xSeperation,ySelector+i*ySeperation+32,"awaiting input...",c_white,c_black);
         }
     }
     
@@ -267,7 +267,7 @@ for(var i = 0; i &lt; 12; i += 1)
     
     if (resetPrompt &amp;&amp; i == 11) //reset controls prompt
     {
-        scrDrawTextOutline(xSelector+xSeperation,ySelector+i*ySeperation+32,"Controls reset!",c_white,c_black);
+        scrDrawTextOutline(xSelector+xSeperation,ySelector+i*ySeperation+32,"controls reset.",c_white,c_black);
     }
 }
 
@@ -277,7 +277,7 @@ if (global.controllerIndex != -1)
     draw_set_font(fDefault12);
     draw_set_halign(fa_left);
     
-    var controllerText = "Current controller: ";
+    var controllerText = "current controller: ";
     
     if (gamepad_is_connected(global.controllerIndex))//say what type of controller is connected (i.e. Xbox, Playstation)
     { 
@@ -285,7 +285,7 @@ if (global.controllerIndex != -1)
     }
     else
     {
-        controllerText += "None";
+        controllerText += "none";
     }
     
     scrDrawTextOutline(xSelector+160,ySelector+(12)*ySeperation+41,controllerText,c_white,c_black);

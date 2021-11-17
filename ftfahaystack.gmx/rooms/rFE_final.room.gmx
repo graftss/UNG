@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>609</h>
+    <h>618</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>549</xoffset>
-    <yoffset>19</yoffset>
+    <page>0</page>
+    <xoffset>626</xoffset>
+    <yoffset>38</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bFreakyFinalbg" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -61,7 +61,7 @@
     <instance objName="objBlock" x="544" y="224" name="inst_541B38E5" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="192" y="0" name="inst_DDA450B2" locked="0" code="" scaleX="44" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1376" y="160" name="inst_D46C0BC1" locked="0" code="" scaleX="7" scaleY="14" colour="4294967295" rotation="0"/>
-    <instance objName="objPlayerStart" x="192" y="448" name="inst_F96F8705" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="192" y="448" name="inst_F96F8705" locked="0" code="if global.secretItem[6] = true{&#xA;    x=1088&#xA;    y=448&#xA;}" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="288" y="512" name="inst_B8BE6E02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="320" y="512" name="inst_5072AC75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="352" y="512" name="inst_1AFE748D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -95,11 +95,12 @@
     <instance objName="objRedVineL" x="368" y="480" name="inst_A18F6FAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRedVineL" x="368" y="512" name="inst_DF0AE3D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSmoothCamera" x="192" y="416" name="inst_F5C3939F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSaveImpossible" x="1088" y="448" name="inst_F9620E36" locked="0" code="sprite_index=sprSaveLast&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveImpossible" x="1088" y="448" name="inst_F9620E36" locked="0" code="sprite_index=sprSaveLast" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objChildParallax" x="224" y="384" name="inst_0D2D9E2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDropShadow" x="256" y="384" name="inst_50545CF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="1216" y="320" name="inst_B6780554" locked="0" code="" scaleX="3" scaleY="3" colour="4294901760" rotation="0"/>
     <instance objName="objPlayMusic" x="224" y="416" name="inst_8F9D21C4" locked="0" code="BGM=musCryo&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSecretItem" x="576" y="160" name="inst_DB657B46" locked="0" code="itemNum=6&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bFreakyFirst" x="1056" y="160" w="96" h="32" xo="96" yo="32" id="10037559" name="inst_7FB2AC0D" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

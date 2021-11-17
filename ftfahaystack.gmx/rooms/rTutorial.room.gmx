@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>719</xoffset>
-    <yoffset>-14</yoffset>
+    <xoffset>-278</xoffset>
+    <yoffset>231</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bGuyTut" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -251,12 +251,13 @@
     <instance objName="objGravityDown" x="2880" y="384" name="inst_DF450431" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGravityDown" x="2880" y="416" name="inst_DFD89E1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="2880" y="96" name="inst_0127BA18" locked="0" code="" scaleX="8" scaleY="9" colour="4294967295" rotation="0"/>
-    <instance objName="objWarpAutosaveNext" x="3104" y="432" name="inst_24BC9532" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="976" y="304" name="inst_224B1F03" locked="0" code="" scaleX="0.509999990463257" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="3008" y="480" name="inst_E1B32FA9" locked="0" code="signText[0]=&quot;If this tutorial helped,&quot;&#xA;signText[1]=&quot;Play a different game!&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGravityDown" x="2880" y="448" name="inst_C449945F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGravityDown" x="2880" y="480" name="inst_12D0D4BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="64" y="416" name="inst_D6EDAC15" locked="0" code="BGM=musMannequin&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarpFader" x="3104" y="384" name="inst_C9CC49B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro" x="-128" y="416" name="inst_CB1FDAB7" locked="0" code="stage=&quot;#tutorial&quot;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bTitleT" x="0" y="480" w="32" h="32" xo="0" yo="96" id="10031136" name="inst_DBB3D461" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

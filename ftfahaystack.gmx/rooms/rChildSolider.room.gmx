@@ -29,8 +29,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-80</xoffset>
-    <yoffset>63</yoffset>
+    <xoffset>-265</xoffset>
+    <yoffset>464</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bChildSoldier" x="200" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -375,6 +375,7 @@
     <instance objName="objToggleBlockFull" x="2080" y="32" name="inst_0B4A04E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objToggleBlockFull" x="2080" y="0" name="inst_3F037C7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="160" y="288" name="inst_990663BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro" x="-96" y="736" name="inst_637BF504" locked="0" code="stage=&quot;child soldier&quot;&#xA;subtext=&quot;the tragedian&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bChildSoliderT" x="2944" y="0" w="32" h="32" xo="64" yo="32" id="10023599" name="inst_C85F1092" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

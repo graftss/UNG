@@ -97,6 +97,8 @@ else{
 spring=0
 xlast=0
 ylast=0
+
+
 </string>
           </argument>
         </arguments>
@@ -169,7 +171,7 @@ hit = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ((x &lt; 0 || x &gt; room_width || y &lt; 0 || y &gt; room_height) &amp;&amp; global.edgeDeath &amp;&amp; room!=rSomeday)  //check if player has left the room
+            <string>if ((x &lt; 0 || x &gt; room_width || y &lt; 0 || y &gt; room_height) &amp;&amp; global.edgeDeath)  //check if player has left the room
 {
     if (!global.debugNoDeath) { scrKillPlayer(); }
     else { scrGodPlayer(); }
@@ -495,8 +497,9 @@ if (!global.lunarKid)
                 scrPlayerJump();
             if (scrButtonCheckReleased(global.jumpButton))
                 scrPlayerVJump();
-            /*if (scrButtonCheckPressed(global.suicideButton))
-                scrKillPlayer();*/
+            if (scrButtonCheckPressed(global.suicideButton)) &amp;&amp; room&gt;=rStageSelect &amp;&amp; room&lt;=rFE_final{
+                room_goto(rStageSelect);
+                instance_destroy()}
         }
         
         if (global.adAlign &amp;&amp; ((place_meeting(x, (y + sign(global.grav)), objBlock) || place_meeting(x, (y + sign(global.grav)), objPlatform))))
@@ -785,33 +788,35 @@ if room=rSomeday{
 }
 
 //sleep dealer springs
-if L or R{
-    spring=0
-}
-if place_meeting (x+1,y,objBlock) &amp;&amp; spring&gt;0{
-    spring=0
-}
-if place_meeting (x-1,y,objBlock) &amp;&amp; spring&lt;0{
-    spring=0
-}
+if !place_meeting(x,y,objBench) &amp;&amp; !place_meeting(x-1,y,objWalljumpL) &amp;&amp; !place_meeting(x+1,y,objWalljumpR){ //nick's engine has caused so much pain
+    if L or R{
+        spring=0
+    }
+    if place_meeting (x+1,y,objBlock) &amp;&amp; spring&gt;0{
+        spring=0
+    }
+    if place_meeting (x-1,y,objBlock) &amp;&amp; spring&lt;0{
+        spring=0
+    }
+    
+    if place_meeting(x,y,objSpringR){spring=9}
+    if place_meeting(x,y,objSpringL){spring=-9}
+    if !L &amp;&amp; !R &amp;&amp; room!=rFE3{
+        hspeed=spring
+    }
 
-if place_meeting(x,y,objSpringR){spring=9}
-if place_meeting(x,y,objSpringL){spring=-9}
-if !L &amp;&amp; !R &amp;&amp; room=rSleepDealer{
-    hspeed=spring
-}
-
-//fun water :)
-if place_meeting(x,y,objFunWater){
-    maxSpeed = -3;
-    if L {xScale=1}
-    if R {xScale=-1}
-}
-else{
-    maxSpeed = 3;
-    if L {xScale=-1}
-    if R {xScale=1}
-
+    //fun water :)
+    if place_meeting(x,y,objFunWater){
+        maxSpeed = -3;
+        if L {xScale=1}
+        if R {xScale=-1}
+    }
+    else{
+        maxSpeed = 3;
+        if L {xScale=-1}
+        if R {xScale=1}
+    
+    }
 }
 </string>
           </argument>

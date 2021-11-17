@@ -31,8 +31,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-220</xoffset>
-    <yoffset>171</yoffset>
+    <xoffset>-296</xoffset>
+    <yoffset>378</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -189,6 +189,7 @@
     <instance objName="objMiniDown" x="688" y="880" name="inst_3F50E929" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMiniDown" x="672" y="816" name="inst_4F63BE1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMiniDown" x="688" y="752" name="inst_5AF04CE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStageIntro" x="-96" y="736" name="inst_02346403" locked="0" code="stage=&quot;crazy for you&quot;&#xA;subtext=&quot;blue skied an' clear&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bBlack" x="0" y="96" w="32" h="32" xo="0" yo="0" id="10032426" name="inst_0124ECE1" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
