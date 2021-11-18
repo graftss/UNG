@@ -10,14 +10,14 @@
   <persistent>0</persistent>
   <colour>16777088</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>audio_sound_gain(mus365UNITEDSTARS,1,1)</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1358</w>
-    <h>873</h>
+    <w>1024</w>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -26,7 +26,7 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
+    <page>1</page>
     <xoffset>232</xoffset>
     <yoffset>390</yoffset>
   </makerSettings>

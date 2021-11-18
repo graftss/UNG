@@ -49,6 +49,14 @@
     <sound>sound\sndExplosion</sound>
     <sound>sound\sndSpring</sound>
     <sound>sound\sndSave</sound>
+    <sounds name="colonel">
+      <sound>sound\sndYaah</sound>
+      <sound>sound\sndEnergyBreaker</sound>
+      <sound>sound\sndGroundCrush</sound>
+      <sound>sound\sndHu</sound>
+      <sound>sound\sndOriyah</sound>
+      <sound>sound\sound42_yaaah</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -301,6 +309,9 @@
       <sprite>sprites\sprCenergyStart</sprite>
       <sprite>sprites\sprCdefeat</sprite>
       <sprite>sprites\sprCenergyThrust</sprite>
+      <sprites name="attack">
+        <sprite>sprites\sprCwave</sprite>
+      </sprites>
     </sprites>
     <sprites name="credits">
       <sprite>sprites\sprCreds4</sprite>
@@ -887,6 +898,7 @@
     <object>objects\objFader_smiler</object>
     <objects name="finalboss">
       <object>objects\objBoss</object>
+      <object>objects\objCreflectB</object>
     </objects>
     <object>objects\objCreditsMusic</object>
     <object>objects\objCredits</object>

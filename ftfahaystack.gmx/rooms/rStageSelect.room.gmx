@@ -4,7 +4,7 @@
   <width>1600</width>
   <height>2432</height>
   <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1262</w>
-    <h>810</h>
+    <w>1491</w>
+    <h>838</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-131</xoffset>
-    <yoffset>115</yoffset>
+    <xoffset>-35</xoffset>
+    <yoffset>540</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background24" x="0" y="2000" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
@@ -212,7 +212,7 @@
     <instance objName="objSpikeUp" x="448" y="2112" name="inst_48D5DC22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="480" y="2080" name="inst_3446D2AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="384" y="2048" name="inst_56C5CED5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWater2" x="384" y="2048" name="inst_12E61B77" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objWater2" x="400" y="2048" name="inst_12E61B77" locked="0" code="" scaleX="0.5" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objCCblock" x="480" y="2016" name="inst_1A797993" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="832" y="2296" name="inst_3BCC098E" locked="0" code="sprite_index=sprSignSide;&#xA;signText[0]=&quot;[&quot;+string(scrGetKeybind(global.suicideButton[0]))+&quot;] to return to hub at any time.&quot;&#xA;signText[1]=&quot;stage progress saves.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRocketSpawner" x="1424" y="1648" name="inst_8587FB54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

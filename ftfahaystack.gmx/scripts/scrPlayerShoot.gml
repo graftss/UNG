@@ -1,4 +1,4 @@
-if (!global.noShoot)
+if (!global.noShoot) && (!objPlayer.frozen)
 {
     switch(room)
     {        

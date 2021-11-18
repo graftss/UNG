@@ -5,6 +5,7 @@ if (instance_exists(objPlayer) && (!global.noDeath && !global.debugNoDeath))
     if (global.gameStarted) //normal death
     {
         global.deathSound = audio_play_sound(sndDeath,0,false);
+        global.pauseDelay=5000000;//lol
         
         if (!global.muteMusic)  //play death music
         {

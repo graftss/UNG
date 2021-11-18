@@ -60,7 +60,9 @@ with objBlood{
   draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
 }
 with objGameOver{
-  draw_sprite_ext(sprite_index,image_index,view_xview+403,view_yview+307,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+    if !global.gamePaused{
+        draw_sprite_ext(sprite_index,image_index,view_xview+403,view_yview+307,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+    }
 }
 with objPlayerHit{
   draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
