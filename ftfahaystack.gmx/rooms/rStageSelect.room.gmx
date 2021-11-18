@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1491</w>
-    <h>838</h>
+    <w>1024</w>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-35</xoffset>
-    <yoffset>540</yoffset>
+    <xoffset>1783</xoffset>
+    <yoffset>3134</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background24" x="0" y="2000" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
@@ -86,7 +86,6 @@
     <instance objName="objSpikeUp" x="1216" y="2272" name="inst_4DE39417" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="1112" y="2240" name="inst_186F0702" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="objSpikeDown" x="1088" y="2208" name="inst_DD684028" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="1408" y="2144" name="inst_E6AF3ADA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1568" y="2112" name="inst_0005451C" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="896" y="2176" name="inst_3D8EE833" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="800" y="2208" name="inst_8A57E08A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -179,7 +178,7 @@
     <instance objName="objSpikeUp" x="768" y="2112" name="inst_BA7000BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="736" y="2144" name="inst_55B89559" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWater2" x="976" y="2208" name="inst_82C457EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeLeft" x="1056" y="2144" name="inst_C0B37C6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="1056" y="2112" name="inst_C0B37C6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="736" y="2112" name="inst_F1E66FF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpringRref" x="1120" y="2176" name="inst_9AA47367" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1280" y="2240" name="inst_9A31C217" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -511,7 +510,7 @@
     <instance objName="objSkinArea" x="256" y="1440" name="inst_DE7B73D9" locked="0" code="skin=&quot;UP&quot;&#xA;" scaleX="3" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="objSkinArea" x="32" y="1168" name="inst_90660F88" locked="0" code="skin=&quot;UP&quot;&#xA;" scaleX="5.67741918563843" scaleY="6.5" colour="4294967295" rotation="0"/>
     <instance objName="objSkinArea" x="272" y="1072" name="inst_C9F3D469" locked="0" code="skin=&quot;UP&quot;&#xA;" scaleX="3" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="objSkinArea" x="1216" y="2128" name="inst_8959C98E" locked="0" code="skin=&quot;Sleep&quot;&#xA;" scaleX="7.5" scaleY="5.16129016876221" colour="4294967295" rotation="0"/>
+    <instance objName="objSkinArea" x="1200" y="2176" name="inst_8959C98E" locked="0" code="skin=&quot;Sleep&quot;&#xA;" scaleX="7.5" scaleY="5.16129016876221" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="448" y="2272" name="inst_3691D673" locked="0" code="visible=true;&#xA;image_speed=.125&#xA;sprite_index=sprKillerBlock_BeReal;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="512" y="2272" name="inst_690532D7" locked="0" code="visible=true;&#xA;image_speed=.125&#xA;sprite_index=sprKillerBlock_BeReal;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="480" y="2368" name="inst_5B2E05B2" locked="0" code="visible=true;&#xA;image_speed=.125&#xA;sprite_index=sprKillerBlock_BeReal;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

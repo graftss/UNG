@@ -350,6 +350,7 @@
     <sprite>sprites\sprSpikeUp_FTFA</sprite>
     <sprite>sprites\sprSpikeRight_FTFA</sprite>
     <sprite>sprites\sprSpikeLeft_FTFA</sprite>
+    <sprite>sprites\sprCherry_FTFA</sprite>
     <sprite>sprites\sprSpikeDown_FTFA</sprite>
     <sprite>sprites\sprSpikeUp_Heart</sprite>
     <sprite>sprites\sprSpikeRight_Heart</sprite>

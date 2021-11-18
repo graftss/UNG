@@ -87,6 +87,7 @@ if t=15 &amp;&amp; num&gt;1{
     //show_debug_message(string(v)+string(h))
 
 }
+if image_alpha&lt;0{instance_destroy()}
 </string>
           </argument>
         </arguments>

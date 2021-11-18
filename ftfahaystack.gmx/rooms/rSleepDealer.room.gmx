@@ -3,8 +3,8 @@
   <caption></caption>
   <width>5312</width>
   <height>1216</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1024</w>
-    <h>609</h>
+    <w>1123</w>
+    <h>771</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-196</xoffset>
-    <yoffset>694</yoffset>
+    <xoffset>-292</xoffset>
+    <yoffset>-242</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="bROOMDEBUG" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objPlayerStart" x="64" y="1088" name="inst_FD630F9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="64" y="1088" name="inst_FD630F9A" locked="0" code="if global.secretItem[7] = true{&#xA;    x=4160&#xA;    y=608&#xA;}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="32" y="960" name="inst_23B97F4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="0" y="960" name="inst_F676EF3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="160" y="1056" name="inst_58E942C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -69,7 +69,7 @@
     <instance objName="objSleepDealerPart" x="-64" y="992" name="inst_592D1D2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="320" y="1024" name="inst_0C744BDE" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objSpringL" x="1568" y="992" name="inst_7DAB91B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="448" y="1056" name="inst_75B452F4" locked="0" code="" scaleX="11" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="448" y="1088" name="inst_75B452F4" locked="0" code="" scaleX="11" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="320" y="992" name="inst_FCA9F61A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="352" y="992" name="inst_CAA4A1BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="384" y="992" name="inst_000EC883" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -78,10 +78,10 @@
     <instance objName="objSpikeDown" x="160" y="992" name="inst_E13674CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="192" y="992" name="inst_79CC50CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="608" y="448" name="inst_79BC79AC" locked="0" code="" scaleX="2" scaleY="17" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="608" y="1024" name="inst_B7118327" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeRight" x="768" y="1024" name="inst_3FAE6F72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="608" y="1024" name="inst_B7118327" locked="0" code="" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeRight" x="768" y="1056" name="inst_3FAE6F72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="768" y="960" name="inst_35A8CB7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="1024" y="1120" name="inst_2FC05347" locked="0" code="" scaleX="8" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="1056" y="1120" name="inst_2FC05347" locked="0" code="" scaleX="7" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1568" y="1152" name="inst_1C5B1674" locked="0" code="" scaleX="7" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1408" y="1184" name="inst_92D48CB8" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1408" y="1152" name="inst_A8EC83AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -139,16 +139,14 @@
     <instance objName="objSpikeDown" x="2016" y="928" name="inst_E94C226A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="1856" y="928" name="inst_2E230016" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="1664" y="896" name="inst_C2C817BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="800" y="1184" name="inst_42849CE7" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="800" y="1184" name="inst_42849CE7" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="800" y="1152" name="inst_FAC10B2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="832" y="1152" name="inst_B69166AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="864" y="1152" name="inst_A146CC08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="896" y="1152" name="inst_199010A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="928" y="1152" name="inst_EDD3E152" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="960" y="1152" name="inst_A3E29FC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="992" y="1152" name="inst_321C0B45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="992" y="1056" name="inst_8F8F4332" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeLeft" x="992" y="1120" name="inst_5E547F6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="1024" y="1120" name="inst_5E547F6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpringR" x="1696" y="672" name="inst_98BC5BCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="1696" y="704" name="inst_8AAF0158" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1856" y="672" name="inst_F1E5CE00" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
@@ -298,7 +296,7 @@
     <instance objName="objSpikeDown" x="3392" y="384" name="inst_8C427486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="3360" y="384" name="inst_11F52CE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="3360" y="352" name="inst_D7991F30" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSign" x="4064" y="736" name="inst_40185D19" locked="0" code="signText[0]=&quot;Green Springs&quot;&#xA;signText[1]=&quot;Restore Double Jump.&quot;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSign" x="384" y="1152" name="inst_40185D19" locked="0" code="signText[0]=&quot;green springs&quot;&#xA;signText[1]=&quot;restore double jump.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpringRref" x="768" y="768" name="inst_A262E7AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpringLref" x="992" y="672" name="inst_F82C0D86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="1632" y="448" name="inst_C01E9ED7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -520,6 +518,13 @@
     <instance objName="objSpikeRight" x="2528" y="896" name="inst_C1274A14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="2560" y="864" name="inst_7A13AF4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStageIntro" x="-96" y="736" name="inst_59EC24AF" locked="0" code="stage=&quot;sleep dealer&quot;&#xA;subtext=&quot;the coldest morning of the year&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="992" y="1184" name="inst_2E822F11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="448" y="1056" name="inst_D61373B6" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSave" x="4160" y="608" name="inst_AA473E9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="1024" y="1152" name="inst_CF0EBAEE" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="384" y="1184" name="inst_09AAF31E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeRight" x="416" y="1056" name="inst_ACA91344" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSecretItem" x="4192" y="608" name="inst_F557F062" locked="0" code="itemNum=7&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bSleepDealer" x="0" y="992" w="32" h="64" xo="0" yo="0" id="10023554" name="inst_01FA96C8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -560,10 +565,8 @@
     <tile bgName="bSleepDealer" x="544" y="1056" w="32" h="32" xo="32" yo="0" id="10039882" name="inst_72FE63AD" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="576" y="1056" w="32" h="32" xo="32" yo="0" id="10039883" name="inst_7550D6BC" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="448" y="1056" w="32" h="32" xo="0" yo="0" id="10039891" name="inst_7263FE2D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="768" y="1056" w="32" h="32" xo="64" yo="0" id="10039894" name="inst_DCCB8587" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="768" y="1152" w="32" h="32" xo="64" yo="32" id="10039896" name="inst_502F20CB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="448" y="1152" w="32" h="32" xo="0" yo="32" id="10039898" name="inst_81C3F605" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="448" y="1184" w="32" h="32" xo="0" yo="32" id="10039899" name="inst_929A02DF" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="480" y="1152" w="32" h="32" xo="32" yo="32" id="10039900" name="inst_B54221D8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="512" y="1152" w="32" h="32" xo="32" yo="32" id="10039901" name="inst_192339B4" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="544" y="1152" w="32" h="32" xo="32" yo="32" id="10039902" name="inst_2C467AF9" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -586,7 +589,6 @@
     <tile bgName="bSleepDealer" x="480" y="1184" w="32" h="32" xo="32" yo="32" id="10039919" name="inst_C1B7A9D9" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="448" y="1088" w="32" h="32" xo="0" yo="32" id="10040255" name="inst_A9EF79CE" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="448" y="1120" w="32" h="32" xo="0" yo="32" id="10040256" name="inst_333220DC" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="768" y="1088" w="32" h="32" xo="64" yo="32" id="10040257" name="inst_229585E5" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="768" y="1120" w="32" h="32" xo="64" yo="32" id="10040258" name="inst_D2CC27C7" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="544" y="1184" w="32" h="32" xo="32" yo="32" id="10040259" name="inst_DA9C90D6" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="480" y="1088" w="32" h="32" xo="32" yo="32" id="10040260" name="inst_498CFC0E" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -597,7 +599,6 @@
     <tile bgName="bSleepDealer" x="640" y="1088" w="32" h="32" xo="32" yo="32" id="10040265" name="inst_575C7389" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="672" y="1088" w="32" h="32" xo="32" yo="32" id="10040266" name="inst_A08E4710" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="704" y="1088" w="32" h="32" xo="32" yo="32" id="10040267" name="inst_B84E25A7" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="736" y="1088" w="32" h="32" xo="32" yo="32" id="10040268" name="inst_B9911A31" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="736" y="1120" w="32" h="32" xo="32" yo="32" id="10040269" name="inst_8E736A14" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="704" y="1120" w="32" h="32" xo="32" yo="32" id="10040270" name="inst_CE962611" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="672" y="1120" w="32" h="32" xo="32" yo="32" id="10040271" name="inst_A4992A12" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -613,7 +614,6 @@
     <tile bgName="bSleepDealer" x="160" y="928" w="96" h="32" xo="0" yo="32" id="10040285" name="inst_D71902E2" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="160" y="896" w="96" h="32" xo="0" yo="32" id="10040286" name="inst_1B350518" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="160" y="864" w="96" h="32" xo="0" yo="32" id="10040287" name="inst_C3870FE1" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="160" y="832" w="96" h="32" xo="0" yo="0" id="10040288" name="inst_46DF9C35" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="608" y="1024" w="32" h="32" xo="0" yo="0" id="10040290" name="inst_1A2A78B5" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="640" y="1024" w="32" h="32" xo="32" yo="0" id="10040291" name="inst_E3FE1EA7" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="672" y="1024" w="32" h="32" xo="32" yo="0" id="10040292" name="inst_AA177C68" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -703,12 +703,10 @@
     <tile bgName="bSleepDealer" x="672" y="608" w="32" h="32" xo="32" yo="32" id="10040389" name="inst_502E7D20" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="672" y="576" w="32" h="32" xo="32" yo="32" id="10040390" name="inst_4E56BF44" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="672" y="544" w="32" h="32" xo="32" yo="32" id="10040391" name="inst_6B2F7318" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="1024" y="1120" w="32" h="32" xo="0" yo="0" id="10040393" name="inst_304BF0DB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1024" y="1152" w="32" h="32" xo="0" yo="0" id="10040393" name="inst_304BF0DB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1024" y="1056" w="32" h="32" xo="0" yo="64" id="10040394" name="inst_A063D408" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1024" y="896" w="32" h="32" xo="0" yo="0" id="10040395" name="inst_57E1F2BB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1248" y="1120" w="32" h="32" xo="64" yo="0" id="10040398" name="inst_AF2A92E8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="1024" y="1152" w="32" h="32" xo="0" yo="32" id="10040399" name="inst_5ECE6B8D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="1056" y="1120" w="32" h="32" xo="32" yo="0" id="10040401" name="inst_D9BCE7EF" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1088" y="1120" w="32" h="32" xo="32" yo="0" id="10040402" name="inst_1960F277" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1120" y="1120" w="32" h="32" xo="32" yo="0" id="10040403" name="inst_D0085AC8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1152" y="1120" w="32" h="32" xo="32" yo="0" id="10040404" name="inst_503A43F7" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -716,7 +714,6 @@
     <tile bgName="bSleepDealer" x="1216" y="1120" w="32" h="32" xo="32" yo="0" id="10040406" name="inst_43C63020" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1248" y="1152" w="32" h="32" xo="64" yo="32" id="10040407" name="inst_A15043E6" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1248" y="1184" w="32" h="32" xo="64" yo="32" id="10040408" name="inst_4F979AF0" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="1056" y="1152" w="32" h="32" xo="32" yo="32" id="10040409" name="inst_B84D3C8D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1088" y="1152" w="32" h="32" xo="32" yo="32" id="10040410" name="inst_5D506D4C" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1120" y="1152" w="32" h="32" xo="32" yo="32" id="10040411" name="inst_EAC672A2" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1152" y="1152" w="32" h="32" xo="32" yo="32" id="10040412" name="inst_1801D4F0" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -902,7 +899,7 @@
     <tile bgName="bSleepDealer" x="0" y="1088" w="32" h="32" xo="0" yo="32" id="10040736" name="inst_3FB5D4D8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="0" y="1120" w="32" h="32" xo="0" yo="32" id="10040737" name="inst_8A1AC37E" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="608" y="1056" w="32" h="32" xo="64" yo="128" id="10040738" name="inst_C724F99C" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="736" y="1056" w="32" h="32" xo="32" yo="128" id="10040739" name="inst_2DF972FB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="736" y="1088" w="32" h="32" xo="32" yo="128" id="10040739" name="inst_2DF972FB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="704" y="1056" w="32" h="32" xo="32" yo="32" id="10040740" name="inst_CDEE7330" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="672" y="1056" w="32" h="32" xo="32" yo="32" id="10040741" name="inst_835BB327" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="640" y="1056" w="32" h="32" xo="32" yo="32" id="10040742" name="inst_D3F1DED3" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1269,16 +1266,8 @@
     <tile bgName="bSleepDealer" x="800" y="1184" w="32" h="32" xo="32" yo="0" id="10041163" name="inst_E45212B4" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="832" y="1184" w="32" h="32" xo="32" yo="0" id="10041164" name="inst_BC090F98" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="864" y="1184" w="32" h="32" xo="32" yo="0" id="10041165" name="inst_852673A7" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="896" y="1184" w="32" h="32" xo="32" yo="0" id="10041166" name="inst_FE47CBF7" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="928" y="1184" w="32" h="32" xo="32" yo="0" id="10041167" name="inst_CEB48EB2" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="960" y="1184" w="32" h="32" xo="32" yo="0" id="10041168" name="inst_01D43F03" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="992" y="1184" w="32" h="32" xo="32" yo="0" id="10041169" name="inst_DAA3775A" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1024" y="1184" w="32" h="32" xo="64" yo="128" id="10041170" name="inst_3A576D76" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="768" y="1184" w="32" h="32" xo="32" yo="128" id="10041171" name="inst_B30C59CD" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSnowTree" x="800" y="1056" w="128" h="192" xo="0" yo="0" id="10041173" name="inst_6D1FD0F8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSnowTree" x="864" y="1024" w="128" h="192" xo="0" yo="0" id="10041174" name="inst_F4C23406" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSnowTree" x="919" y="1056" w="128" h="192" xo="0" yo="0" id="10041175" name="inst_B1BB2E06" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSnowTree" x="832" y="1015" w="128" h="192" xo="0" yo="0" id="10041177" name="inst_60FDEE18" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSnowTree" x="490" y="888" w="128" h="192" xo="0" yo="0" id="10041179" name="inst_B8C04A1A" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="2048" y="672" w="32" h="32" xo="64" yo="64" id="10041197" name="inst_7F52DAEB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="2048" y="640" w="32" h="32" xo="64" yo="32" id="10041198" name="inst_9110691C" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -2075,7 +2064,6 @@
     <tile bgName="bSleepDealer" x="3872" y="512" w="32" h="32" xo="32" yo="32" id="10042081" name="inst_D9EDC7EA" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="3680" y="384" w="32" h="32" xo="0" yo="96" id="10042082" name="inst_F60456A9" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSnowTree" x="4192" y="512" w="32" h="32" xo="0" yo="96" id="10042083" name="inst_733565A3" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSnowTree" x="4128" y="472" w="128" h="192" xo="0" yo="0" id="10042084" name="inst_17B75C5F" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSnowTree" x="3936" y="120" w="128" h="192" xo="0" yo="0" id="10042085" name="inst_C78E5B75" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="3584" y="512" w="32" h="32" xo="32" yo="128" id="10042089" name="inst_C7310945" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="3584" y="448" w="32" h="32" xo="64" yo="0" id="10042090" name="inst_B5787429" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -3072,14 +3060,23 @@
     <tile bgName="bSleepDealer" x="2064" y="320" w="16" h="32" xo="80" yo="32" id="10043264" name="inst_B00AE141" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="2336" y="288" w="32" h="32" xo="0" yo="96" id="10043265" name="inst_E98093BF" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="2912" y="288" w="32" h="32" xo="32" yo="64" id="10043266" name="inst_D5FBB539" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="224" y="848" w="32" h="16" xo="32" yo="112" id="10046927" name="inst_ABBD4311" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="224" y="832" w="32" h="16" xo="32" yo="0" id="10046928" name="inst_388E1EA2" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="160" y="832" w="64" h="32" xo="0" yo="0" id="10046929" name="inst_66F9E430" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="768" y="1088" w="32" h="32" xo="64" yo="0" id="10046930" name="inst_0133EE67" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="736" y="1056" w="32" h="32" xo="64" yo="32" id="10046931" name="inst_DD7D05C1" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1056" y="1152" w="32" h="32" xo="64" yo="128" id="10046944" name="inst_D11B501C" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1056" y="1120" w="32" h="32" xo="0" yo="0" id="10046945" name="inst_C1C3CC7B" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="448" y="1184" w="32" h="32" xo="64" yo="128" id="10046947" name="inst_08B060A5" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="448" y="1184" w="32" h="32" xo="64" yo="128" id="10046948" name="inst_51EF4775" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="384" y="1184" w="64" h="32" xo="0" yo="0" id="10046950" name="inst_2DFCB269" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="384" y="1184" w="64" h="32" xo="0" yo="0" id="10046951" name="inst_45ECEA0F" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="4177" y="512" w="32" h="32" xo="0" yo="0" id="10046952" name="inst_CE47E6D1" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="800" y="1184" w="32" h="32" xo="32" yo="0" id="10041180" name="inst_D073EC96" depth="99" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="832" y="1184" w="32" h="32" xo="32" yo="0" id="10041181" name="inst_E10C71D8" depth="99" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="864" y="1184" w="32" h="32" xo="32" yo="0" id="10041182" name="inst_10CC67B2" depth="99" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="896" y="1184" w="32" h="32" xo="32" yo="0" id="10041183" name="inst_9AD34B4C" depth="99" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="928" y="1184" w="32" h="32" xo="32" yo="0" id="10041184" name="inst_1BEB817A" depth="99" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="960" y="1184" w="32" h="32" xo="32" yo="0" id="10041185" name="inst_4A6B9E50" depth="99" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="992" y="1184" w="32" h="32" xo="32" yo="0" id="10041186" name="inst_7F095ABF" depth="99" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bSleepDealer" x="1024" y="1120" w="32" h="32" xo="0" yo="0" id="10041187" name="inst_639B86C9" depth="99" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="896" y="1184" w="32" h="32" xo="64" yo="0" id="10046934" name="inst_7C165336" depth="99" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="992" y="1184" w="32" h="32" xo="0" yo="0" id="10046936" name="inst_28EB64D4" depth="99" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSnowTree" x="336" y="864" w="128" h="160" xo="0" yo="0" id="10022303" name="inst_A323C810" depth="-40" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSnowTree" x="299" y="856" w="160" h="224" xo="0" yo="0" id="10022304" name="inst_FAEB5679" depth="-40" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSnowTree" x="1328" y="856" w="128" h="192" xo="0" yo="0" id="10041154" name="inst_DDC3CD14" depth="-40" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -3099,6 +3096,10 @@
     <tile bgName="bSnowTree2" x="2540" y="344" w="111" h="168" xo="0" yo="0" id="10043277" name="inst_275388CB" depth="-40" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSnowTree2" x="1760" y="344" w="111" h="168" xo="0" yo="0" id="10043278" name="inst_807E0DE7" depth="-40" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSnowTree2" x="172" y="664" w="111" h="168" xo="0" yo="0" id="10043279" name="inst_706D41E1" depth="-40" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSnowTree2" x="781" y="1016" w="111" h="168" xo="0" yo="0" id="10046937" name="inst_C6951417" depth="-40" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSnowTree2" x="849" y="1016" w="111" h="168" xo="0" yo="0" id="10046938" name="inst_7104D877" depth="-40" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSnowTree2" x="902" y="1048" w="111" h="168" xo="0" yo="0" id="10046939" name="inst_F0257BB3" depth="-40" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSnowTree2" x="4132" y="472" w="111" h="168" xo="0" yo="0" id="10046943" name="inst_80CAECE9" depth="-40" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
