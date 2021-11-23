@@ -29,18 +29,29 @@
 
 t=0
 iframes=0
-hp=3
+hp=10
 
+ground=y
+gravity=0
+vspeed=0
+grounded=false
+lift=false
 
 state='idle'
 
 deadly=true
 
 animTimer=0
+idleTimer=0
+playerTrack=0
+dashSpd=0
+
 
 
 //wave attack vars
-wavespd=12
+wavespd=8
+
+cooldown=50
 </string>
           </argument>
         </arguments>
@@ -106,7 +117,7 @@ if iframes&gt;0{ //iframe red flashes
 else{image_blend=$FFFFFF;}//make sure boss doesnt stay red when iframes expire
 
 
-if place_meeting(x,y,objBullet) &amp;&amp; iframes&lt;=0 &amp;&amp; hp&gt;0 &amp;&amp; state!='reflect'{ //take damage
+if place_meeting(x,y,objBullet) &amp;&amp; iframes&lt;=0 &amp;&amp; hp&gt;0 &amp;&amp; state!='reflect' &amp;&amp; deadly=true{ //take damage
     audio_play_sound(sndBossHit,0,0);
     hp--;
     iframes=100;
@@ -188,17 +199,44 @@ if place_meeting(x,y,objPlayer) &amp;&amp; deadly=true{
             <kind>1</kind>
             <string>///attack phases
 
-if t mod 50 == 0 &amp;&amp; state='idle' { //choose next action
-    state=choose('idle','wave')
+if state='idle' { //choose next action
     animTimer=0
+    if idleTimer=0{
+        if instance_exists(objPlayer){
+            if objPlayer.x&gt;x{image_xscale=-1}
+            else{image_xscale=1}
+        }
+    }
+    sprite_index=sprCidle
+    deadly=true
+    idleTimer++
+    if idleTimer=30{
+        if hp=10{
+             state=choose('wave','fade','groundcrush','runslash') //no reflect on max hp
+        }
+        else{
+            state=choose('wave','reflect','fade','groundcrush','runslash') //the normal idle state options
+        }
+        if state='groundcrush' &amp;&amp; cooldown&gt;0{state=choose('wave','fade','runslash')}//prevent groundcrush while on cooldown
+        idleTimer=0
+    }
 }
 
-if state='reflect'{
+if state='reflect'{     //reflect bullets
     image_speed=0
-    sprite_index=sprCreflect
+    if sprite_index!=sprCreflect{
+        sprite_index=sprCreflect
+        animTimer=0
+        if instance_exists(objPlayer){
+            if objPlayer.x&gt;x{image_xscale=-1}
+            else{image_xscale=1}
+        }
+    }
+    animTimer++
+    if animTimer=40{state='fade'}
 }
 
-if state='wave'{
+if state='wave'{    //waveslashes
     if animTimer==0{  //start with down slash anim and find direction
         sprite_index=sprCdownslash
         if instance_exists(objPlayer){
@@ -303,8 +341,169 @@ if state='wave'{
             }
         }
     }
-    if animTimer=70{state='reflect'}
+    if animTimer=70{
+        state=choose('reflect','runslash')
+        animTimer=0
+    }
 }
+
+if state='fade'{        //teleport
+    if deadly=true{
+        deadly=false
+        animTimer=0
+        sprite_index=sprCfade
+        image_speed=.5
+        image_index=0
+    }
+    animTimer++
+    if image_index=4{
+        image_speed=0
+        if instance_exists(objPlayer){
+            if x&gt;=objPlayer.x{
+                playerTrack=objPlayer.x-68 //always "overshoots" the player to compensate how early he grabs objPlayer.x
+            }
+            else{
+                playerTrack=objPlayer.x+68
+            }
+        }
+    }
+    if animTimer=24{
+        if choose(0,1)=0{
+            if playerTrack&gt;400{
+                x=playerTrack-300
+            }
+            else{
+                x=playerTrack+300
+            }
+            animTimer=0
+            deadly=true
+            state='idle'
+        }
+        else{
+            x=playerTrack
+            deadly=true
+            state='slash1'
+            animTimer=0
+        }
+    }
+}
+
+if state='slash1'{      //teleport slash
+    if animTimer=0{
+        if instance_exists(objPlayer){
+            if objPlayer.x&gt;x{image_xscale=-1}
+            else{image_xscale=1}
+            }
+        image_speed=.5
+        image_index=0
+        sprite_index=sprCdownslash
+        audio_play_sound(sndOriyah,0,0)
+    }
+    
+    if image_index=4{
+        image_speed=0
+    }
+    animTimer++
+    if animTimer=40{
+        state=choose('wave','reflect','fade','groundcrush','runslash')
+        if state='wave'{animTimer=20}
+        else{animTimer=0}
+        
+    }
+}
+
+if state='groundcrush'{     //ground crush
+    if lift=false{
+        if instance_exists(objPlayer){
+            if objPlayer.x&gt;x{image_xscale=-1}
+            else{image_xscale=1}
+            }
+        sprite_index=sprCjump
+        image_speed=0
+        gravity=.4
+        vspeed=-5
+        audio_play_sound(sndGroundCrush,0,0)
+        lift=true
+    }
+    if y&gt;ground{
+        gravity=0
+        vspeed=0
+        y=ground
+        grounded=true
+    }
+    if grounded=true{
+        sprite_index=sprCdownslash
+        image_speed=.5
+        if image_index=4{
+            image_speed=0
+            if animTimer=0{
+                if image_xscale=1{ //left
+                    cw=instance_create(x-32,512,objCcrushwave)
+                    cw.left=1
+                }
+                else{ //right
+                    cw=instance_create(x+32,512,objCcrushwave)
+                    cw.left=0
+                }
+                animTimer++
+            }
+            animTimer++
+            if animTimer=20{
+                lift=false
+                grounded=false
+                state='idle'
+                cooldown=100
+            }
+        }
+        
+    }
+}
+if state='runslash'{      //charge at player then slash
+    if animTimer=0{
+        if instance_exists(objPlayer){
+            if objPlayer.x&gt;x{
+                image_xscale=-1
+            }
+            else{
+                image_xscale=1
+            }
+            playerTrack=objPlayer.x
+            if x&gt;playerTrack{dashSpd=-6}
+            if x&lt;playerTrack{dashSpd=6}
+        }
+        audio_play_sound(sndYaah,0,0)
+        sprite_index=sprCfade
+        image_index=0
+        image_speed=0
+        animTimer++
+    }
+    if dashSpd!=0{
+        if t mod 4=0{
+            instance_create(x,y,objBossTrail)
+        }
+    }
+    if dashSpd=-6 &amp;&amp; x&gt;playerTrack{x+=dashSpd}
+    else if dashSpd=6 &amp;&amp; x&lt;playerTrack{x+=dashSpd}
+    else{
+        dashSpd=0
+        if animTimer=1{
+        sprite_index=sprCupslash
+        image_speed=.5
+        audio_play_sound(sndOriyah,0,0)
+        }
+        if image_index=4{
+            image_speed=0
+        }
+        if animTimer=20{
+            state=choose('wave','reflect','fade')
+            if state='wave'{animTimer=20}
+            else{animTimer=0}
+        }
+        animTimer++
+    }
+}
+
+cooldown-- //used to prevent energy breaker and ground crush spam
 </string>
           </argument>
         </arguments>

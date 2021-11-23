@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,15 +25,63 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with objBlock{
+            <string>surf = surface_create(view_wview[0], view_hview[0]);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(surface_exists(surf))
+    surface_free(surf);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="10">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//begin nightmare code from hell
+with objBlock{
   if object_index == objBlock{//this part is because the normal block sprite is transparent
     draw_sprite_ext(sprWhite,0,x+3,y+3,image_xscale,image_yscale,0,c_black,.35);
   }else{//platforms and any fully visible block types
     draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
   }
-} // holy jesus fuck nightmare code im sorry
+}
 with objPlayer{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,objPlayer.xScale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3,y+3,objPlayer.xScale,global.grav,image_angle,c_black,image_alpha*.35);
 }
 with objSave{
   draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
@@ -104,6 +152,54 @@ with objGravityRight{
 with objGravityLeft{
   draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
 }
+with objBoss{
+  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+}
+with objToggleCherry{
+    if sprite_index!=sprCherryEvil{
+        draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+    }
+}
+//end nightmare code from hell
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+//Create surface if it doesn't exist
+if(!surface_exists(surf)) {
+    surf = surface_create(view_wview[0], view_hview[0]);
+}
+
+//Clear the surface, then draw shadow sprites onto surface (at full opacity)
+surface_set_target(surf);
+draw_clear_alpha(c_black, 0);
+
+event_user(0);
+
+
+surface_reset_target();
+
+//Draw the surface
+draw_surface_ext(surf,view_wview[0], view_hview[0],1,1,0,c_white,1);
 </string>
           </argument>
         </arguments>

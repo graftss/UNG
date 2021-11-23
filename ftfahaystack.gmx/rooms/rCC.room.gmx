@@ -299,7 +299,7 @@
     <instance objName="objCC" x="1152" y="416" name="inst_E75E5A1B" locked="0" code="path_start(p64Right,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCC" x="1184" y="416" name="inst_95BFD7AB" locked="0" code="path_start(p64Right,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCC" x="1216" y="416" name="inst_9A93EB36" locked="0" code="path_start(p64Right,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCC" x="1216" y="288" name="inst_AFB9D536" locked="0" code="path_start(p64Right,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCC" x="1216" y="288" name="inst_AFB9D536" locked="0" code="path_start(p64Right,3,path_action_continue,false);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCC" x="1120" y="320" name="inst_59FF6E22" locked="0" code="path_start(p64Right,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCC" x="1216" y="384" name="inst_581AB91D" locked="0" code="path_start(p64Up,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCC" x="1248" y="416" name="inst_1C3F35E3" locked="0" code="path_start(p64Right,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

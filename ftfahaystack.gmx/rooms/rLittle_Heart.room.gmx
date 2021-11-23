@@ -3,7 +3,7 @@
   <caption></caption>
   <width>2400</width>
   <height>608</height>
-  <vsnap>8</vsnap>
+  <vsnap>16</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
@@ -28,7 +28,7 @@ with objSpikeTriggerUp{
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>609</h>
+    <h>618</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -38,8 +38,8 @@ with objSpikeTriggerUp{
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>2411</xoffset>
-    <yoffset>470</yoffset>
+    <xoffset>1877</xoffset>
+    <yoffset>407</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bLittleHeart" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -140,7 +140,7 @@ with objSpikeTriggerUp{
     <instance objName="objPlayMusic" x="304" y="-32" name="inst_E45AB0D7" locked="0" code="BGM=musHeart&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRocketSpawner" x="1152" y="320" name="inst_6CD6E247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="1088" y="208" name="inst_253E284D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="1088" y="336" name="inst_8FD365F6" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="1088" y="336" name="inst_8FD365F6" locked="0" code="" scaleX="1" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1088" y="0" name="inst_EA11905C" locked="0" code="" scaleX="1" scaleY="6.5" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1216" y="0" name="inst_08D251C1" locked="0" code="" scaleX="1" scaleY="11" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1152" y="384" name="inst_44BC0924" locked="0" code="" scaleX="5" scaleY="7" colour="4294967295" rotation="0"/>
@@ -260,6 +260,7 @@ with objSpikeTriggerUp{
     <instance objName="objCasioWarp" x="2400" y="480" name="inst_A7C87CD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStageIntro" x="-64" y="376" name="inst_460A5AF9" locked="0" code="stage=&quot;the little heart beats so fast&quot;&#xA;subtext=&quot;from here we go sublime&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingSnapform" x="1120" y="384" name="inst_06A0A35A" locked="0" code="sprite_index=sprMovingPlatform&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1088" y="384" name="inst_14251BDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bMegatiles" x="288" y="128" w="32" h="32" xo="32" yo="224" id="10028347" name="inst_C0E9DFF6" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -574,7 +575,7 @@ with objSpikeTriggerUp{
     <tile bgName="bMegatiles" x="480" y="224" w="32" h="32" xo="0" yo="224" id="10028819" name="inst_5B14F17E" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1088" y="304" w="32" h="32" xo="32" yo="224" id="10028822" name="inst_FB010A7A" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1088" y="176" w="32" h="32" xo="32" yo="224" id="10028825" name="inst_CC71274B" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bMegatiles" x="1088" y="368" w="32" h="32" xo="32" yo="224" id="10028840" name="inst_B2989EC4" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bMegatiles" x="1088" y="352" w="32" h="32" xo="32" yo="224" id="10028840" name="inst_B2989EC4" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1152" y="384" w="32" h="32" xo="32" yo="224" id="10028843" name="inst_CB8C284A" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1344" y="384" w="32" h="32" xo="0" yo="224" id="10028850" name="inst_132CEC63" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1184" y="384" w="32" h="32" xo="0" yo="224" id="10028851" name="inst_10550C31" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -619,7 +620,6 @@ with objSpikeTriggerUp{
     <tile bgName="bMegatiles" x="1344" y="320" w="32" h="32" xo="0" yo="224" id="10028927" name="inst_A3810FA4" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1344" y="352" w="32" h="32" xo="0" yo="192" id="10028928" name="inst_34949A58" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1376" y="384" w="32" h="32" xo="0" yo="224" id="10028932" name="inst_A18A6B09" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bMegatiles" x="1088" y="336" w="32" h="32" xo="32" yo="192" id="10028947" name="inst_653D1871" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1216" y="0" w="32" h="32" xo="32" yo="192" id="10028948" name="inst_8DC9E538" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1216" y="32" w="32" h="32" xo="32" yo="192" id="10028949" name="inst_56AD921E" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1216" y="64" w="32" h="32" xo="32" yo="192" id="10028950" name="inst_5A1918DF" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1031,6 +1031,7 @@ with objSpikeTriggerUp{
     <tile bgName="bAllTiles" x="2272" y="416" w="32" h="32" xo="96" yo="64" id="10029470" name="inst_93EF3DE3" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="288" y="32" w="32" h="32" xo="32" yo="224" id="10029500" name="inst_8D53D1C3" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="288" y="0" w="32" h="32" xo="32" yo="192" id="10029501" name="inst_567D4041" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bMegatiles" x="1088" y="336" w="32" h="16" xo="32" yo="192" id="10047471" name="inst_380C88FC" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="1216" y="320" w="32" h="32" xo="32" yo="224" id="10028945" name="inst_9EDA9671" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="2144" y="512" w="32" h="32" xo="32" yo="224" id="10029471" name="inst_F839149E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="2176" y="512" w="32" h="32" xo="32" yo="224" id="10029472" name="inst_A24D2BE1" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

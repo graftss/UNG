@@ -23,8 +23,8 @@ with objPlayerKiller{
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1024</w>
-    <h>618</h>
+    <w>1116</w>
+    <h>737</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -33,9 +33,9 @@ with objPlayerKiller{
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>1</page>
-    <xoffset>285</xoffset>
-    <yoffset>152</yoffset>
+    <page>0</page>
+    <xoffset>-134</xoffset>
+    <yoffset>1096</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -236,23 +236,23 @@ with objPlayerKiller{
     <instance objName="objKillBlockSpawner" x="384" y="896" name="inst_2A05A9D4" locked="0" code="//put in cc&#xA;frames=50&#xA;dir=-90&#xA;spd=3" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillBlockSpawner" x="352" y="896" name="inst_C222D6D7" locked="0" code="//put in cc&#xA;frames=45&#xA;dir=-90&#xA;spd=7&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillBlockSpawner" x="320" y="896" name="inst_BB565A63" locked="0" code="//put in cc&#xA;frames=90&#xA;dir=-90&#xA;spd=6&#xA;t=0" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objKillBlockSpawner" x="288" y="896" name="inst_C26213D4" locked="0" code="//put in cc&#xA;frames=90&#xA;dir=-90&#xA;spd=2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objKillBlockSpawner" x="288" y="896" name="inst_C26213D4" locked="0" code="//put in cc&#xA;frames=100&#xA;dir=-90&#xA;spd=2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillBlockSpawner" x="256" y="896" name="inst_748C994E" locked="0" code="//put in cc&#xA;frames=70&#xA;dir=-90&#xA;spd=3" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillBlockSpawner" x="224" y="896" name="inst_60AFED3C" locked="0" code="//put in cc&#xA;frames=70&#xA;dir=-90&#xA;spd=3&#xA;t=35" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="672" y="416" name="inst_972464D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="640" y="288" name="inst_9E7EF7CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlasma_updraft" x="64" y="832" name="inst_6D4D5E3D" locked="0" code="" scaleX="5" scaleY="11" colour="4294967295" rotation="0"/>
+    <instance objName="objPlasma_updraft" x="64" y="832" name="inst_6D4D5E3D" locked="0" code="" scaleX="5" scaleY="12" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="224" y="736" name="inst_EC07DF9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="192" y="896" name="inst_5BD7D89B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objKillerBlock" x="160" y="1024" name="inst_F6F421E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objKillerBlock" x="160" y="992" name="inst_F6F421E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="192" y="960" name="inst_3B087054" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objKillerBlock" x="192" y="992" name="inst_7F7B10C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objKillerBlock" x="192" y="1024" name="inst_7F7B10C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="96" y="1152" name="inst_52496D2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="96" y="1056" name="inst_9DBF64C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="64" y="992" name="inst_8BF9B264" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="128" y="928" name="inst_119AEF59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objKillerBlock" x="64" y="832" name="inst_8C0B73F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objKillerBlock" x="96" y="768" name="inst_EE05DCE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objKillerBlock" x="96" y="800" name="inst_8C0B73F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objKillerBlock" x="64" y="768" name="inst_EE05DCE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="192" y="704" name="inst_909AA16C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="256" y="800" name="inst_FE936D86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="160" y="640" name="inst_393C6EF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -260,10 +260,10 @@ with objPlayerKiller{
     <instance objName="objKillerBlock" x="128" y="736" name="inst_79B5FD10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="64" y="864" name="inst_56415019" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="96" y="640" name="inst_9817A17F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objKillerBlock" x="160" y="832" name="inst_23E25BF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objKillerBlock" x="160" y="864" name="inst_23E25BF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="160" y="960" name="inst_5F683533" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="640" name="inst_FD557359" locked="0" code="" scaleX="2" scaleY="18" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="64" y="1184" name="inst_3B7AEA59" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="64" y="1184" name="inst_3B7AEA59" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="64" y="1088" name="inst_EE07D05F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="128" y="1120" name="inst_5B913DB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKillerBlock" x="128" y="1152" name="inst_25D461EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -272,6 +272,8 @@ with objPlayerKiller{
     <instance objName="objKillerBlock" x="768" y="384" name="inst_EF434EC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="768" y="416" name="inst_FDA962BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStageIntro" x="-96" y="736" name="inst_C69392C2" locked="0" code="stage=&quot;be real&quot;&#xA;subtext=&quot;it doesn't matter anyways&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objKillerBlock" x="192" y="832" name="inst_345E2FB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objKillerBlock" x="160" y="1184" name="inst_6D22FD61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bBeRealT" x="608" y="128" w="32" h="32" xo="0" yo="32" id="10039565" name="inst_AD746081" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -611,9 +613,7 @@ with objPlayerKiller{
     <tile bgName="bBeRealT" x="32" y="1184" w="32" h="32" xo="32" yo="128" id="10044237" name="inst_2D936517" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bBeRealT" x="64" y="1184" w="32" h="32" xo="32" yo="0" id="10044238" name="inst_C2F31531" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bBeRealT" x="96" y="1184" w="32" h="32" xo="32" yo="0" id="10044239" name="inst_681F25C0" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bBeRealT" x="128" y="1184" w="32" h="32" xo="32" yo="0" id="10044240" name="inst_3024AA39" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bBeRealT" x="160" y="1184" w="32" h="32" xo="32" yo="0" id="10044241" name="inst_7FB1531D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bBeRealT" x="192" y="1184" w="32" h="32" xo="64" yo="0" id="10044242" name="inst_8DD97DB8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bBeRealT" x="128" y="1184" w="32" h="32" xo="64" yo="0" id="10044242" name="inst_8DD97DB8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bBeRealT" x="32" y="608" w="32" h="32" xo="32" yo="96" id="10044243" name="inst_09DDBAF6" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bBeRealT" x="0" y="608" w="32" h="32" xo="32" yo="32" id="10044244" name="inst_D17E576B" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bBeRealT" x="0" y="640" w="32" h="32" xo="32" yo="32" id="10044245" name="inst_12113893" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

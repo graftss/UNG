@@ -55,7 +55,6 @@
       <sound>sound\sndGroundCrush</sound>
       <sound>sound\sndHu</sound>
       <sound>sound\sndOriyah</sound>
-      <sound>sound\sound42_yaaah</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -96,6 +95,7 @@
         </sprites>
       </sprites>
       <sprite>sprites\sprBullet</sprite>
+      <sprite>sprites\sprBulletBig</sprite>
       <sprites name="death">
         <sprite>sprites\sprBlood</sprite>
         <sprite>sprites\sprGameOver</sprite>
@@ -302,15 +302,17 @@
     </sprites>
     <sprites name="colonel">
       <sprite>sprites\sprCidle</sprite>
+      <sprite>sprites\sprCfade</sprite>
       <sprite>sprites\sprCreflect</sprite>
       <sprite>sprites\sprCjump</sprite>
       <sprite>sprites\sprCdownslash</sprite>
       <sprite>sprites\sprCupslash</sprite>
       <sprite>sprites\sprCenergyStart</sprite>
-      <sprite>sprites\sprCdefeat</sprite>
       <sprite>sprites\sprCenergyThrust</sprite>
+      <sprite>sprites\sprCdefeat</sprite>
       <sprites name="attack">
         <sprite>sprites\sprCwave</sprite>
+        <sprite>sprites\sprCcrush</sprite>
       </sprites>
     </sprites>
     <sprites name="credits">
@@ -350,8 +352,8 @@
     <sprite>sprites\sprSpikeUp_FTFA</sprite>
     <sprite>sprites\sprSpikeRight_FTFA</sprite>
     <sprite>sprites\sprSpikeLeft_FTFA</sprite>
-    <sprite>sprites\sprCherry_FTFA</sprite>
     <sprite>sprites\sprSpikeDown_FTFA</sprite>
+    <sprite>sprites\sprCherry_FTFA</sprite>
     <sprite>sprites\sprSpikeUp_Heart</sprite>
     <sprite>sprites\sprSpikeRight_Heart</sprite>
     <sprite>sprites\sprSpikeLeft_Heart</sprite>
@@ -394,6 +396,11 @@
     <sprite>sprites\sprSpikeRight_Please</sprite>
     <sprite>sprites\sprSpikeLeft_Please</sprite>
     <sprite>sprites\sprSpikeDown_Please</sprite>
+    <sprite>sprites\sprCherry_Ropes</sprite>
+    <sprite>sprites\sprSpikeUp_Ropes</sprite>
+    <sprite>sprites\sprSpikeRight_Ropes</sprite>
+    <sprite>sprites\sprSpikeLeft_Ropes</sprite>
+    <sprite>sprites\sprSpikeDown_Ropes</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bCloud</background>
@@ -470,6 +477,7 @@
     <path>paths\p64Down</path>
     <path>paths\p64Up</path>
     <path>paths\p32Left</path>
+    <path>paths\p64Left</path>
     <path>paths\p32Down</path>
     <path>paths\p32Up</path>
     <path>paths\p32square</path>
@@ -828,6 +836,7 @@
     </objects>
     <object>objects\objSetSpikes</object>
     <object>objects\objDropShadow</object>
+    <object>objects\objDropShadowBackup</object>
     <object>objects\objBGpersistent</object>
     <object>objects\objHubBG</object>
     <object>objects\objCasioWarp</object>
@@ -889,6 +898,11 @@
         <object>objects\objPlasma_updraft</object>
         <object>objects\objPlasma_updraftManager</object>
       </objects>
+      <objects name="ropes">
+        <object>objects\objToggleCherry</object>
+        <object>objects\objScreenWrapFull</object>
+        <object>objects\objRopeFlip</object>
+      </objects>
     </objects>
     <object>objects\objNewFile</object>
     <object>objects\objStageIntro</object>
@@ -899,6 +913,8 @@
     <object>objects\objFader_smiler</object>
     <objects name="finalboss">
       <object>objects\objBoss</object>
+      <object>objects\objBossTrail</object>
+      <object>objects\objCcrushwave</object>
       <object>objects\objCreflectB</object>
     </objects>
     <object>objects\objCreditsMusic</object>

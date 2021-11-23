@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>117</xoffset>
-    <yoffset>1314</yoffset>
+    <xoffset>138</xoffset>
+    <yoffset>54</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bFlyingSpike" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -263,7 +263,7 @@
     <instance objName="objSpikeUp" x="1792" y="928" name="inst_A17908D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="2176" y="1056" name="inst_564F4D98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="2176" y="928" name="inst_811DF286" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCherryCircle" x="2032" y="688" name="inst_AD48948B" locked="0" code="numCherries = 10 //Number of cherries in the circle&#xA;dt = 1/1200 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 3 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 128 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;&#xA;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherryCircle" x="2032" y="688" name="inst_AD48948B" locked="0" code="numCherries = 10 //Number of cherries in the circle&#xA;dt = 1/1000 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 4 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 128 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;&#xA;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1696" y="320" name="inst_14F6395D" locked="0" code="" scaleX="12" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1696" y="480" name="inst_798AAEAB" locked="0" code="" scaleX="6" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1888" y="480" name="inst_FAFE2765" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
@@ -317,7 +317,7 @@
     <instance objName="objSpikeRight" x="2080" y="320" name="inst_538DEA10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="2144" y="480" name="inst_0ABFCE7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherryCircle" x="2144" y="400" name="inst_6C994659" locked="0" code="numCherries = 1 //Number of cherries in the circle&#xA;dt = 1/225 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 2 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 48 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCherryCircle" x="2064" y="528" name="inst_FC0FF76A" locked="0" code="numCherries = 2 //Number of cherries in the circle&#xA;dt = -1/200 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 1 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 32 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherryCircle" x="2064" y="528" name="inst_FC0FF76A" locked="0" code="numCherries = 2 //Number of cherries in the circle&#xA;dt = -1/250 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 1 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 32 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherryCircle" x="2144" y="304" name="inst_64BBCDF8" locked="0" code="numCherries = 1 //Number of cherries in the circle&#xA;dt = -1/200 //Time increment, where 1t = 1 cycle. In the default case, one cycle is 200 frames. (4 seconds)&#xA;motion = 2 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle&#xA;radius = 32 //Maximum distance of the cherries from the center&#xA;&#xA;t = 0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1696" y="288" name="inst_133F46A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1728" y="288" name="inst_5ED05833" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

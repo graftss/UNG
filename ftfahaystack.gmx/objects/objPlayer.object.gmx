@@ -499,7 +499,8 @@ if (!global.lunarKid)
                 scrPlayerVJump();
             if (scrButtonCheckPressed(global.suicideButton)) &amp;&amp; room&gt;=rStageSelect &amp;&amp; room&lt;=rFE_final{
                 room_goto(rStageSelect);
-                instance_destroy()}
+                instance_destroy()
+                }
         }
         
         if (global.adAlign &amp;&amp; ((place_meeting(x, (y + sign(global.grav)), objBlock) || place_meeting(x, (y + sign(global.grav)), objPlatform))))

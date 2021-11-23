@@ -11,7 +11,11 @@ else if ((djump == 1) || (((!global.Xgrav) && place_meeting(x, (y + sign(global.
     switch(room)
     {
         default:
-        if (!global.Xgrav) { vspeed = (-jump2); }
+        if room==rRopes{
+            scrFlipGrav()
+            objPlayer.djump=0
+        }
+        else if (!global.Xgrav) { vspeed = (-jump2); }
         else { hspeed = (-jump2); }
         
         sprite_index = pJump;

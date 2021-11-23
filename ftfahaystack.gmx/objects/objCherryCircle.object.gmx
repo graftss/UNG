@@ -30,6 +30,7 @@ dt = 1/200 //Time increment, where 1t = 1 cycle. In the default case, one cycle 
 motion = 1 //Motion setting: 1 = normal circle, 2 = loop back to center, 3 = complex circle, 4 = swaying circle
 radius = 80 //Maximum distance of the cherries from the center
 
+offset=0
 t = 0
 
 for (var i=0; i&lt;80; i++){
@@ -62,7 +63,7 @@ for (var i=0; i&lt;80; i++){
 // Then move each cherry to that location
 
 for (var i=0; i&lt;numCherries; i++) {
-    var ct = t+i/numCherries // individual cherry's time
+    var ct = (t)+i/numCherries // individual cherry's time
     var r = radius
     var a = ct*360
     

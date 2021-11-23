@@ -93,3 +93,5 @@ global.controllerDelay = -1;    //handles delay between switching between keyboa
 randomize();    //make sure the game starts with a random seed for RNG
 
 global.avoidanceTime = 0;
+
+global.reloadClear=true //if you immediately reload a cleared save file, you end up in tutorial prompt room, this is disabled by a room cc in the pre-final boss room
