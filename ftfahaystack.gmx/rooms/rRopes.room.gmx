@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1333</w>
-    <h>914</h>
+    <w>1240</w>
+    <h>772</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-107</xoffset>
-    <yoffset>-75</yoffset>
+    <xoffset>-155</xoffset>
+    <yoffset>5</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,7 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objCasioWarp" x="-224" y="320" name="inst_51FDD5F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="256" y="512" name="inst_DA6474A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDropShadow" x="-128" y="384" name="inst_99BAE92E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="-160" y="384" name="inst_E8015A33" locked="0" code="BGM=musRopes&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -207,6 +206,9 @@
     <instance objName="objSpikeUp" x="736" y="192" name="inst_F2980FE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="736" y="64" name="inst_2A5FB6F9" locked="0" code="path_start(p64Down,2,path_action_continue,false);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="704" y="192" name="inst_8EC33D18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="576" y="544" name="inst_F4F5F239" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objToggleCherry" x="560" y="560" name="inst_1C6EFB06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRopesShader" x="-128" y="512" name="inst_DEBC96CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bRopes" x="128" y="192" w="32" h="32" xo="0" yo="96" id="10047496" name="inst_0832A4B7" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

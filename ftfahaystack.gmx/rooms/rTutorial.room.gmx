@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-278</xoffset>
-    <yoffset>231</yoffset>
+    <xoffset>2740</xoffset>
+    <yoffset>322</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bGuyTut" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -256,7 +256,7 @@
     <instance objName="objGravityDown" x="2880" y="448" name="inst_C449945F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGravityDown" x="2880" y="480" name="inst_12D0D4BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="64" y="416" name="inst_D6EDAC15" locked="0" code="BGM=musMannequin&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarpFader" x="3104" y="384" name="inst_C9CC49B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarpFader" x="3104" y="384" name="inst_C9CC49B7" locked="0" code="if global.gameClear{&#xA;    roomTo=rFTFAlol&#xA;}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStageIntro" x="-128" y="416" name="inst_CB1FDAB7" locked="0" code="stage=&quot;#tutorial&quot;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

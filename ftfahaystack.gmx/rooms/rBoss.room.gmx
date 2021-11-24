@@ -20,8 +20,8 @@ if global.gameClear &amp;&amp; global.reloadClear=true{
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1024</w>
-    <h>609</h>
+    <w>1127</w>
+    <h>766</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -30,12 +30,12 @@ if global.gameClear &amp;&amp; global.reloadClear=true{
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>3</xoffset>
-    <yoffset>45</yoffset>
+    <page>4</page>
+    <xoffset>-63</xoffset>
+    <yoffset>170</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="bFinalBoss" x="-16" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bFinalBoss" x="-12" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="-1"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -61,7 +61,6 @@ if global.gameClear &amp;&amp; global.reloadClear=true{
     <instance objName="objBoss" x="640" y="448" name="inst_3F3EBDA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="384" y="480" name="inst_F1660B98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="352" y="608" name="inst_C45225D6" locked="0" code="BGM=mus365UNITEDSTARS&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlayMusic" x="832" y="768" name="inst_78994C41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDropShadow" x="-96" y="480" name="inst_8FD060BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

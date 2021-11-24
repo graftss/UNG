@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>instance_destroy(objDropShadow)
 instance_destroy(objAllBlack)
+instance_destroy(objRopesShader)
 event_user(0)
 room_trans()
 </string>

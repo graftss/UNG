@@ -788,10 +788,26 @@ if room=rSomeday{
     gravity=(.4*global.grav)*image_xscale;
 }
 
-//sleep dealer springs
 if !place_meeting(x,y,objBench) &amp;&amp; !place_meeting(x-1,y,objWalljumpL) &amp;&amp; !place_meeting(x+1,y,objWalljumpR){ //nick's engine has caused so much pain
-    if L or R{
+    //fun water :)
+    if place_meeting(x,y,objFunWater){
+        maxSpeed = -3;
+        if L {xScale=1}
+        if R {xScale=-1}
+    }
+    else{
+        maxSpeed = 3;
+        if L {xScale=-1}
+        if R {xScale=1}
+    
+    }
+    
+    
+    if (L &amp;&amp; spring&gt;0) or (R &amp;&amp; spring&lt;0){ //springs
         spring=0
+    }
+    if (L &amp;&amp; spring&lt;0) or (R &amp;&amp; spring&gt;0){ 
+        hspeed=spring
     }
     if place_meeting (x+1,y,objBlock) &amp;&amp; spring&gt;0{
         spring=0
@@ -806,18 +822,6 @@ if !place_meeting(x,y,objBench) &amp;&amp; !place_meeting(x-1,y,objWalljumpL) &a
         hspeed=spring
     }
 
-    //fun water :)
-    if place_meeting(x,y,objFunWater){
-        maxSpeed = -3;
-        if L {xScale=1}
-        if R {xScale=-1}
-    }
-    else{
-        maxSpeed = 3;
-        if L {xScale=-1}
-        if R {xScale=1}
-    
-    }
 }
 if frozen{
     xScale=1;

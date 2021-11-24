@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>surf = surface_create(view_wview[0], view_hview[0]);
+            <string>surf = surface_create(view_wview[0]*2,view_hview[0]*2);
 </string>
           </argument>
         </arguments>
@@ -75,92 +75,138 @@
             <string>//begin nightmare code from hell
 with objBlock{
   if object_index == objBlock{//this part is because the normal block sprite is transparent
-    draw_sprite_ext(sprWhite,0,x+3,y+3,image_xscale,image_yscale,0,c_black,.35);
+    draw_sprite_ext(sprWhite,0,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,0,c_black,1);
   }else{//platforms and any fully visible block types
-    draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+    draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
   }
 }
 with objPlayer{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,objPlayer.xScale,global.grav,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),objPlayer.xScale,global.grav,image_angle,c_black,image_alpha*1);
 }
 with objSave{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objPlayerKiller{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objBullet{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objMovingPlatform{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objTriggerButton{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objKillTrigger{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objChildExercise{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objBlood{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objGameOver{
     if !global.gamePaused{
-        draw_sprite_ext(sprite_index,image_index,view_xview+403,view_yview+307,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+        draw_sprite_ext(sprite_index,image_index,403+(.5*view_wview[0]),307+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
     }
 }
 with objPlayerHit{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objFreeTrigger{
     if room=rLittle_Heart
-     draw_sprite_ext(sprWhite,0,x+3,y+3,image_xscale,image_yscale,0,c_black,.35);
+     draw_sprite_ext(sprWhite,0,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,0,c_black,1);
 }
 with objRocketSpawner{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objEvilKid{
     if sprite_index!=sprCherryEvil{
-        draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+        draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
     }
 }
 
 with objAutomaticPlatform{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objCasioWarp{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objSpringR{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objSpringL{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objGravityDown{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objGravityUp{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objGravityRight{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objGravityLeft{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objBoss{
-  draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 with objToggleCherry{
     if sprite_index!=sprCherryEvil{
-        draw_sprite_ext(sprite_index,image_index,x+3,y+3,image_xscale,image_yscale,image_angle,c_black,image_alpha*.35);
+        draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
     }
 }
 //end nightmare code from hell
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_destroy()
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_destroy()
 </string>
           </argument>
         </arguments>
@@ -186,7 +232,7 @@ with objToggleCherry{
             <string>
 //Create surface if it doesn't exist
 if(!surface_exists(surf)) {
-    surf = surface_create(view_wview[0], view_hview[0]);
+    surf = surface_create(view_wview[0]*2,view_hview[0]*2);
 }
 
 //Clear the surface, then draw shadow sprites onto surface (at full opacity)
@@ -199,7 +245,10 @@ event_user(0);
 surface_reset_target();
 
 //Draw the surface
-draw_surface_ext(surf,view_wview[0], view_hview[0],1,1,0,c_white,1);
+draw_surface_ext(surf,view_xview[0]-(.5*view_wview[0]),view_yview[0]-(.5*view_hview[0]),1,1,0,c_white,.35);
+
+
+//x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0])
 </string>
           </argument>
         </arguments>

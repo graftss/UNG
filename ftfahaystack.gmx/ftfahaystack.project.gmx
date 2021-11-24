@@ -43,6 +43,7 @@
       <sound>sound\musCryo</sound>
       <sound>sound\mus365UNITEDSTARS</sound>
       <sound>sound\musDarklooming</sound>
+      <sound>sound\musHorus</sound>
     </sounds>
     <sound>sound\sndRocketFire</sound>
     <sound>sound\sndRocketThrust</sound>
@@ -314,6 +315,21 @@
         <sprite>sprites\sprCwave</sprite>
         <sprite>sprites\sprCcrush</sprite>
       </sprites>
+      <sprites name="secret">
+        <sprite>sprites\sprSidle</sprite>
+        <sprite>sprites\sprSfade</sprite>
+        <sprite>sprites\sprSreflect</sprite>
+        <sprite>sprites\sprSjump</sprite>
+        <sprite>sprites\sprSdownslash</sprite>
+        <sprite>sprites\sprSupslash</sprite>
+        <sprite>sprites\sprSenergyStart</sprite>
+        <sprite>sprites\sprSenergyThrust</sprite>
+        <sprite>sprites\sprSdefeat</sprite>
+        <sprites name="attack">
+          <sprite>sprites\sprSwave</sprite>
+          <sprite>sprites\sprScrush</sprite>
+        </sprites>
+      </sprites>
     </sprites>
     <sprites name="credits">
       <sprite>sprites\sprCreds4</sprite>
@@ -375,6 +391,7 @@
       <sprite>sprites\sprCherry_FE2</sprite>
       <sprite>sprites\sprSpikeUp_FE3</sprite>
       <sprite>sprites\sprSpikeUp_FE4</sprite>
+      <sprite>sprites\sprCherry_FE7</sprite>
     </sprites>
     <sprite>sprites\sprShitWater</sprite>
     <sprite>sprites\sprSpikeUp_BeReal</sprite>
@@ -451,6 +468,8 @@
     <background>background\bRopes</background>
     <background>background\bFinalBossT</background>
     <background>background\bFinalBoss</background>
+    <background>background\bSecretBossT</background>
+    <background>background\bSecretBoss</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -569,6 +588,7 @@
   <shaders name="shaders">
     <shader type="GLSLES">shaders\sh_pixelcopy.shader</shader>
     <shader type="GLSLES">shaders\sh_pixel.shader</shader>
+    <shader type="GLSLES">shaders\sh_Ropes.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fDefault30</font>
@@ -833,6 +853,7 @@
       <object>objects\objSleepDealerPart</object>
       <object>objects\objPleasePart</object>
       <object>objects\objFreakyWarpPart</object>
+      <object>objects\objRopesShader</object>
     </objects>
     <object>objects\objSetSpikes</object>
     <object>objects\objDropShadow</object>
@@ -916,6 +937,11 @@
       <object>objects\objBossTrail</object>
       <object>objects\objCcrushwave</object>
       <object>objects\objCreflectB</object>
+      <objects name="secret">
+        <object>objects\objSecretBoss</object>
+        <object>objects\objSecretTrail</object>
+        <object>objects\objScrushwave</object>
+      </objects>
     </objects>
     <object>objects\objCreditsMusic</object>
     <object>objects\objCredits</object>
@@ -959,6 +985,7 @@
         <room>rooms\rFE4</room>
         <room>rooms\rFE5</room>
         <room>rooms\rFE6</room>
+        <room>rooms\rFE7</room>
         <room>rooms\rFE_final</room>
       </rooms>
       <room>rooms\rBoss</room>
@@ -966,6 +993,7 @@
     <room>rooms\rCredits</room>
     <room>rooms\rNewFile</room>
     <room>rooms\rFTFAlol</room>
+    <room>rooms\rSecretBoss</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

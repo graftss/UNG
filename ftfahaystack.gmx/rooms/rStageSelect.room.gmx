@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1176</w>
-    <h>785</h>
+    <w>1024</w>
+    <h>618</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>2</xoffset>
-    <yoffset>-46</yoffset>
+    <xoffset>-159</xoffset>
+    <yoffset>114</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background24" x="0" y="2000" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
@@ -406,7 +406,7 @@
     <instance objName="objHubBlocker" x="800" y="384" name="inst_DEC773F7" locked="0" code="needed=11&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHubBlocker" x="768" y="384" name="inst_55793104" locked="0" code="needed=11&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="800" y="384" name="inst_938A52F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="256" y="0" name="inst_1562E1E5" locked="0" code="" scaleX="35" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="256" y="-32" name="inst_1562E1E5" locked="0" code="" scaleX="35" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="288" y="96" name="inst_A2CA926A" locked="0" code="" scaleX="33" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="320" y="192" name="inst_24F39665" locked="0" code="" scaleX="31" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="352" y="256" name="inst_584A3558" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
