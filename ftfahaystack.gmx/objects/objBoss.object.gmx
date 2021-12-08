@@ -29,7 +29,7 @@
 
 t=0
 iframes=0
-hp=10
+hp=20
 
 ground=y
 gravity=0
@@ -211,7 +211,7 @@ if state='idle' { //choose next action
     deadly=true
     idleTimer++
     if idleTimer=30{
-        if hp=10{
+        if hp=20{
              state=choose('wave','fade','groundcrush','runslash') //no reflect on max hp
         }
         else{
@@ -367,7 +367,7 @@ if state='fade'{        //teleport
             }
         }
     }
-    if animTimer=24{
+    if animTimer=28{
         if choose(0,1)=0{
             if playerTrack&gt;400{
                 x=playerTrack-300

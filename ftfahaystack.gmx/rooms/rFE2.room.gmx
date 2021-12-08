@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>12</xoffset>
-    <yoffset>241</yoffset>
+    <page>2</page>
+    <xoffset>113</xoffset>
+    <yoffset>933</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bGuyTut" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -89,11 +89,11 @@
     <instance objName="objPlayMusic" x="576" y="480" name="inst_14F9CE15" locked="0" code="BGM=musFreakyEyes&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDropShadow" x="608" y="448" name="inst_4C465A01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSetSpikes" x="640" y="448" name="inst_16F41565" locked="0" code="skin=&quot;FE2&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="320" y="512" name="inst_0DDC7AE5" locked="0" code="signText[0]=&quot;isn't the consistency here magical?&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bTitleT" x="160" y="544" w="32" h="32" xo="0" yo="64" id="10035402" name="inst_B2BC7121" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTitleT" x="192" y="544" w="32" h="32" xo="0" yo="64" id="10035403" name="inst_28E78F3D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bTitleT" x="128" y="544" w="32" h="32" xo="0" yo="64" id="10035404" name="inst_D957FE3B" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTitleT" x="64" y="576" w="32" h="32" xo="32" yo="64" id="10035405" name="inst_13D2C41D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTitleT" x="96" y="576" w="32" h="32" xo="32" yo="64" id="10035406" name="inst_A174A392" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTitleT" x="128" y="576" w="32" h="32" xo="32" yo="64" id="10035407" name="inst_33013AD8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -478,6 +478,7 @@
     <tile bgName="bTitleT" x="704" y="448" w="32" h="32" xo="32" yo="64" id="10035853" name="inst_B95F548E" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTitleT" x="96" y="544" w="32" h="32" xo="32" yo="64" id="10037658" name="inst_EDB2664D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTitleT" x="64" y="544" w="32" h="32" xo="32" yo="64" id="10037659" name="inst_426A7DA2" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bTitleT" x="128" y="544" w="32" h="32" xo="32" yo="64" id="10049325" name="inst_F98472CF" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

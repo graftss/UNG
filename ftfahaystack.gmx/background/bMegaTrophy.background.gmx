@@ -13,7 +13,7 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>800</width>
-  <height>608</height>
-  <data>images\bPower.png</data>
+  <width>128</width>
+  <height>128</height>
+  <data>images\bMegaTrophy.png</data>
 </background>

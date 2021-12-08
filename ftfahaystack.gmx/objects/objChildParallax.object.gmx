@@ -59,7 +59,7 @@ r=room
             <kind>1</kind>
             <string>background_x[b]=bposx
 background_y[b]=bposy
-bposx=-(view_xview/4)
+bposx=(view_xview/4)
 bposy+=bspeedy
 </string>
           </argument>

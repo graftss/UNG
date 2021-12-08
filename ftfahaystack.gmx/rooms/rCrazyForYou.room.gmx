@@ -4,7 +4,7 @@
   <width>800</width>
   <height>1216</height>
   <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -21,7 +21,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>627</h>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -31,8 +31,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-62</xoffset>
-    <yoffset>-123</yoffset>
+    <xoffset>-41</xoffset>
+    <yoffset>-36</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -57,7 +57,7 @@
   <instances>
     <instance objName="objPlayerStart" x="32" y="64" name="inst_F28765A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="832" y="96" name="inst_30DC0E53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSaveVHard" x="112" y="64" name="inst_302945A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveVHard" x="96" y="64" name="inst_302945A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="864" y="0" name="inst_9A54B221" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="864" y="64" name="inst_99F9E10D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAllBlack" x="-32" y="544" name="inst_C4A8C0CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -78,7 +78,7 @@
     <instance objName="objBlock" x="0" y="96" name="inst_3AA86E85" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="0" name="inst_BAEAFE6D" locked="0" code="" scaleX="25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="32" name="inst_CA68DBF8" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="256" y="32" name="inst_8F78A5E7" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="256" y="64" name="inst_8F78A5E7" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="192" y="128" name="inst_DBCBBF69" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="768" y="32" name="inst_1D5B88A2" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="128" name="inst_3F862314" locked="0" code="" scaleX="1" scaleY="15" colour="4294967295" rotation="0"/>
@@ -190,6 +190,9 @@
     <instance objName="objMiniDown" x="672" y="816" name="inst_4F63BE1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMiniDown" x="688" y="752" name="inst_5AF04CE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStageIntro" x="-96" y="736" name="inst_02346403" locked="0" code="stage=&quot;crazy for you&quot;&#xA;subtext=&quot;blue skied an' clear&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="384" y="128" name="inst_17B2CE3A" locked="0" code="signText[0]=&quot;i stole the code from hautp,&quot;&#xA;signText[1]=&quot;but i've known this gimmick from n++&quot;&#xA;signText[2]=&quot;and wanted to port it to fangames&quot;&#xA;signText[3]=&quot;ever since i started making them.&quot;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="256" y="32" name="inst_BC729106" locked="0" code="if global.gameClear{instance_destroy()}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="512" y="32" name="inst_3A27E460" locked="0" code="if !global.gameClear{instance_destroy()}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bBlack" x="0" y="96" w="32" h="32" xo="0" yo="0" id="10032426" name="inst_0124ECE1" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

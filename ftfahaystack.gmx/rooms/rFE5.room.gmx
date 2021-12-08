@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>618</h>
+    <h>636</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>4</xoffset>
-    <yoffset>50</yoffset>
+    <page>0</page>
+    <xoffset>102</xoffset>
+    <yoffset>62</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bChildSoldier" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -101,6 +101,7 @@
     <instance objName="objFreeTrigger" x="384" y="128" name="inst_F1C6BE06" locked="0" code="trg=1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSetSpikes" x="192" y="384" name="inst_9F03A726" locked="0" code="skin=&quot;Child&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="176" y="416" name="inst_FD51E812" locked="0" code="BGM=musFreakyEyes&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="384" y="448" name="inst_8EC84FE0" locked="0" code="signText[0]=&quot;pretty, huh?&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bFreakyFinalbg" x="384" y="128" w="32" h="32" xo="16" yo="32" id="10037549" name="inst_EE03E7B4" depth="100000" locked="0" colour="1694498815" scaleX="1" scaleY="1"/>

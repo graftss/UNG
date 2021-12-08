@@ -35,7 +35,7 @@ a2=0
 aText=0
 fading=false
 done=false
-
+global.noPause=true
 scrSaveGame(true)
 </string>
           </argument>
@@ -84,7 +84,10 @@ scrSaveGame(true)
             <kind>1</kind>
             <string>if fading=true{
     a-=.01
-    if a=0{done=true}
+    if a=0{
+        done=true
+        global.noPause=false
+    }
 }
 a2-=.01
 

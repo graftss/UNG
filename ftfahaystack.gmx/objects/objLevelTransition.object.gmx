@@ -30,7 +30,7 @@ enable = true
 size = 0
 size_max = 48
 dir = 1
-
+global.noPause=true
 rToStart = room
 
 
@@ -73,6 +73,7 @@ with objWorld {
     event_user(15)
 }
 */
+global.noPause=false
 instance_activate_all()
 application_surface_draw_enable(true)
 </string>

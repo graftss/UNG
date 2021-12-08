@@ -251,6 +251,7 @@
       </sprites>
       <sprites name="sign">
         <sprite>sprites\sprSign</sprite>
+        <sprite>sprites\sprSignDC</sprite>
         <sprite>sprites\sprSignSide</sprite>
       </sprites>
       <sprites name="bench">
@@ -430,6 +431,7 @@
     <background>background\bMegaman2</background>
     <background>background\bMegaman3</background>
     <background>background\bmegaman4</background>
+    <background>background\bMegaTrophy</background>
     <background>background\bMegatiles</background>
     <background>background\bMoreTiles</background>
     <background>background\bSnowTree</background>
@@ -599,6 +601,7 @@
   </fonts>
   <objects name="objects">
     <objects name="world">
+      <object>objects\objDropShadow</object>
       <object>objects\objWorld</object>
       <object>objects\objCamera</object>
       <object>objects\objSmoothCamera</object>
@@ -856,8 +859,6 @@
       <object>objects\objRopesShader</object>
     </objects>
     <object>objects\objSetSpikes</object>
-    <object>objects\objDropShadow</object>
-    <object>objects\objDropShadowBackup</object>
     <object>objects\objBGpersistent</object>
     <object>objects\objHubBG</object>
     <object>objects\objCasioWarp</object>
@@ -951,6 +952,8 @@
     <object>objects\objTheEnd</object>
     <object>objects\object215</object>
     <object>objects\objSkinArea</object>
+    <object>objects\objDevCommentary</object>
+    <object>objects\objTrophy</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -983,6 +986,7 @@
         <room>rooms\rFE2</room>
         <room>rooms\rFE3</room>
         <room>rooms\rFE4</room>
+        <room>rooms\rFE4_5</room>
         <room>rooms\rFE5</room>
         <room>rooms\rFE6</room>
         <room>rooms\rFE7</room>
@@ -994,6 +998,8 @@
     <room>rooms\rNewFile</room>
     <room>rooms\rFTFAlol</room>
     <room>rooms\rSecretBoss</room>
+    <room>rooms\rScuffedCredits</room>
+    <room>rooms\rTrophy</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

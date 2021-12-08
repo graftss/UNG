@@ -30,7 +30,7 @@
 event_inherited();
 
 //can be changed in creation code
-smoothTransition = false;   //sets whether the player wraps around the screen for a smooth transition to the next room (this requires the room sizes to be the same)
+smoothTransition = true;   //sets whether the player wraps around the screen for a smooth transition to the next room (this requires the room sizes to be the same)
 </string>
           </argument>
         </arguments>

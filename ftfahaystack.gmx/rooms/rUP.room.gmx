@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>618</h>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-191</xoffset>
-    <yoffset>513</yoffset>
+    <xoffset>321</xoffset>
+    <yoffset>293</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bUp" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
@@ -293,6 +293,8 @@
     <instance objName="objStageIntro" x="-96" y="736" name="inst_716030D3" locked="0" code="stage=&quot;up&quot;&#xA;subtext=&quot;wake&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAutomaticPlatform" x="160" y="528" name="inst_F875C882" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAutomaticPlatform" x="80" y="528" name="inst_BEA3E79B" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="288" y="1152" name="inst_AA6E2C79" locked="0" code="signText[0]=&quot;the most standard needle of the game.&quot;&#xA;signText[1]=&quot;the sample sounds like hank hill doesn't it?&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="608" y="480" name="inst_459C1587" locked="0" code="signText[0]=&quot;the transition from sunset&quot;&#xA;signText[1]=&quot;to the dark night sky here was&quot;&#xA;signText[2]=&quot;meant to resemble the progression&quot;&#xA;signText[3]=&quot;of the song itself, where it slowly&quot;&#xA;signText[4]=&quot;devolves into a terrifying and tragic&quot;&#xA;signText[5]=&quot;melody by the end, like a reveal.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bGuyCave" x="192" y="1120" w="32" h="32" xo="0" yo="0" id="10038332" name="inst_6D87BFDC" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

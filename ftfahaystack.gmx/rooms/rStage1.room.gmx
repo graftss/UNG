@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>618</h>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-73</xoffset>
-    <yoffset>-2</yoffset>
+    <xoffset>-198</xoffset>
+    <yoffset>-58</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -177,6 +177,7 @@
     <instance objName="objPlayMusic" x="-32" y="352" name="inst_7B359513" locked="0" code="BGM=musReturnOfDreams&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStageIntro" x="-64" y="560" name="inst_44A2AFE8" locked="0" code="stage=&quot;return of dreams&quot;&#xA;subtext=&quot;lets warm up&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="448" y="-32" name="inst_8E1AE139" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="512" y="416" name="inst_A8440A7B" locked="0" code="signText[0]=&quot;you've unlocked&quot;&#xA;signText[1]=&quot;dev commentary.&quot;&#xA;signText[2]=&quot;there are new signs in every stage&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bReturn" x="64" y="288" w="32" h="32" xo="96" yo="0" id="10022088" name="inst_2D7886FD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

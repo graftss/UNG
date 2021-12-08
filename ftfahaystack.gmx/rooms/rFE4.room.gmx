@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>618</h>
+    <h>654</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>9</xoffset>
-    <yoffset>106</yoffset>
+    <xoffset>232</xoffset>
+    <yoffset>311</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -74,6 +74,8 @@
     <instance objName="objDropShadow" x="240" y="416" name="inst_9EE9CD64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="672" y="480" name="inst_3A19B471" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="176" y="416" name="inst_920D2181" locked="0" code="BGM=musFreakyEyes&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWorld" x="240" y="416" name="inst_FE72B2EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="256" y="416" name="inst_59CDDA7D" locked="0" code="signText[0]=&quot;sorry about this one&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bPowerTback" x="64" y="224" w="32" h="32" xo="32" yo="32" id="10033283" name="inst_84D446A2" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

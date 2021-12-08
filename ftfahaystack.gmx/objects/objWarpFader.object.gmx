@@ -82,7 +82,7 @@ aa.roomTo=roomTo
             <string>if itemNum!=-1{
     if (global.bossItem[itemNum]){
         image_alpha=.4
-        image_blend=$BBBBBB
+        image_blend=$888888
     }
 }
 </string>

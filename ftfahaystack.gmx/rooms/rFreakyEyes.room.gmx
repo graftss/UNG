@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>645</h>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-87</xoffset>
-    <yoffset>261</yoffset>
+    <xoffset>44</xoffset>
+    <yoffset>218</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -69,6 +69,7 @@
     <instance objName="objSpikeShuriken" x="208" y="352" name="inst_E2654D35" locked="0" code="sprite_index=sprShurikenFreaky&#xA;spd=6&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeShuriken" x="576" y="304" name="inst_99266E28" locked="0" code="sprite_index=sprShurikenFreaky&#xA;spd=4" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStageIntro_Freaky" x="-64" y="384" name="inst_F754065E" locked="0" code="stage=&quot;freaky eyes&quot;&#xA;subtext=&quot;no turning back&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="320" y="448" name="inst_44D6BC1E" locked="0" code="signText[0]=&quot;my second favourite save.&quot;&#xA;signText[1]=&quot;i hope you enjoyed the grind.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bFreakyFirst" x="608" y="320" w="96" h="32" xo="96" yo="32" id="10037667" name="inst_1B0CC17A" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

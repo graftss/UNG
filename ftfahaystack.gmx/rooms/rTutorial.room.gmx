@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>2740</xoffset>
-    <yoffset>322</yoffset>
+    <xoffset>730</xoffset>
+    <yoffset>242</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bGuyTut" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,11 +52,10 @@
   </views>
   <instances>
     <instance objName="objPlayerStart" x="0" y="448" name="inst_EA581A4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSign" x="96" y="448" name="inst_56203BFD" locked="0" code="signText[0]=&quot;Welcome to&quot;&#xA;signText[1]=&quot;the Tutorial!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSign" x="96" y="448" name="inst_56203BFD" locked="0" code="signText[0]=&quot;Welcome to&quot;&#xA;signText[1]=&quot;the Tutorial!&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="480" name="inst_FDA7242C" locked="0" code="" scaleX="5" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objDropShadow" x="-96" y="448" name="inst_2FB91E3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="0" name="inst_EE11B270" locked="0" code="" scaleX="11" scaleY="12" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="384" name="inst_3CA17535" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="160" y="544" name="inst_A3C170A6" locked="0" code="" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="256" y="480" name="inst_37A7ADF3" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="416" y="384" name="inst_0A5DF3B6" locked="0" code="" scaleX="5" scaleY="7" colour="4294967295" rotation="0"/>
@@ -70,7 +69,7 @@
     <instance objName="objSpikeDown" x="352" y="352" name="inst_C2DB28CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="448" y="352" name="inst_1B00DCAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="544" y="352" name="inst_F9892D9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSaveVHard" x="512" y="352" name="inst_3F62390B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveVHard" x="512" y="352" name="inst_3F62390B" locked="0" code="if global.gameClear{instance_destroy()}" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="768" y="192" name="inst_CD09D599" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="800" y="224" name="inst_BF696848" locked="0" code="" scaleX="1" scaleY="12" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="768" y="416" name="inst_1A30A35F" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
@@ -109,7 +108,7 @@
     <instance objName="objBlock" x="1120" y="256" name="inst_27D148DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1088" y="256" name="inst_1E809D28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1120" y="224" name="inst_0A72B416" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSaveVHard" x="1088" y="224" name="inst_3B0A7216" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveVHard" x="1088" y="224" name="inst_3B0A7216" locked="0" code="if global.gameClear{instance_destroy()}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1152" y="224" name="inst_C2A6AE74" locked="0" code="" scaleX="2" scaleY="12" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="928" y="0" name="inst_47F0AE2F" locked="0" code="" scaleX="11" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="1152" y="192" name="inst_7115EEA5" locked="0" code="signText[0]=&quot;Water 1 lets you&quot;&#xA;signText[1]=&quot;Single jump inside of it,&quot;&#xA;signText[2]=&quot;and restores your double&quot;&#xA;signText[3]=&quot;jump when touching it!&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -129,7 +128,7 @@
     <instance objName="objBlock" x="1312" y="0" name="inst_F23FD68A" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1536" y="32" name="inst_E4EF768F" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1536" y="160" name="inst_2E1AD610" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSaveVHard" x="1408" y="160" name="inst_CF112C20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveVHard" x="1408" y="160" name="inst_CF112C20" locked="0" code="if global.gameClear{instance_destroy()}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="1472" y="160" name="inst_F806D4AD" locked="0" code="signText[0]=&quot;Water 2 lets you&quot;&#xA;signText[1]=&quot;double jump inside of it,&quot;&#xA;signText[2]=&quot;and nothing else.&quot;&#xA;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="1568" y="160" name="inst_9C1E58A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="1600" y="224" name="inst_773CEC58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -163,7 +162,7 @@
     <instance objName="objBlock" x="1664" y="0" name="inst_29A9ABAE" locked="0" code="" scaleX="8" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1792" y="256" name="inst_F6A1E9BB" locked="0" code="" scaleX="3" scaleY="11" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1888" y="224" name="inst_F11455F7" locked="0" code="" scaleX="1" scaleY="12" colour="4294967295" rotation="0"/>
-    <instance objName="objSaveVHard" x="1792" y="224" name="inst_15A95D53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveVHard" x="1792" y="224" name="inst_15A95D53" locked="0" code="if global.gameClear{instance_destroy()}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="1888" y="192" name="inst_A42A1F7D" locked="0" code="signText[0]=&quot;Water 3 is like&quot;&#xA;signText[1]=&quot;Water 1, but your jumps&quot;&#xA;signText[2]=&quot;are all double jumps instead!&quot;&#xA;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1984" y="352" name="inst_A0BEC680" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="2016" y="0" name="inst_8D6555E8" locked="0" code="" scaleX="1" scaleY="13" colour="4294967295" rotation="0"/>
@@ -187,7 +186,7 @@
     <instance objName="objBlock" x="2144" y="384" name="inst_A60331A4" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="2272" y="384" name="inst_26650FFD" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="2176" y="448" name="inst_C0B5F734" locked="0" code="" scaleX="3" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="objSaveVHard" x="2208" y="416" name="inst_7B1946B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveVHard" x="2208" y="416" name="inst_7B1946B8" locked="0" code="if global.gameClear{instance_destroy()}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="2400" y="320" name="inst_91E8B039" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="2400" y="320" name="inst_E23DF54A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="2400" y="224" name="inst_8DF97C65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -235,7 +234,7 @@
     <instance objName="objBlock" x="2880" y="512" name="inst_C260F54B" locked="0" code="" scaleX="10" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="3136" y="96" name="inst_397735E0" locked="0" code="" scaleX="2" scaleY="13" colour="4294967295" rotation="0"/>
     <instance objName="objSign" x="2464" y="512" name="inst_AA9C2A1A" locked="0" code="signText[0]=&quot;Gravity Flippers&quot;&#xA;signText[1]=&quot;also give you a jump!&quot;&#xA;&#xA;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSaveVHard" x="2528" y="512" name="inst_4E538F52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveVHard" x="2528" y="512" name="inst_4E538F52" locked="0" code="if global.gameClear{instance_destroy()}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGravityUp" x="2656" y="448" name="inst_FD5917F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="2656" y="192" name="inst_04BA432C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="2624" y="192" name="inst_25E60106" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -256,7 +255,7 @@
     <instance objName="objGravityDown" x="2880" y="448" name="inst_C449945F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGravityDown" x="2880" y="480" name="inst_12D0D4BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="64" y="416" name="inst_D6EDAC15" locked="0" code="BGM=musMannequin&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarpFader" x="3104" y="384" name="inst_C9CC49B7" locked="0" code="if global.gameClear{&#xA;    roomTo=rFTFAlol&#xA;}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarpFader" x="3104" y="384" name="inst_C9CC49B7" locked="0" code="if global.gameClear{&#xA;    roomTo=rFTFAlol&#xA;}" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStageIntro" x="-128" y="416" name="inst_CB1FDAB7" locked="0" code="stage=&quot;#tutorial&quot;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1600</width>
   <height>2432</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1024</w>
-    <h>618</h>
+    <w>1118</w>
+    <h>894</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-159</xoffset>
-    <yoffset>114</yoffset>
+    <xoffset>161</xoffset>
+    <yoffset>1057</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background24" x="0" y="2000" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
@@ -458,7 +458,7 @@
     <instance objName="objBlock" x="1120" y="896" name="inst_22830F99" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1152" y="992" name="inst_1BF27FD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1280" y="960" name="inst_D7D0EF8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="1232" y="928" name="inst_562DB567" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1232" y="928" name="inst_562DB567" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="1184" y="960" name="inst_C5ABA6DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWalljumpL" x="1152" y="928" name="inst_B58640C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWalljumpL" x="1152" y="960" name="inst_F6CBE08E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -624,6 +624,25 @@
     <instance objName="objSpikeRight" x="528" y="640" name="inst_1777305B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="496" y="608" name="inst_59B0B16D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="576" y="608" name="inst_827B9B83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarpFader" x="736" y="2176" name="inst_03113A77" locked="0" code="roomTo=rTutorial&#xA;if !global.gameClear{instance_destroy()}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="640" y="2080" name="inst_238821DE" locked="0" code="signText[0]=&quot;this hub was a last minute idea.&quot;&#xA;signText[1]=&quot;originally you would select stages&quot;&#xA;signText[2]=&quot;from a menu with your arrow keys.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="224" y="1664" name="inst_3A08F956" locked="0" code="signText[0]=&quot;have you gotten the true ending bench?&quot;&#xA;signText[1]=&quot;clear screenshot yet?&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="800" y="448" name="inst_159E2F9D" locked="0" code="signText[0]=&quot;i tried to make this entrance very ominous&quot;&#xA;signText[1]=&quot;but you can't really see it until you are here,&quot;&#xA;signText[2]=&quot;so its not the always-looming threat&quot;&#xA;signText[3]=&quot;i had imagined. if only you could see it&quot;&#xA;signText[4]=&quot;the way i do in the room editor minimap...&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeRight" x="288" y="832" name="inst_52C6A4BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objShootRefresher" x="944" y="928" name="inst_5AF9F7A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeRight" x="960" y="960" name="inst_06871443" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="1008" y="976" name="inst_FCCBBFC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="1024" y="928" name="inst_559D3064" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="1024" y="896" name="inst_EBF375C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1024" y="960" name="inst_64C1F9B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1008" y="1008" name="inst_7ECC49B1" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="992" y="1008" name="inst_53A5BFD3" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1056" y="864" name="inst_8C3E5269" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSkinArea" x="944" y="960" name="inst_2432250E" locked="0" code="skin=&quot;Child&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSkinArea" x="832" y="1808" name="inst_0DA4793F" locked="0" code="skin=&quot;Power&quot;&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSign" x="48" y="1696" name="inst_46C5BBA4" locked="0" code="signText[0]=&quot;clear&quot;&#xA;" scaleX="1" scaleY="1" colour="16777215" rotation="0"/>
+    <instance objName="objGravityDown" x="672" y="2400" name="inst_C5D78D19" locked="0" code="" scaleX="1" scaleY="1" colour="4278190080" rotation="0"/>
+    <instance objName="objOutsideRoomChanger" x="0" y="2432" name="inst_D27CD173" locked="0" code="roomTo=rTrophy&#xA;" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bLittleHeart" x="1280" y="1376" w="32" h="32" xo="0" yo="0" id="10045079" name="inst_243B7B7C" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -846,6 +865,7 @@
     <tile bgName="bRopes" x="160" y="576" w="96" h="96" xo="0" yo="0" id="10047760" name="inst_F532006A" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bRopes" x="64" y="608" w="96" h="32" xo="0" yo="128" id="10047761" name="inst_B836B609" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="480" y="768" w="32" h="32" xo="0" yo="0" id="10047762" name="inst_E9BF5079" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="1024" y="928" w="32" h="32" xo="0" yo="0" id="10049331" name="inst_E428697D" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="704" y="2336" w="32" h="32" xo="0" yo="0" id="10044264" name="inst_5CA46D8E" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="736" y="2336" w="32" h="32" xo="0" yo="0" id="10044265" name="inst_B111D262" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="768" y="2336" w="32" h="32" xo="0" yo="0" id="10044266" name="inst_CF73FCFA" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -2410,6 +2430,8 @@
     <tile bgName="bRopes" x="256" y="736" w="32" h="32" xo="32" yo="160" id="10047778" name="inst_F34A6EBD" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bRopes" x="256" y="768" w="32" h="32" xo="32" yo="160" id="10047779" name="inst_C7C797AE" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bRopes" x="256" y="800" w="32" h="32" xo="32" yo="160" id="10047780" name="inst_8EA803BB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="1024" y="928" w="32" h="32" xo="0" yo="0" id="10049332" name="inst_5F8D82E3" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="1024" y="928" w="32" h="32" xo="0" yo="0" id="10049333" name="inst_7B6F517F" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSnowTree2" x="1221" y="2104" w="111" h="168" xo="0" yo="0" id="10044548" name="inst_949196F8" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTree" x="-32" y="1560" w="128" h="192" xo="0" yo="0" id="10045663" name="inst_98D89F96" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTree" x="63" y="1561" w="128" h="192" xo="0" yo="0" id="10045667" name="inst_63A54511" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>636</h>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-83</xoffset>
-    <yoffset>-191</yoffset>
+    <xoffset>1419</xoffset>
+    <yoffset>404</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bstars2" x="3" y="0" htiled="-1" vtiled="-1" hspeed="3" vspeed="0" stretch="0"/>
@@ -833,6 +833,10 @@
     <instance objName="objCCblock" x="192" y="928" name="inst_867E9703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCasioWarp" x="1536" y="1216" name="inst_5A052FD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStageIntro" x="1056" y="128" name="inst_1864A41B" locked="0" code="stage=&quot;through the hosiery&quot;&#xA;subtext=&quot;how does it feel#when you can't feel nothing?&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="1216" y="128" name="inst_7607A5D6" locked="0" code="signText[0]=&quot;this was the first stage i made.&quot;&#xA;signText[1]=&quot;obviously inspired by cn3.&quot;&#xA;signText[2]=&quot;i think this somehow turned into the most visually&quot;&#xA;signText[3]=&quot;different of all the stages.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="160" y="800" name="inst_40A61A5B" locked="0" code="signText[0]=&quot;originally i wanted&quot;&#xA;signText[1]=&quot;subtitles for each room of this stage,&quot;&#xA;signText[2]=&quot;similar to old ZX spectrum games or&quot;&#xA;signText[3]=&quot;VVVVVV&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCCblock" x="1120" y="416" name="inst_36BF352A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCC" x="1088" y="320" name="inst_6ACE92CC" locked="0" code="path_start(p64Down,5,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bBlack" x="1184" y="0" w="32" h="32" xo="0" yo="0" id="10022537" name="inst_389F7E00" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

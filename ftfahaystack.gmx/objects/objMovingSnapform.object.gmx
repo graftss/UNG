@@ -3,7 +3,7 @@
   <spriteName>sprMovingSnapform</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>1</depth>
+  <depth>101</depth>
   <persistent>0</persistent>
   <parentName>objMovingPlatform</parentName>
   <maskName>&lt;undefined&gt;</maskName>

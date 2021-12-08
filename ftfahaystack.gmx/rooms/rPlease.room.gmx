@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-542</xoffset>
-    <yoffset>-202</yoffset>
+    <xoffset>-36</xoffset>
+    <yoffset>-76</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,18 +52,18 @@
   </views>
   <instances>
     <instance objName="objPlayerStart" x="96" y="512" name="inst_058DC115" locked="0" code="if global.secretItem[5] = true{&#xA;    x=480&#xA;    y=288&#xA;}&#xA;else if global.secretItem[4] = true{&#xA;    x=576&#xA;    y=64&#xA;}&#xA;else if global.secretItem[3] = true{&#xA;    x=96&#xA;    y=96&#xA;}&#xA;else if global.secretItem[2] = true{&#xA;    x=224&#xA;    y=288&#xA;}" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="128" y="448" name="inst_6EC1B7BE" locked="0" code="path_start(p32Down,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="192" y="448" name="inst_9DDC2FA9" locked="0" code="path_start(p32Up,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeRight" x="160" y="416" name="inst_40B88693" locked="0" code="path_start(p32Left,3,path_action_continue,false);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeLeft" x="160" y="480" name="inst_CF8F4D3E" locked="0" code="path_start(p32Right,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="128" y="448" name="inst_6EC1B7BE" locked="0" code="path_start(p32Down,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="192" y="448" name="inst_9DDC2FA9" locked="0" code="path_start(p32Up,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeRight" x="160" y="416" name="inst_40B88693" locked="0" code="path_start(p32Left,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="160" y="480" name="inst_CF8F4D3E" locked="0" code="path_start(p32Right,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="160" y="512" name="inst_37AA18B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="64" y="544" name="inst_F1F6FAA0" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="256" y="448" name="inst_AE095EFF" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="192" y="512" name="inst_ECCF885A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="192" y="416" name="inst_9F8F17AE" locked="0" code="path_start(p32Up,3,path_action_continue,false);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="128" y="480" name="inst_03470D61" locked="0" code="path_start(p32Down,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeLeft" x="128" y="416" name="inst_EE703270" locked="0" code="path_start(p32Left,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeRight" x="192" y="480" name="inst_67FEF4A7" locked="0" code="path_start(p32Right,3,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="192" y="416" name="inst_9F8F17AE" locked="0" code="path_start(p32Up,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="128" y="480" name="inst_03470D61" locked="0" code="path_start(p32Down,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="128" y="416" name="inst_EE703270" locked="0" code="path_start(p32Left,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeRight" x="192" y="480" name="inst_67FEF4A7" locked="0" code="path_start(p32Right,2,path_action_continue,false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSave" x="64" y="512" name="inst_27532BF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="224" y="416" name="inst_B9A1D7CF" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="192" y="320" name="inst_A92EAFA1" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
@@ -190,6 +190,8 @@
     <instance objName="objBlock" x="128" y="576" name="inst_41175785" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="128" y="544" name="inst_9C2384EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="640" y="128" name="inst_549DCA81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="224" y="384" name="inst_49CFC1F9" locked="0" code="signText[0]=&quot;jrocker.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="512" y="544" name="inst_25CF1370" locked="0" code="signText[0]=&quot;you may have noticed in the credits,&quot;&#xA;signText[1]=&quot;but 'please, this shit has got to stop'&quot;&#xA;signText[2]=&quot;is the song title, not any kind of meta-commentary.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bTitleT" x="64" y="544" w="32" h="32" xo="64" yo="0" id="10043298" name="inst_34FEAF09" depth="9" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

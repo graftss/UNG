@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1151</w>
-    <h>756</h>
+    <w>1024</w>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-61</xoffset>
-    <yoffset>171</yoffset>
+    <xoffset>-36</xoffset>
+    <yoffset>673</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bSomeday" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -173,6 +173,8 @@
     <instance objName="objSpikeUp" x="288" y="880" name="inst_6DA724ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="256" y="912" name="inst_49497B1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="336" y="944" name="inst_BC89020E" locked="0" code="path_start(p64Right,2,path_action_continue,false);&#xA;" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="576" y="1088" name="inst_BA575B0B" locked="0" code="signText[0]=&quot;I think everyone will hate this stage,&quot;&#xA;signText[1]=&quot;but my playtesters loved it by the&quot;&#xA;signText[2]=&quot;time they cleared.&quot;&#xA;signText[3]=&quot;also, originally this was cn3&quot;&#xA;signText[4]=&quot;dotkid% gimmick.&quot;&#xA;signText[5]=&quot;then it became what it is now, but without the&quot;&#xA;signText[6]=&quot;speed changing, which wasnt as interesting.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="160" y="736" name="inst_88EA6526" locked="0" code="signText[0]=&quot;the 'avoidance' here is actually&quot;&#xA;signText[1]=&quot;mostly pattern. the cherries&quot;&#xA;signText[2]=&quot;evenly spread out, and they&quot;&#xA;signText[3]=&quot;always have thesame speeds. theres a&quot;&#xA;signText[4]=&quot;10 degree angle of randomness,&quot;&#xA;signText[5]=&quot;but no other rng. i hand-picked&quot;&#xA;signText[6]=&quot;a decently fun and fair angle.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bSomedayT" x="0" y="1152" w="32" h="32" xo="32" yo="0" id="10027212" name="inst_CE5C9B25" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

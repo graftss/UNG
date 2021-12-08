@@ -52,7 +52,7 @@ audio_sound_gain(musManifold,1,1000)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if r!=room{instance_destroy()}
+            <string>if room!=rStageSelect &amp;&amp; room!=rTrophy{instance_destroy()}
 </string>
           </argument>
         </arguments>

@@ -17,7 +17,7 @@
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>618</h>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-151</xoffset>
-    <yoffset>145</yoffset>
+    <xoffset>-142</xoffset>
+    <yoffset>1733</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bFlyingSpike" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -375,6 +375,8 @@
     <instance objName="objCasioWarp" x="1696" y="128" name="inst_96CBF6BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStageIntro" x="-64" y="1536" name="inst_58921D4F" locked="0" code="stage=&quot;power of persuasion&quot;&#xA;subtext=&quot;you are not immune&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSecretItem" x="1696" y="1728" name="inst_253B73E6" locked="0" code="itemNum=1&#xA;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="224" y="1504" name="inst_6A14BDB2" locked="0" code="signText[0]=&quot;im still amazed at how well this turned out.&quot;&#xA;signText[1]=&quot;i basically randomly did shit and it all worked&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="1472" y="1728" name="inst_516B47C4" locked="0" code="signText[0]=&quot;recognize this jump from freaky eyes?&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bPowerTback" x="512" y="1536" w="32" h="32" xo="0" yo="32" id="10026010" name="inst_185744E6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
