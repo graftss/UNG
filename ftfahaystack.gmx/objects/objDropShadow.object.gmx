@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>event_user(1)
 
-surf = surface_create(view_wview[0]*2,view_hview[0]*2);
+
 
 </string>
           </argument>
@@ -76,6 +76,7 @@ surf = surface_create(view_wview[0]*2,view_hview[0]*2);
           <argument>
             <kind>1</kind>
             <string>surf=noone;
+surf = surface_create(view_wview[0]*2,view_hview[0]*2);
 </string>
           </argument>
         </arguments>
@@ -185,6 +186,18 @@ with objToggleCherry{
     if sprite_index!=sprCherryEvil{
         draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
     }
+}
+with objWarpFader{
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
+}
+with objSign{
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
+}
+with objDevCommentary{
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
+}
+with objJumpRefresher{
+  draw_sprite_ext(sprite_index,image_index,x+3-view_xview[0]+(.5*view_wview[0]),y+3-view_yview[0]+(.5*view_hview[0]),image_xscale,image_yscale,image_angle,c_black,image_alpha*1);
 }
 //end nightmare code from hell
 </string>

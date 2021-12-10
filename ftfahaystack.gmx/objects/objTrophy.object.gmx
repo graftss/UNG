@@ -68,6 +68,10 @@ t++
 image_index=itemNum
 if (!global.bossItem[itemNum])    //destroy self if item already obtained
     instance_destroy();
+    
+if global.bossItem[12] &amp;&amp; itemNum=11{
+    image_index=12
+}
 </string>
           </argument>
         </arguments>

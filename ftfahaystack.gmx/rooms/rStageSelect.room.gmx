@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1118</w>
-    <h>894</h>
+    <w>1180</w>
+    <h>799</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>161</xoffset>
-    <yoffset>1057</yoffset>
+    <xoffset>-37</xoffset>
+    <yoffset>537</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background24" x="0" y="2000" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
@@ -643,6 +643,8 @@
     <instance objName="objSign" x="48" y="1696" name="inst_46C5BBA4" locked="0" code="signText[0]=&quot;clear&quot;&#xA;" scaleX="1" scaleY="1" colour="16777215" rotation="0"/>
     <instance objName="objGravityDown" x="672" y="2400" name="inst_C5D78D19" locked="0" code="" scaleX="1" scaleY="1" colour="4278190080" rotation="0"/>
     <instance objName="objOutsideRoomChanger" x="0" y="2432" name="inst_D27CD173" locked="0" code="roomTo=rTrophy&#xA;" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSkinArea" x="1072" y="2096" name="inst_DAC0A6AE" locked="0" code="skin=&quot;Sleep&quot;&#xA;" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objSkinArea" x="304" y="928" name="inst_273EA903" locked="0" code="skin=&quot;Ropes&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bLittleHeart" x="1280" y="1376" w="32" h="32" xo="0" yo="0" id="10045079" name="inst_243B7B7C" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -2432,6 +2434,14 @@
     <tile bgName="bRopes" x="256" y="800" w="32" h="32" xo="32" yo="160" id="10047780" name="inst_8EA803BB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="1024" y="928" w="32" h="32" xo="0" yo="0" id="10049332" name="inst_5F8D82E3" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="1024" y="928" w="32" h="32" xo="0" yo="0" id="10049333" name="inst_7B6F517F" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1088" y="2080" w="16" h="32" xo="0" yo="0" id="10051300" name="inst_EEB622EB" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1104" y="2080" w="16" h="32" xo="80" yo="0" id="10051301" name="inst_49E4F6E9" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1088" y="2112" w="16" h="32" xo="0" yo="32" id="10051302" name="inst_646FD770" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1088" y="2144" w="16" h="32" xo="0" yo="32" id="10051303" name="inst_64C5E147" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1104" y="2112" w="16" h="32" xo="80" yo="32" id="10051304" name="inst_18FFA448" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1104" y="2144" w="16" h="32" xo="80" yo="32" id="10051305" name="inst_00FCEAFD" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1088" y="2176" w="16" h="32" xo="0" yo="64" id="10051306" name="inst_7B017304" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bSleepDealer" x="1104" y="2176" w="16" h="32" xo="80" yo="64" id="10051307" name="inst_C6AB9B06" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSnowTree2" x="1221" y="2104" w="111" h="168" xo="0" yo="0" id="10044548" name="inst_949196F8" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTree" x="-32" y="1560" w="128" h="192" xo="0" yo="0" id="10045663" name="inst_98D89F96" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bTree" x="63" y="1561" w="128" h="192" xo="0" yo="0" id="10045667" name="inst_63A54511" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

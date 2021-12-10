@@ -1,6 +1,6 @@
 ///sets configurable global options
 
-global.debugMode = true;       //enables debug keys (check objWorld step to see all of them), make sure to set this to "false" before releasing your game
+global.debugMode = false;       //enables debug keys (check objWorld step to see all of them), make sure to set this to "false" before releasing your game
 global.debugVisuals = true;    //enables changing the color/alpha of player when infjump/god mode are toggled, make sure to disable this if you want to change the player's image_alpha or image_blend
 global.debugOverlay = false;    //enables showing the debug text overlay (shows player location, align, etc.)
 global.debugNoDeath = false;    //enables god mode (toggle with Home key)
@@ -27,7 +27,7 @@ global.directionalTapFix = true;    //sets whether to change the behavior of tap
 global.playerAnimationFix = false;  //sets whether to fix the weird player animation inconsistencies when moving around
 
 global.secretItemTotal = 8;     //sets how many secret items for the game to save/load
-global.bossItemTotal = 11;       //sets how many boss items for the game to save/load
+global.bossItemTotal = 13;       //sets how many boss items for the game to save/load
 global.autosaveSecretItems = true; //sets whether to save secret items immediately when you grab them or if you have to hit a save
 
 global.controllerEnabled = true;    //sets whether controllers are supported

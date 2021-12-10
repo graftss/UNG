@@ -31,5 +31,7 @@
     <frame index="8">images\sprBossItem_8.png</frame>
     <frame index="9">images\sprBossItem_9.png</frame>
     <frame index="10">images\sprBossItem_10.png</frame>
+    <frame index="11">images\sprBossItem_11.png</frame>
+    <frame index="12">images\sprBossItem_12.png</frame>
   </frames>
 </sprite>

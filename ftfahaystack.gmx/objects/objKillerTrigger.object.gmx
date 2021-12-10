@@ -34,6 +34,7 @@ h = 0;      //hspeed
 dir = 0;    //direction
 spd = 0;    //speed
 tick = 0;   //trigger time
+tick2 = 0;  //nick please learn to initiliaze variables holy fuck
 
 grvdir = 270; //gravity direction
 grv = 0;    //gravity

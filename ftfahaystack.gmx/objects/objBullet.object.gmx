@@ -42,6 +42,10 @@ if room=rBoss or room=rFE_final {
     alarm[0] = 8;
     sprite_index=sprBulletBig
 }
+else if room=rSecretBoss{
+    sprite_index=sprBulletBig
+    alarm[0] = 40;
+}
 else { alarm[0] = 40; }
 
 </string>

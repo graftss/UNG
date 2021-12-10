@@ -497,7 +497,7 @@ if (!global.lunarKid)
                 scrPlayerJump();
             if (scrButtonCheckReleased(global.jumpButton))
                 scrPlayerVJump();
-            if (scrButtonCheckPressed(global.suicideButton)) &amp;&amp; room&gt;=rStageSelect &amp;&amp; room&lt;=rFE_final{
+            if (scrButtonCheckPressed(global.suicideButton)) &amp;&amp; room&gt;=rStageSelect &amp;&amp; (room&lt;=rFE_final || room&gt;=rFTFAlol){
                 room_goto(rStageSelect);
                 instance_destroy()
                 }

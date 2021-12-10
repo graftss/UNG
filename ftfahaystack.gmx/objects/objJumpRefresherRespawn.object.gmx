@@ -108,7 +108,8 @@ else
     with (objPlayer)
         djump = 1;
     
-    instance_destroy()
+    visible = false;
+    alarm[0] = refreshTime;
 }
 </string>
           </argument>

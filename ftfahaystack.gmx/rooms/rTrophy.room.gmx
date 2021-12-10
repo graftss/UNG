@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1400</w>
-    <h>847</h>
+    <w>1024</w>
+    <h>618</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>74</xoffset>
-    <yoffset>378</yoffset>
+    <page>0</page>
+    <xoffset>-152</xoffset>
+    <yoffset>-114</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background24" x="0" y="2000" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
@@ -85,7 +85,7 @@
     <instance objName="objSpikeUp" x="64" y="128" name="inst_6A94E3E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="32" y="128" name="inst_220623CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="0" y="128" name="inst_0E1C583A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="224" y="480" name="inst_0CBD91BB" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="128" y="480" name="inst_0CBD91BB" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="608" name="inst_A8D75453" locked="0" code="" scaleX="50" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="768" y="160" name="inst_E7A684F9" locked="0" code="" scaleX="9" scaleY="14" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1056" y="352" name="inst_7FBF1852" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -130,14 +130,17 @@
     <instance objName="objTrophy" x="544" y="400" name="inst_9983A9DF" locked="0" code="itemNum=1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objTrophy" x="448" y="400" name="inst_1EF9B4D5" locked="0" code="itemNum=2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objTrophy" x="352" y="400" name="inst_EF55A382" locked="0" code="itemNum=3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTrophy" x="256" y="400" name="inst_576E2F1B" locked="0" code="itemNum=4&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTrophy" x="640" y="528" name="inst_767C7739" locked="0" code="itemNum=5&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTrophy" x="544" y="528" name="inst_5A06783D" locked="0" code="itemNum=6&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTrophy" x="448" y="528" name="inst_DA2A917A" locked="0" code="itemNum=7&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTrophy" x="352" y="528" name="inst_CD08D29B" locked="0" code="itemNum=8&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTrophy" x="256" y="528" name="inst_4E882167" locked="0" code="itemNum=9&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTrophy" x="160" y="528" name="inst_31A291E0" locked="0" code="itemNum=10&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTrophy" x="256" y="400" name="inst_576E2F1B" locked="0" code="itemNum=4" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTrophy" x="160" y="400" name="inst_767C7739" locked="0" code="itemNum=5" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTrophy" x="640" y="528" name="inst_5A06783D" locked="0" code="itemNum=6" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTrophy" x="544" y="528" name="inst_DA2A917A" locked="0" code="itemNum=7" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTrophy" x="448" y="528" name="inst_CD08D29B" locked="0" code="itemNum=8&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTrophy" x="352" y="528" name="inst_4E882167" locked="0" code="itemNum=9&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTrophy" x="256" y="528" name="inst_31A291E0" locked="0" code="itemNum=10" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDevCommentary" x="672" y="128" name="inst_8A7BF702" locked="0" code="signText[0]=&quot;i added this trophy room&quot;&#xA;signText[1]=&quot;2 days before release&quot;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTrophy" x="160" y="528" name="inst_9CCDB94A" locked="0" code="itemNum=11&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDropShadow" x="704" y="544" name="inst_70DB9818" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMovingSnapform" x="160" y="464" name="inst_334B8948" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bGuyCave" x="672" y="0" w="32" h="32" xo="0" yo="0" id="10050386" name="inst_E7854801" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -318,10 +321,10 @@
     <tile bgName="bMegaTrophy" x="96" y="384" w="32" h="32" xo="0" yo="96" id="10051231" name="inst_7245CA64" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegaTrophy" x="96" y="416" w="32" h="32" xo="0" yo="96" id="10051232" name="inst_91A7A1E4" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegaTrophy" x="96" y="448" w="32" h="32" xo="0" yo="96" id="10051233" name="inst_EB1098A0" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bMegaTrophy" x="96" y="480" w="32" h="32" xo="0" yo="96" id="10051234" name="inst_8D14CAF2" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegaTrophy" x="96" y="512" w="32" h="32" xo="0" yo="96" id="10051235" name="inst_48A5A7C5" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegaTrophy" x="96" y="544" w="32" h="32" xo="0" yo="96" id="10051236" name="inst_8A1CA2F1" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegaTrophy" x="96" y="576" w="32" h="32" xo="0" yo="96" id="10051237" name="inst_C9571D72" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="96" y="480" w="32" h="32" xo="32" yo="96" id="10051308" name="inst_4E41E352" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1568" y="0" w="32" h="32" xo="32" yo="32" id="10049335" name="inst_338836DC" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1536" y="0" w="32" h="32" xo="32" yo="32" id="10049336" name="inst_A716E480" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bSleepDealer" x="1504" y="0" w="32" h="32" xo="32" yo="32" id="10049337" name="inst_45BB0EF2" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1828,12 +1831,10 @@
     <tile bgName="bAllTiles" x="1568" y="928" w="32" h="32" xo="32" yo="0" id="10051043" name="inst_A1A46DBA" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="128" y="352" w="32" h="32" xo="0" yo="96" id="10051209" name="inst_DF2EBDED" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="128" y="608" w="32" h="32" xo="0" yo="96" id="10051210" name="inst_7685F72D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bAllTiles" x="224" y="480" w="32" h="32" xo="32" yo="96" id="10051240" name="inst_08869BFA" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="96" y="352" w="32" h="32" xo="32" yo="96" id="10051242" name="inst_EB231CAE" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="96" y="384" w="32" h="32" xo="32" yo="64" id="10051243" name="inst_EAA6CE6A" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="96" y="416" w="32" h="32" xo="32" yo="64" id="10051244" name="inst_404624EF" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="96" y="448" w="32" h="32" xo="32" yo="64" id="10051245" name="inst_B13E93FE" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bAllTiles" x="96" y="480" w="32" h="32" xo="32" yo="64" id="10051246" name="inst_04885CED" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="96" y="512" w="32" h="32" xo="32" yo="64" id="10051247" name="inst_B5350B16" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="96" y="544" w="32" h="32" xo="32" yo="64" id="10051248" name="inst_9DCF651D" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="96" y="576" w="32" h="32" xo="32" yo="64" id="10051249" name="inst_1F8DFB18" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1860,6 +1861,13 @@
     <tile bgName="bMegatiles" x="448" y="592" w="32" h="16" xo="32" yo="96" id="10051271" name="inst_14D68B78" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="544" y="592" w="32" h="16" xo="32" yo="96" id="10051272" name="inst_DA2A4405" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bMegatiles" x="640" y="592" w="32" h="16" xo="32" yo="96" id="10051273" name="inst_71C3F66B" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="96" y="480" w="32" h="32" xo="32" yo="96" id="10051309" name="inst_380DB57C" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="96" y="480" w="32" h="32" xo="32" yo="96" id="10051310" name="inst_F5545790" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="128" y="480" w="32" h="32" xo="0" yo="96" id="10051311" name="inst_F22543D8" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="160" y="480" w="32" h="32" xo="0" yo="96" id="10051312" name="inst_3564D534" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="192" y="480" w="32" h="32" xo="0" yo="96" id="10051313" name="inst_46ACCD2C" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="224" y="480" w="32" h="32" xo="0" yo="96" id="10051314" name="inst_D6C71420" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTilesInvert" x="160" y="464" w="32" h="16" xo="32" yo="96" id="10051315" name="inst_DCC6C1D5" depth="100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

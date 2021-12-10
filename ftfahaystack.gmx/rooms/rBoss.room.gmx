@@ -13,7 +13,16 @@
   <code>audio_sound_gain(mus365UNITEDSTARS,1,1)
 scrSaveGame(true);
 if global.gameClear &amp;&amp; global.reloadClear=true{
-    room_goto(rNewFile)
+    global.gameClear = true;
+    global.secretItem[0]=false;
+    global.secretItem[1]=false;
+    global.secretItem[2]=false;
+    global.secretItem[3]=false;
+    global.secretItem[4]=false;
+    global.secretItem[5]=false;
+    global.secretItem[6]=false;
+    global.secretItem[7]=false;
+    room_goto(rDevCommentary)
 }</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
@@ -21,7 +30,7 @@ if global.gameClear &amp;&amp; global.reloadClear=true{
   <makerSettings>
     <isSet>-1</isSet>
     <w>1024</w>
-    <h>609</h>
+    <h>618</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -30,7 +39,7 @@ if global.gameClear &amp;&amp; global.reloadClear=true{
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>4</page>
+    <page>1</page>
     <xoffset>-63</xoffset>
     <yoffset>170</yoffset>
   </makerSettings>

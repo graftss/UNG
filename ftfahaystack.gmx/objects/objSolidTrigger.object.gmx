@@ -34,6 +34,9 @@ h = 0;      //hspeed
 dir = 0;    //direction
 spd = 0;    //speed
 tick = 0;   //trigger time
+objBlockOther=noone; //NICKKKKKKKKKKKK GOD FUCK
+MovingPlatformTrigger=noone;
+
 
 grvdir = 270; //gravity direction
 grv = 0;    //gravity
@@ -186,7 +189,7 @@ else if (fade &amp;&amp; global.trigger[trg])
     {
         case 0: triggered = true; instance_destroy(); break;
         case 1: if (image_alpha &lt; 1) { image_alpha += alpha; }
-        if (image_alpha &gt; 0 &amp;&amp; object_index != objMovingPlatformTrigger) { solid = true; } break;
+        if (image_alpha &gt; 0) { solid = true; } break;
     }
 }
 

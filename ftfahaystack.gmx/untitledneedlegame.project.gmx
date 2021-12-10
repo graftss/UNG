@@ -57,6 +57,8 @@
       <sound>sound\sndHu</sound>
       <sound>sound\sndOriyah</sound>
     </sounds>
+    <sound>sound\sndMenuYume1</sound>
+    <sound>sound\sndMenuYume2</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -821,6 +823,7 @@
         <object>objects\objShootRefresher</object>
         <object>objects\objInfRefresher</object>
         <object>objects\objJumpRefresher</object>
+        <object>objects\objJumpRefresherRespawn</object>
       </objects>
       <object>objects\objSign</object>
       <object>objects\objBench</object>
@@ -954,6 +957,8 @@
     <object>objects\objSkinArea</object>
     <object>objects\objDevCommentary</object>
     <object>objects\objTrophy</object>
+    <object>objects\objDevCommUnlocked</object>
+    <object>objects\objFUCKGAMEMAKERFUCKFUCKFUCKFUCKFUCKFUCKFUCKFUCKFUCK</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1000,6 +1005,7 @@
     <room>rooms\rSecretBoss</room>
     <room>rooms\rScuffedCredits</room>
     <room>rooms\rTrophy</room>
+    <room>rooms\rDevCommentary</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

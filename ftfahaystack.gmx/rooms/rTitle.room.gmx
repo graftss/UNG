@@ -17,8 +17,8 @@ audio_sound_gain(musManifold,1,1000)</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1095</w>
-    <h>881</h>
+    <w>1024</w>
+    <h>609</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -28,8 +28,8 @@ audio_sound_gain(musManifold,1,1000)</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>3</page>
-    <xoffset>-203</xoffset>
-    <yoffset>-127</yoffset>
+    <xoffset>-80</xoffset>
+    <yoffset>-130</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bstars2" x="0" y="0" htiled="-1" vtiled="-1" hspeed="-1" vspeed="1" stretch="0"/>

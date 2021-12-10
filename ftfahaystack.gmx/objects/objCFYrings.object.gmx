@@ -32,8 +32,8 @@ t=0
 a=1
 mx=random_range(48,72)
 
-e=2.71828
-col=draw_set_color(choose($5d6415,$000000))
+e=2.71828;
+col=(choose($5d6415,$000000));
 </string>
           </argument>
         </arguments>
