@@ -75,12 +75,40 @@
       <sprite>sprites\sprPlayerMaskXFlip</sprite>
       <sprites name="standard">
         <sprite>sprites\sprPlayerIdle</sprite>
+        <sprite>sprites\sprPlayerIdleVibe</sprite>
+        <sprite>sprites\sprPlayerIdlePink</sprite>
+        <sprite>sprites\sprPlayerIdleCrimson</sprite>
+        <sprite>sprites\sprPlayerIdleDopa</sprite>
         <sprite>sprites\sprPlayerJump</sprite>
+        <sprite>sprites\sprPlayerJumpVibe</sprite>
+        <sprite>sprites\sprPlayerJumpPink</sprite>
+        <sprite>sprites\sprPlayerJumpCrimson</sprite>
+        <sprite>sprites\sprPlayerJumpDopa</sprite>
         <sprite>sprites\sprPlayerFall</sprite>
+        <sprite>sprites\sprPlayerFallVibe</sprite>
+        <sprite>sprites\sprPlayerFallPink</sprite>
+        <sprite>sprites\sprPlayerFallCrimson</sprite>
+        <sprite>sprites\sprPlayerFallDopa</sprite>
         <sprite>sprites\sprPlayerRunning</sprite>
+        <sprite>sprites\sprPlayerRunningVibe</sprite>
+        <sprite>sprites\sprPlayerRunningPink</sprite>
+        <sprite>sprites\sprPlayerRunningCrimson</sprite>
+        <sprite>sprites\sprPlayerRunningDopa</sprite>
         <sprite>sprites\sprPlayerSliding</sprite>
+        <sprite>sprites\sprPlayerSlidingVibe</sprite>
+        <sprite>sprites\sprPlayingSlidingPink</sprite>
+        <sprite>sprites\sprPlayerSlidingCrimson</sprite>
+        <sprite>sprites\sprPlayerSlidingDopa</sprite>
         <sprite>sprites\sprPlayerSitting</sprite>
+        <sprite>sprites\sprPlayerSittingVibe</sprite>
+        <sprite>sprites\sprPlayerSittingPink</sprite>
+        <sprite>sprites\sprPlayerSittingCrimson</sprite>
+        <sprite>sprites\sprite273</sprite>
         <sprite>sprites\sprBow</sprite>
+        <sprite>sprites\sprBowVibe</sprite>
+        <sprite>sprites\sprBowPink</sprite>
+        <sprite>sprites\sprBowCrimson</sprite>
+        <sprite>sprites\sprBowDopa</sprite>
       </sprites>
       <sprites name="gimmick">
         <sprites name="shapes">
@@ -958,6 +986,7 @@
     <object>objects\objDevCommentary</object>
     <object>objects\objTrophy</object>
     <object>objects\objDevCommUnlocked</object>
+    <object>objects\objDrawNum</object>
     <object>objects\objFUCKGAMEMAKERFUCKFUCKFUCKFUCKFUCKFUCKFUCKFUCKFUCK</object>
   </objects>
   <rooms name="rooms">

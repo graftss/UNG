@@ -3,8 +3,8 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
-  <persistent>-1</persistent>
+  <depth>-300</depth>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,14 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>r=room;
-audio_sound_gain(musDarklooming,1,1)
+            <string>//yes this is fucking stupid
+
+text=""
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="4">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -49,10 +50,11 @@ audio_sound_gain(musDarklooming,1,1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if r!=room{
-    audio_stop_sound(musDarklooming);
-    instance_destroy();
-}
+            <string>draw_set_color(c_black)
+draw_set_font(fDefault15)
+draw_set_halign(fa_center)
+draw_set_valign(fa_center)
+draw_text(x+16,y+16,text)
 </string>
           </argument>
         </arguments>

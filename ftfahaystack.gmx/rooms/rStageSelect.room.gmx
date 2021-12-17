@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1180</w>
-    <h>799</h>
+    <w>1132</w>
+    <h>702</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-37</xoffset>
-    <yoffset>537</yoffset>
+    <xoffset>-55</xoffset>
+    <yoffset>162</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background24" x="0" y="2000" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
@@ -626,7 +626,7 @@
     <instance objName="objSpikeUp" x="576" y="608" name="inst_827B9B83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarpFader" x="736" y="2176" name="inst_03113A77" locked="0" code="roomTo=rTutorial&#xA;if !global.gameClear{instance_destroy()}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDevCommentary" x="640" y="2080" name="inst_238821DE" locked="0" code="signText[0]=&quot;this hub was a last minute idea.&quot;&#xA;signText[1]=&quot;originally you would select stages&quot;&#xA;signText[2]=&quot;from a menu with your arrow keys.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDevCommentary" x="224" y="1664" name="inst_3A08F956" locked="0" code="signText[0]=&quot;have you gotten the true ending bench?&quot;&#xA;signText[1]=&quot;clear screenshot yet?&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDevCommentary" x="384" y="1664" name="inst_3A08F956" locked="0" code="signText[0]=&quot;have you gotten the true ending bench?&quot;&#xA;signText[1]=&quot;clear screenshot yet?&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDevCommentary" x="800" y="448" name="inst_159E2F9D" locked="0" code="signText[0]=&quot;i tried to make this entrance very ominous&quot;&#xA;signText[1]=&quot;but you can't really see it until you are here,&quot;&#xA;signText[2]=&quot;so its not the always-looming threat&quot;&#xA;signText[3]=&quot;i had imagined. if only you could see it&quot;&#xA;signText[4]=&quot;the way i do in the room editor minimap...&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="288" y="832" name="inst_52C6A4BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objShootRefresher" x="944" y="928" name="inst_5AF9F7A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -645,6 +645,7 @@
     <instance objName="objOutsideRoomChanger" x="0" y="2432" name="inst_D27CD173" locked="0" code="roomTo=rTrophy&#xA;" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSkinArea" x="1072" y="2096" name="inst_DAC0A6AE" locked="0" code="skin=&quot;Sleep&quot;&#xA;" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objSkinArea" x="304" y="928" name="inst_273EA903" locked="0" code="skin=&quot;Ropes&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherrySinV" x="1392" y="672" name="inst_23DE701B" locked="0" code="//set in create code&#xA;offset=0 &#xA;time=40&#xA;dist=96" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bLittleHeart" x="1280" y="1376" w="32" h="32" xo="0" yo="0" id="10045079" name="inst_243B7B7C" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

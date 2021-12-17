@@ -28,8 +28,8 @@ scrSaveGame(false);</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>1</page>
-    <xoffset>-297</xoffset>
-    <yoffset>-120</yoffset>
+    <xoffset>-44</xoffset>
+    <yoffset>-59</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="-1" name="bstars2" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="-2" stretch="0"/>
